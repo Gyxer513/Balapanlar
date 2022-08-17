@@ -1,21 +1,12 @@
 @font-face {
-  src: url(fomts/Inter/Inter-Regular.woff2) format("woff2"),
-    url(fomts/Inter/Inter-Regular.woff) format("woff");
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
+	font-family: "Montserrat";
+	src: url(./fonts/Montserrat/Montserrat-Medium.ttf) format("truetype");
+	font-style: normal;
+	font-weight: 500;
 }
 @font-face {
-  src: url(fomts/Inter//Inter-Medium.woff2) format("woff2"),
-    url(fomts/Inter/Inter-Medium.woff) format("woff");
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-}
-@font-face {
-  src: url(fomts/Inter/Inter-Black.woff2) format("woff2"),
-    url(fomts/Inter/Inter-Black.woff) format("woff");
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 900;
+	font-family: "Montserrat";
+	src: url(./fonts/Montserrat/Montserrat-SemiBold.ttf) format("truetype");
+	font-style: normal;
+	font-weight: 600;
 }
