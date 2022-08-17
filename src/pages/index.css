@@ -36,3 +36,9 @@
 @import url(../blocks/list-point/list-point.css);
 @import url(../blocks/list-point/__img/list-point__img.css);
 @import url(../blocks/list-point/__text/list-point__text.css);
+@import url(../blocks/pinck-scroll/pinck-scroll.css);
+@import url(../blocks/pinck-scroll/__title/pinck-scroll__title.css);
+@import url(../blocks/pinck-scroll/__container/pinck-scroll__container.css);
+@import url(../blocks/pinck-scroll/__container-title/pinck-scroll__container-title.css);
+@import url(../blocks/pinck-scroll/__skills/pinck-scroll__skills.css);
+@import url(../blocks/pinck-scroll/__investing/pinck-scroll__investing.css);
