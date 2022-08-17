@@ -6,16 +6,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 	</head>
-	<!-- <div class="page">
-	<div class="list">
-		<div class="card">
-<p class="test">Привет</p>
-		</div>
-	</div>
-</div> -->
-
-	<body class="body">
-		<main>
+<body class="body">
+	<main>
+		<section class="courses-container">
+			<h1 class="courses-container__heading">Наши курсы</h1>
+			<div class="programming">
+				<h2 class="programming__heading">Программирование</h2>
+				<p class="programming__description">
+					Наши курсы программирования созданы в международной школе
+					«Алгоритмика». Их программы уже успешно работают в 55 странах
+					и по ним занимаются 250 тыс. студентов. Благодаря онлайн-платформе
+					каждое занятие детей отслеживают кураторы головного офиса и дают
+					советы нашим преподавателям на местах.
+				</p>
+				<div class="programming__courses">
+					<article class="course-block course-python">
+						<h3 class="course-block__name">Python Start</h3>
 			<section class="courses-container">
 				<h1 class="courses-container__heading">Наши курсы</h1>
 				<div class="programming">
@@ -207,7 +213,13 @@
 							</p>
 						</div>
 						<div class="course-block__buttons">
+
+							<button class="button" type="button" id="python">Записаться</button>
+							<button class="button button_pale" type="button">
+								Смотреть все навыки
+							</button>
 							<button class="button" type="button">Записаться</button>
+
 						</div>
 					</article>
 					<article class="course-block course-block_other">
@@ -377,11 +389,118 @@
 							Инвестируем в развитие местных специалистов и экпертов
 						</p>
 					</div>
+				</article>
+			</div>
+		</div>
+		<div class="price-container">
+			<div class="price-block">
+				<p class="price-block__amount">Стоимость курсов 3500 руб./мес.</p>
+
+			</div>
+			<div class="price-description">
+				<p class="price-description__name">Что входит в стоимость?</p>
+				<ul class="price-description__list">
+					<li class="list-point">
+						<img class="list-point__img" src="<%=require('./images/tick.png')%>" alt="">
+						<p class="list-point__text">2 занятия в неделю по 2 часа</p>
+					</li>
+					<li class="list-point">
+						<img class="list-point__img" src="<%=require('./images/tick.png')%>" alt="">
+						<p class="list-point__text">Небольшие группы до 10 чел.</p>
+					</li>
+					<li class="list-point">
+						<img class="list-point__img" src="<%=require('./images/tick.png')%>" alt="">
+						<p class="list-point__text">1 личная консультация в месяц для студентов курсов</p>
+					</li>
+					<li class="list-point">
+						<img class="list-point__img" src="<%=require('./images/tick.png')%>" alt="">
+						<p class="list-point__text">Снэки, вода, чай на нашей кухне</p>
+					</li>
+					<li class="list-point">
+						<img class="list-point__img" src="<%=require('./images/tick.png')%>" alt="">
+						<p class="list-point__text">1 консультация для родителей о курсе и достижениях студентов</p>
+					</li>
+				</ul>
+			</div>
+			<div class="price-description">
+				<p class="price-description__name">Что не входит в стоимость?</p>
+				<ul class="price-description__list">
+					<li class="list-point">
+						<img class="list-point__img" src="<%=require('./images/cross.png')%>" alt="">
+						<p class="list-point__text">Трансфер из вашего аула к центру</p>
+					</li>
+					<li class="list-point">
+						<img class="list-point__img" src="<%=require('./images/cross.png')%>" alt="">
+						<p class="list-point__text">Индивидуальные занятия</p>
+					</li>
+					<li class="list-point">
+						<img class="list-point__img" src="<%=require('./images/cross.png')%>" alt="">
+						<p class="list-point__text">Ежегодный членский взнос в размере 1 500 ₽ (оплачивается раз в год в начале курса)</p>
+					</li>
+				</ul>
+			</div>
+			<button class="button button_pay" type="button">Оплатить курсы</button>
+			<!-- Попап для отображения полной карточки курса -->
+			<div class="popup popup_courses">
+				<div class="popup__window">
+				</div>
+			</div>
+		</section>
+
+		<section class="partners">
+			<h4 class="partners__title">Наши партнеры</h4>
+			  <ul class="partners__logo-zone">
+				<li class="partners__logo">
+				  <button class="partners__logo-button partners_lecturers-button" type="button">
+					<img class="partners__pic" src="<%=require('./images/image-109175.svg')%>" alt="Логотип Lecturers Without Borders">
+				  </button>
+				 </li>
+				<li class="partners__logo">
+				  <button class="partners__logo-button partners_horizon-button" type="button">
+					<img class="partners__pic" src="<%=require('./images/horizons.svg')%>" alt="Логотип Благотворительного фонда Открывая Горизонты">
+				  </button>
+				  </li>
+				<li class="partners__logo">
+				  <button class="partners__logo-button partners_himbio-button" type="button">
+					<img class="partners__pic" src="<%=require('./images/himbio.svg')%>" alt="Логотип ХимБио">
+				   </button>
+				 </li>
+			  </ul>
+		  </section>
+	  
+	  <div class="partner popup popup_about_lecturers">
+		<div class="partner__window">
+		  <div class="partner__logo">
+			<img class="partner__pic partner__pic-lecturers" src="<%=require('./images/image-109175.svg')%>" alt="Логотип Lecturers Without Borders">
+		   </div>
+			 <h4 class="partner__info">Lecturers Without Borders - сообщество молодых учёных со всего мира, которые проводят лекции и мастер-классы для школ. Среди лекторов много учёных из России. Для нас математики из Сорбонны проводили занятия по квази-кристаллам, а в будущем мы планируем привозить лекторов в наш центр.</h4>
+			<button class="partner__button popup__button"   type="button">Закрыть</button>
+		</div>
+	  </div>
+	  
+	  <div class="partner popup popup_about_horizons">
+		<div class="partner__window">
+		  <div class="partner__logo">
+			<img class="partner__pic partner__pic-horizon" src="<%=require('./images/horizons.svg')%>" alt="Логотип Благотворительного фонда Открывая Горизонты">
+		   </div>
+			 <h4 class="partner__info">Фонд работает в 45 регионах и с осени 2021 мы их единственные партнёры в Карачаево-Черкесии. Совместно проводим программу профориентации «Поколение Выбор». В 2021–2022 в ней приняли участие 35 подростков из 2 школ аула Икон-Халк и посёлка Эркен-Шахар. В сезоне 2022–2023 планируются ещё две школы.</h4>
+			<button class="partner__button popup__button"   type="button">Закрыть</button>
+		</div>
+	  </div>
+	  
+	  <div class="partner popup popup_about_himbio">
+		<div class="partner__window">
+		  <div class="partner__logo">
+			<img class="partner__pic partner__pic-himbio" src="<%=require('./images/himbio.svg')%>" alt="Логотип ХимБио">
+		   </div>
+			 <h4 class="partner__info">ХимБио — онлайн-школа и выездные программы для детей и подростков со всего мира! Занимаются здесь химией, биологией и физикой, много практики и опытов. Летом детей и подростков ждут экспедиции, а во время учебного года — курсы по самым разным направлениям.</h4>
+			<button class="partner__button popup__button"   type="button">Закрыть</button>
+		</div>
+	  </div>
+	</main>
+</body>
 				</div>
 			</section>
-			<section class="pinck-scroll"></section>
-			<section class="pinck-scroll"></section>
-			<section class="pinck-scroll"></section>
 		</main>
 	</body>
 </html>
