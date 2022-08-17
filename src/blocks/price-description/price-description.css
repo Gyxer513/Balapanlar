@@ -1,0 +1,38 @@
+.price-description {
+    margin: 48px 0 48px 52px;
+    text-align: left;
+}
+
+@media screen and (max-width: 1220px) {
+  .price-description {
+      margin: 40px 0 0 0;
+      padding: 0 30px 0 30px;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .price-description:last-of-type {
+      margin: 40px 0 140px 0;
+
+  }
+}
+
+@media screen and (max-width: 880px) {
+    .price-description {
+        margin: 40px 0 0 0;
+    }
+  }
+
+  @media screen and (max-width: 880px) {
+    .price-description:last-of-type {
+        margin: 40px 0 140px 0;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .price-description {
+        margin: 20px 0 37px 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+  }

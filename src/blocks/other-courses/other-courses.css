@@ -1,0 +1,23 @@
+.other-courses{
+    background-color: none;
+    margin: 10px 0 0 0;
+    padding: 0 10px 0 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    margin: 10px auto 0 auto;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1220px) {
+    .other-courses {
+        grid-template-columns: 386px;
+        justify-content: center;
+    }
+  }
+
+@media screen and (max-width: 400px) {
+    .other-courses {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+  }

@@ -1,0 +1,24 @@
+.programming__courses {
+    padding: 50px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    gap: 10px;
+
+}
+
+@media screen and (max-width: 1220px) {
+  .programming__courses {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 595px));
+    justify-content: center;
+    padding: 30px 10px 10px 10px;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+    .programming__courses {
+      grid-template-columns: 300px;
+      padding: 10px 10px 10px 10px;
+    }
+  }

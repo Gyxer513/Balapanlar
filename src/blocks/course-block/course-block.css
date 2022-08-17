@@ -1,0 +1,17 @@
+.course-block{
+    background-color: white;
+    padding: 30px 30px 30px 30px;
+    border-radius: 60px;
+    max-width: 595px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+@media screen and (max-width: 400px) {
+    .course-block{
+        padding: 15px 15px 15px 15px;
+        border-radius: 30px;
+
+    }
+  }
