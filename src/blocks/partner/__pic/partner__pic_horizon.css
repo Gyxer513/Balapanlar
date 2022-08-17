@@ -1,0 +1,11 @@
+.partner__pic_horizon {
+    width: 202px;
+    height: 141px;
+  }
+
+  @media screen and (max-width: 650px) {
+    .partner__pic_horizon {
+        width: 172px;
+        height: 120px;
+      }    
+  }

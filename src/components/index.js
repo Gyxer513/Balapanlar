@@ -23,6 +23,9 @@ function openPopup (popup) {
    
 function closePopup (popup) {
     popup.classList.remove('popup_opened');
+    if (popup.classList.contains('popup_courses')) {
+        clearPopup(popup)
+    }
     document.removeEventListener ('keydown', escHandler);
   }
 
@@ -44,3 +47,32 @@ anyPopup.forEach((popup) => {
   })
 
 //   Пробую сделать вставку элемента в попап
+const pythonButton = document.querySelector("#python");
+const popupContainer = document.querySelector('.popup__window');
+const coursePopup = document.querySelector('.popup_courses');
+
+function createPopup (selector) {
+    const popupElement = document.querySelector(selector).cloneNode(true);
+    const popupNewButton = popupElement.querySelector('.button_pale');
+    popupElement.classList.add('courses_opened');
+    popupElement.classList.remove('course-block');
+    popupNewButton.textContent = "Закрыть";
+    popupNewButton.addEventListener('click', (evt)=> {
+        evt.preventDefault();
+        closePopup(coursePopup);
+    })
+    return popupElement;
+}
+function renderPopup (container, element) {
+    container.prepend(element);
+}
+
+function clearPopup (container) {
+    container.querySelector('.courses_opened').remove();
+}
+
+pythonButton.addEventListener('click', (evt) => {
+    evt.preventDefault();
+    openPopup(coursePopup);
+    renderPopup(popupContainer, createPopup('.course-python'));
+})

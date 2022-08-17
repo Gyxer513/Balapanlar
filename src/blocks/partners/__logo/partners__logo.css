@@ -1,0 +1,15 @@
+.partners__logo:last-child {
+    margin: 0 4px 0 18px;
+  }
+
+  @media screen and (max-width: 950px) {
+    .partners__logo:last-child {
+      margin: 0 0 0 8px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .partners__logo:last-child {
+      margin: 0;
+    }
+  }
