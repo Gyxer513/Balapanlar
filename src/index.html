@@ -1,19 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 	</head>
-	<!-- <div class="page">
-	<div class="list">
-		<div class="card">
-<p class="test">Привет</p>
-		</div>
-	</div>
-</div> -->
-
 	<body class="body">
 		<main>
 			<section class="courses-container">
@@ -28,23 +20,26 @@
 						советы нашим преподавателям на местах.
 					</p>
 					<div class="programming__courses">
-						<article class="course-block">
+						<article class="course-block course-python">
 							<h3 class="course-block__name">Python Start</h3>
-							<div class="course-block__for">
-								<img
-									class="image"
-									src="<%=require('./images/Union.png')%>"
-									alt=""
-								/>
-								<p class="text">Группы 8&#43; лет</p>
-							</div>
-							<div class="course-block__for">
-								<img
-									class="image"
-									src="<%=require('./images/clocks.png')%>"
-									alt=""
-								/>
-								<p class="text">Группы 8 лет</p>
+							<!-- Я обернула иконки пока только этой карточки в контейнер, чтобы внутри него можно было поменять направление иконок -->
+							<div class="course-block__for_container">
+								<div class="course-block__for">
+									<img
+										class="image"
+										src="<%=require('./images/Union.png')%>"
+										alt=""
+									/>
+									<p class="text">Группы 8&#43; лет</p>
+								</div>
+								<div class="course-block__for">
+									<img
+										class="image"
+										src="<%=require('./images/clocks.png')%>"
+										alt=""
+									/>
+									<p class="text">Группы 8 лет</p>
+								</div>
 							</div>
 							<ul class="course-block__tegs">
 								<li class="teg">
@@ -72,7 +67,7 @@
 							</div>
 							<div class="course-block__buttons">
 								<button class="button" type="button">Записаться</button>
-								<button class="button button_pale" type="button">
+								<button class="button button_pale" type="button" id="python">
 									Смотреть все навыки
 								</button>
 							</div>
@@ -257,6 +252,17 @@
 					</article>
 				</div>
 			</section>
+			<!-- Попап для отображения полной карточки курса -->
+			<div class="popup popup_courses">
+				<div class="popup__window">
+					<img
+						class="popup__circle-icon"
+						src="<%=require('./images/greyicon.svg')%>"
+						alt="Иконка"
+					/>
+				</div>
+			</div>
+
 			<section class="price-container">
 				<div class="price-block">
 					<p class="price-block__amount">Стоимость курсов 3500 руб./мес.</p>
@@ -379,9 +385,112 @@
 					</div>
 				</div>
 			</section>
-			<section class="pinck-scroll"></section>
-			<section class="pinck-scroll"></section>
-			<section class="pinck-scroll"></section>
+			<section class="partners">
+				<h4 class="partners__title">Наши партнеры</h4>
+				<ul class="partners__logo-zone">
+					<li class="partners__logo">
+						<button
+							class="partners__logo-button partners_lecturers-button"
+							type="button"
+						>
+							<img
+								class="partners__pic"
+								src="<%=require('./images/image-109175.svg')%>"
+								alt="Логотип Lecturers Without Borders"
+							/>
+						</button>
+					</li>
+					<li class="partners__logo">
+						<button
+							class="partners__logo-button partners_horizon-button"
+							type="button"
+						>
+							<img
+								class="partners__pic"
+								src="<%=require('./images/horizons.svg')%>"
+								alt="Логотип Благотворительного фонда Открывая Горизонты"
+							/>
+						</button>
+					</li>
+					<li class="partners__logo">
+						<button
+							class="partners__logo-button partners_himbio-button"
+							type="button"
+						>
+							<img
+								class="partners__pic"
+								src="<%=require('./images/himbio.svg')%>"
+								alt="Логотип ХимБио"
+							/>
+						</button>
+					</li>
+				</ul>
+			</section>
+
+			<div class="partner popup popup_about_lecturers">
+				<div class="partner__window">
+					<div class="partner__logo">
+						<img
+							class="partner__pic partner__pic-lecturers"
+							src="<%=require('./images/image-109175.svg')%>"
+							alt="Логотип Lecturers Without Borders"
+						/>
+					</div>
+					<h4 class="partner__info">
+						Lecturers Without Borders - сообщество молодых учёных со всего мира,
+						которые проводят лекции и мастер-классы для школ. Среди лекторов
+						много учёных из России. Для нас математики из Сорбонны проводили
+						занятия по квази-кристаллам, а в будущем мы планируем привозить
+						лекторов в наш центр.
+					</h4>
+					<button class="partner__button popup__button" type="button">
+						Закрыть
+					</button>
+				</div>
+			</div>
+
+			<div class="partner popup popup_about_horizons">
+				<div class="partner__window">
+					<div class="partner__logo">
+						<img
+							class="partner__pic partner__pic-horizon"
+							src="<%=require('./images/horizons.svg')%>"
+							alt="Логотип Благотворительного фонда Открывая Горизонты"
+						/>
+					</div>
+					<h4 class="partner__info">
+						Фонд работает в 45 регионах и с осени 2021 мы их единственные
+						партнёры в Карачаево-Черкесии. Совместно проводим программу
+						профориентации «Поколение Выбор». В 2021–2022 в ней приняли участие
+						35 подростков из 2 школ аула Икон-Халк и посёлка Эркен-Шахар. В
+						сезоне 2022–2023 планируются ещё две школы.
+					</h4>
+					<button class="partner__button popup__button" type="button">
+						Закрыть
+					</button>
+				</div>
+			</div>
+
+			<div class="partner popup popup_about_himbio">
+				<div class="partner__window">
+					<div class="partner__logo">
+						<img
+							class="partner__pic partner__pic-himbio"
+							src="<%=require('./images/himbio.svg')%>"
+							alt="Логотип ХимБио"
+						/>
+					</div>
+					<h4 class="partner__info">
+						ХимБио — онлайн-школа и выездные программы для детей и подростков со
+						всего мира! Занимаются здесь химией, биологией и физикой, много
+						практики и опытов. Летом детей и подростков ждут экспедиции, а во
+						время учебного года — курсы по самым разным направлениям.
+					</h4>
+					<button class="partner__button popup__button" type="button">
+						Закрыть
+					</button>
+				</div>
+			</div>
 		</main>
 	</body>
 </html>

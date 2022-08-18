@@ -42,3 +42,20 @@
 @import url(../blocks/pinck-scroll/__container-title/pinck-scroll__container-title.css);
 @import url(../blocks/pinck-scroll/__skills/pinck-scroll__skills.css);
 @import url(../blocks/pinck-scroll/__investing/pinck-scroll__investing.css);
+
+.courses_opened {
+    text-align: left;
+}
+
+.popup_courses-icons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+.popup__circle-icon {
+    visibility: hidden;
+}
+
+/* оставлено пока в общем файле, т.к. могут поменяться названия классов и необходимость в них под вопросом */
+
