@@ -64,3 +64,6 @@
 @import url(../blocks/pinck-scroll/__skills/pinck-scroll__skills.css);
 @import url(../blocks/pinck-scroll/__investing/pinck-scroll__investing.css);
 
+.courses_opened {
+    text-align: left;
+}
