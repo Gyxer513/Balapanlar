@@ -56,8 +56,11 @@
   "private": true,
   "lint-staged": {
     "*": "npm run test"
+<<<<<<< HEAD
   },
   "dependencies": {
     "gsap": "^3.11.0"
+=======
+>>>>>>> parent of 85770b3 (Merge branch 'develop' into feature/partners)
   }
 }
