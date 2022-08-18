@@ -55,9 +55,18 @@ const coursePopup = document.querySelector('.popup_courses');
 function createPopup (selector) {
     const popupElement = document.querySelector(selector).cloneNode(true);
     const popupNewButton = popupElement.querySelector('.button_pale');
+    const popupIcons = popupElement.querySelector('.course-block__for_container');
+    const popupIconList = Array.from(popupIcons.querySelectorAll('.image'));
+
     popupElement.classList.add('courses_opened');
+    popupIcons.classList.add('popup_courses-icons');
     popupElement.classList.remove('course-block');
     popupNewButton.textContent = "Закрыть";
+
+    popupIconList.forEach((icon) => {
+      icon.src = "./images/greyicon.svg";
+    })
+
     popupNewButton.addEventListener('click', (evt)=> {
         evt.preventDefault();
         closePopup(coursePopup);
@@ -77,21 +86,21 @@ pythonButton.addEventListener('click', (evt) => {
     openPopup(coursePopup);
     renderPopup(popupContainer, createPopup('.course-python'));
 })
-// import { gsap } from "gsap";
-// import { ScrollTrigger } from "gsap/ScrollTrigger.js";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 
-// gsap.registerPlugin(ScrollTrigger);
-// let sections = gsap.utils.toArray(".panel");
+gsap.registerPlugin(ScrollTrigger);
+let sections = gsap.utils.toArray(".panel");
 
-// gsap.to(sections, {
-//   xPercent: -145* (sections.length - 1),
-//   ease: "none",
-//   scrollTrigger: {
-//     trigger: ".pinck-scroll",
-//     pin: true,
-//     scrub: 1,
-//     snap: 1 / (sections.length - 1),
-//     // base vertical scrolling on how wide the container is so it feels more natural.
-//     end: "+=2000",
-//   }
-// })
+gsap.to(sections, {
+  xPercent: -145* (sections.length - 1),
+  ease: "none",
+  scrollTrigger: {
+    trigger: ".pinck-scroll",
+    pin: true,
+    scrub: 1,
+    snap: 1 / (sections.length - 1),
+    // base vertical scrolling on how wide the container is so it feels more natural.
+    end: "+=2000",
+  }
+})

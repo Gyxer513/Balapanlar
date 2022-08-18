@@ -67,3 +67,9 @@
 .courses_opened {
     text-align: left;
 }
+
+.popup_courses-icons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}

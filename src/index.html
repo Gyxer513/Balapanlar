@@ -8,20 +8,6 @@
 	</head>
 <body class="body">
 	<main>
-		<!-- <section class="courses-container">
-			<h1 class="courses-container__heading">Наши курсы</h1>
-			<div class="programming">
-				<h2 class="programming__heading">Программирование</h2>
-				<p class="programming__description">
-					Наши курсы программирования созданы в международной школе
-					«Алгоритмика». Их программы уже успешно работают в 55 странах
-					и по ним занимаются 250 тыс. студентов. Благодаря онлайн-платформе
-					каждое занятие детей отслеживают кураторы головного офиса и дают
-					советы нашим преподавателям на местах.
-				</p>
-				<div class="programming__courses">
-					<article class="course-block course-python">
-						<h3 class="course-block__name">Python Start</h3> -->
 			<section class="courses-container">
 				<h1 class="courses-container__heading">Наши курсы</h1>
 				<div class="programming">
@@ -36,13 +22,16 @@
 					<div class="programming__courses">
 						<article class="course-block course-python">
 							<h3 class="course-block__name">Python Start</h3>
-							<div class="course-block__for">
-								<img class="image" src="<%=require('./images/Union.png')%>" alt="" />
-								<p class="text">Группы 8&#43; лет</p>
-							</div>
-							<div class="course-block__for">
-								<img class="image" src="<%=require('./images/clocks.png')%>" alt="" />
-								<p class="text">Группы 8 лет</p>
+							<!-- Я обернула иконки пока только этой карточки в контейнер, чтобы внутри него можно было поменять направление иконок -->
+							<div class="course-block__for_container">
+								<div class="course-block__for">
+									<img class="image" src="<%=require('./images/Union.png')%>" alt="" />
+									<p class="text">Группы 8&#43; лет</p>
+								</div>
+								<div class="course-block__for">
+									<img class="image" src="<%=require('./images/clocks.png')%>" alt="" />
+									<p class="text">Группы 8 лет</p>
+								</div>
 							</div>
 							<ul class="course-block__tegs">
 								<li class="teg">
@@ -205,10 +194,6 @@
 							</p>
 						</div>
 						<div class="course-block__buttons">
-							<!-- <button class="button" type="button" id="python">Записаться</button>
-							<button class="button button_pale" type="button">
-								Смотреть все навыки
-							</button> -->
 							<button class="button" type="button">Записаться</button>
 
 						</div>
@@ -260,6 +245,12 @@
 					</article>
 				</div>
 			</section>
+			<!-- Попап для отображения полной карточки курса -->
+			<div class="popup popup_courses">
+				<div class="popup__window">
+				</div>
+			</div>
+
 			<section class="price-container">
 				<div class="price-block">
 					<p class="price-block__amount">Стоимость курсов 3500 руб./мес.</p>
@@ -383,61 +374,8 @@
 				</article>
 			</div>
 		</div>
-		<!-- <div class="price-container">
-			<div class="price-block">
-				<p class="price-block__amount">Стоимость курсов 3500 руб./мес.</p>
-
-			</div>
-			<div class="price-description">
-				<p class="price-description__name">Что входит в стоимость?</p>
-				<ul class="price-description__list">
-					<li class="list-point">
-						<img class="list-point__img" src="<%=require('./images/tick.png')%>" alt="">
-						<p class="list-point__text">2 занятия в неделю по 2 часа</p>
-					</li>
-					<li class="list-point">
-						<img class="list-point__img" src="<%=require('./images/tick.png')%>" alt="">
-						<p class="list-point__text">Небольшие группы до 10 чел.</p>
-					</li>
-					<li class="list-point">
-						<img class="list-point__img" src="<%=require('./images/tick.png')%>" alt="">
-						<p class="list-point__text">1 личная консультация в месяц для студентов курсов</p>
-					</li>
-					<li class="list-point">
-						<img class="list-point__img" src="<%=require('./images/tick.png')%>" alt="">
-						<p class="list-point__text">Снэки, вода, чай на нашей кухне</p>
-					</li>
-					<li class="list-point">
-						<img class="list-point__img" src="<%=require('./images/tick.png')%>" alt="">
-						<p class="list-point__text">1 консультация для родителей о курсе и достижениях студентов</p>
-					</li>
-				</ul>
-			</div>
-			<div class="price-description">
-				<p class="price-description__name">Что не входит в стоимость?</p>
-				<ul class="price-description__list">
-					<li class="list-point">
-						<img class="list-point__img" src="<%=require('./images/cross.png')%>" alt="">
-						<p class="list-point__text">Трансфер из вашего аула к центру</p>
-					</li>
-					<li class="list-point">
-						<img class="list-point__img" src="<%=require('./images/cross.png')%>" alt="">
-						<p class="list-point__text">Индивидуальные занятия</p>
-					</li>
-					<li class="list-point">
-						<img class="list-point__img" src="<%=require('./images/cross.png')%>" alt="">
-						<p class="list-point__text">Ежегодный членский взнос в размере 1 500 ₽ (оплачивается раз в год в начале курса)</p>
-					</li>
-				</ul>
-			</div>
-			<button class="button button_pay" type="button">Оплатить курсы</button> -->
-<!-- до сих -->
-			<!-- Попап для отображения полной карточки курса -->
-			<div class="popup popup_courses">
-				<div class="popup__window">
-				</div>
-			</div>
-		</section>
+	</div>
+			</section>
 
 		<section class="partners">
 			<h4 class="partners__title">Наши партнеры</h4>
