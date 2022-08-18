@@ -56,6 +56,7 @@ function createPopup (selector) {
     const popupElement = document.querySelector(selector).cloneNode(true);
     const popupNewButton = popupElement.querySelector('.button_pale');
     const popupIcons = popupElement.querySelector('.course-block__for_container');
+    const circle = document.querySelector('.popup__circle-icon');
     const popupIconList = Array.from(popupIcons.querySelectorAll('.image'));
 
     popupElement.classList.add('courses_opened');
@@ -64,7 +65,8 @@ function createPopup (selector) {
     popupNewButton.textContent = "Закрыть";
 
     popupIconList.forEach((icon) => {
-      icon.src = "./images/greyicon.svg";
+      icon.src = circle.src;
+      icon.alt = circle.alt;
     })
 
     popupNewButton.addEventListener('click', (evt)=> {
