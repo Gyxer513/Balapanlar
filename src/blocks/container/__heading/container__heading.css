@@ -1,20 +1,30 @@
-.courses-container__heading {
+.container__heading {
   font-weight: 600;
   font-size: 60px;
   line-height: 68px;
   letter-spacing: -1px;
+	margin: 0;
 }
 
 @media screen and (max-width: 1220px) {
-  .courses-container__heading {
-    margin-left: 45px;
+  .container__heading {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container__heading {
+    font-size: 40px;
+    line-height: 54px;
+
   }
 }
 
 @media screen and (max-width: 400px) {
-  .courses-container__heading {
+  .container__heading {
     font-size: 36px;
     line-height: 44px;
     margin-left: 15px;
+		text-align: left;
   }
 }

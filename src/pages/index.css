@@ -4,12 +4,12 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/test.css);
 @import url(../blocks/body/body.css);
-@import url(../blocks/courses-container/courses-container.css);
-@import url(../blocks/courses-container/__heading/courses-container__heading.css);
-@import url(../blocks/programming/programming.css);
-@import url(../blocks/programming/__heading/programming__heading.css);
-@import url(../blocks/programming/__description/programming__description.css);
-@import url(../blocks/programming/__courses/programming__courses.css);
+@import url(../blocks/container/container.css);
+@import url(../blocks/container/__heading/container__heading.css);
+@import url(../blocks/container/__description/container__description.css);
+@import url(../blocks/box/box.css);
+@import url(../blocks/box/__heading/box__heading.css);
+@import url(../blocks/box/__description/box__description.css);
 @import url(../blocks/course-block/course-block.css);
 @import url(../blocks/course-block/__name/course-block__name.css);
 @import url(../blocks/course-block/__for/course-block__for.css);
@@ -42,3 +42,68 @@
 @import url(../blocks/pinck-scroll/__container-title/pinck-scroll__container-title.css);
 @import url(../blocks/pinck-scroll/__skills/pinck-scroll__skills.css);
 @import url(../blocks/pinck-scroll/__investing/pinck-scroll__investing.css);
+@import url(../blocks/text-overflow/text-overflow.css);
+@import url(../blocks/container/_courses/container_courses.css);
+@import url(../blocks/container/_about/container_about.css);
+@import url(../blocks/section-blocks/section-blocks.css);
+@import url(../blocks/section-blocks/_courses/section-blocks_courses.css);
+@import url(../blocks/section-blocks/_about/section-blocks_about.css);
+@import url(../blocks/block/block.css);
+@import url(../blocks/block/__div/block__div.css);
+@import url(../blocks/picture/picture.css);
+@import url(../blocks/picture-color/picture-color.css);
+@import url(../blocks/picture-text/picture-text.css);
+@import url(../blocks/picture-text/_white/picture-text_white.css);
+@import url(../blocks/block/__text/block__text.css);
+@import url(../blocks/block/__description/_price/block__description_price.css);
+@import url(../blocks/block/__description/_about/block__description_about.css);
+@import url(../blocks/ul-name/ul-name.css);
+@import url(../blocks/ul-name/__img/ul-name__img.css);
+@import url(../blocks/ul-name/__text/ul-name__text.css);
+@import url(../blocks/ul-name/__text/_price/ul-name__text_price.css);
+@import url(../blocks/list/list.css);
+@import url(../blocks/list/_about/list_about.css);
+@import url(../blocks/list/_price/list_price.css);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

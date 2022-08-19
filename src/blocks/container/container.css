@@ -1,23 +1,23 @@
-.courses-container {
+.container {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    margin: 0 auto;
-    padding-left: 110px;
-    padding-right: 110px;
     color: black;
+		justify-items: center;
+		margin: 0 auto;
 }
 
-@media screen and (max-width: 1220px) {
-    .courses-container {
+/* @media screen and (max-width: 1220px) {
+    .container {
         padding-left: 10px;
         padding-right: 10px;
     }
   }
 
   @media screen and (max-width: 400px) {
-    .courses-container {
+    .container {
         padding-left: 0;
         padding-right: 0;
     }
   }
+ */

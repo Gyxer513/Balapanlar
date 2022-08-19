@@ -1,4 +1,4 @@
-.programming__description {
+.box__description {
   max-width: 804px;
   margin: 10px auto 0 auto;
   font-weight: 500;
@@ -7,21 +7,21 @@
   text-align: center;
 }
 
-@media screen and (max-width: 1220px) {
-  .programming__description {
+/* @media screen and (max-width: 1220px) {
+  .box__description {
     max-width: 500px;
   }
-}
+} */
 
 
 @media screen and (max-width: 880px) {
-  .programming__description {
+  .box__description {
     margin: 10px auto 0 auto;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .programming__description {
+  .box__description {
     max-width: 300px;
     font-size: 16px;
     line-height: 20px;

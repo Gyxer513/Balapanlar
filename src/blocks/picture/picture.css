@@ -1,0 +1,17 @@
+.picture {
+	display: block;
+	max-width: 595px;
+	max-height: 524px;
+/* 	aspect-ratio: auto; */
+	margin: 0;
+}
+
+@media screen and (max-width:400px) {
+	.picture {
+		display: block;
+		max-width: 290px;
+		max-height: 255px;
+	/* 	aspect-ratio: auto; */
+		margin: 0;
+	}
+}
