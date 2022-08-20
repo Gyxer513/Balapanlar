@@ -10,6 +10,35 @@ const himbioButton = document.querySelector('.partners_himbio-button');
 
 const anyPopup = Array.from(document.querySelectorAll('.popup'));
 
+const header = document.querySelector('.header');
+const menue = document.querySelector('.burger-menu');
+const headerLogo = document.querySelector('.header__logo');
+const options = document.querySelector('.options');
+const stickOne = document.querySelector('#bar1');
+const stickTwo = document.querySelector('#bar2');
+
+// изменение хэдэра при скролле
+window.onscroll = () => {
+    const Y = window.scrollY;
+
+    if(Y > 27) {
+        header.classList.add('header_small');
+        headerLogo.classList.add('header__logo_scroll');
+    } else if(Y < 27) {
+        headerLogo.classList.remove('header__logo_scroll');
+        header.classList.remove('header_small');
+    }
+}
+
+// разворачивание бургерного меню на мобильном разрешении
+options.addEventListener('click', () => {
+    menue.classList.toggle('burger-menu_opened');
+    stickOne.classList.toggle('options__stick_rotate-one');
+    stickTwo.classList.toggle('options__stick_rotate-two');
+
+})
+
+
 function escHandler(evt) {
     if (evt.key === 'Escape') {
       const openedPopup = document.querySelector('.popup_opened');
@@ -21,7 +50,7 @@ function openPopup (popup) {
     popup.classList.add('popup_opened');
     document.addEventListener ('keydown', escHandler);
   }
-   
+
 function closePopup (popup) {
     popup.classList.remove('popup_opened');
     if (popup.classList.contains('popup_courses')) {
