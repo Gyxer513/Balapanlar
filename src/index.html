@@ -1,21 +1,571 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<div class="page">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<!-- <div class="page">
 	<div class="list">
 		<div class="card">
-
+<p class="test">Привет</p>
 		</div>
 	</div>
-</div>
+</div> -->
 
-<body>
-</body>
+	<body class="body">
+		<main>
+			<section class="container container_courses">
+				<h1 class="container__heading">Наши курсы</h1>
+				<div class="box">
+					<h2 class="box__heading">Программирование</h2>
+					<p class="box__description">
+						Наши курсы программирования созданы в международной школе
+						«Алгоритмика». Их программы уже успешно работают в 55 странах
+						и по ним занимаются 250 тыс. студентов. Благодаря онлайн-платформе
+						каждое занятие детей отслеживают кураторы головного офиса и дают
+						советы нашим преподавателям на местах.
+					</p>
+					<div class="section-blocks section-blocks_courses">
+						<article class="course-block">
+							<h3 class="course-block__name">Python Start</h3>
+							<div class="course-block__for">
+								<img
+									class="image"
+									src="<%=require('./images/Union.png')%>"
+									alt=""
+								/>
+								<p class="text">Группы 8&#43; лет</p>
+							</div>
+							<div class="course-block__for">
+								<img
+									class="image"
+									src="<%=require('./images/clocks.png')%>"
+									alt=""
+								/>
+								<p class="text">Группы 8 лет</p>
+							</div>
+							<ul class="course-block__tegs">
+								<li class="teg">
+									<p class="teg__about">язык Python</p>
+								</li>
+								<li class="teg">
+									<p class="teg__about">разработка своих проектов</p>
+								</li>
+								<li class="teg">
+									<p class="teg__about">создание своего портфолио</p>
+								</li>
+								<li class="teg">
+									<p class="teg__about">создание web-сайтов</p>
+								</li>
+							</ul>
+							<div class="course-block__description">
+								<p class="description-text">
+									Студенты к концу курса будут сами создавать приложения. А ещё
+									они научатся:
+								</p>
+								<p class="description-text text-overflow">
+									1. Разбираться в основах алгоритмики
+									и объектно-ориентированного программирования. 1. Разбираться
+									в основах алгоритмики и объектно-ориентированного
+									программирования. 1. Разбираться в основах алгоритмики
+									и объектно-ориентированного программирования.
+								</p>
+							</div>
+							<div class="course-block__buttons">
+								<button class="button" type="button">Записаться</button>
+								<button class="button button_pale" type="button">
+									Смотреть все навыки
+								</button>
+							</div>
 
+						</article>
+						<article class="course-block">
+							<h3 class="course-block__name">Создание web-сайтов</h3>
+							<div class="course-block__for">
+								<img
+									class="image"
+									src="<%=require('./images/Union.png')%>"
+									alt=""
+								/>
+								<p class="text">Группы 8&#43; лет</p>
+							</div>
+							<div class="course-block__for">
+								<img
+									class="image"
+									src="<%=require('./images/clocks.png')%>"
+									alt=""
+								/>
+								<p class="text">Группы 8 лет</p>
+							</div>
+							<ul class="course-block__tegs">
+								<li class="teg">
+									<p class="teg__about">web-разработка</p>
+								</li>
+								<li class="teg">
+									<p class="teg__about">основы программирования</p>
+								</li>
+							</ul>
+							<div class="course-block__description">
+								<p class="description-text">
+									На нашем курсе студенты освоят создание web-сайтов, узнают
+									об отличиях и особенностях платформ, поймут, как работает
+									аналитика и алгоритмы поиска. Это как самостоятельная,
+									так и командная работа: разработка самого сайта, создание
+									дизайна и контента позволяют окунуться с головой и приобрести
+									действительно нужный и актуальный навык.
+								</p>
+							</div>
+							<div class="course-block__buttons">
+								<button class="button" type="button">Записаться</button>
+								<button class="button button_pale" type="button">
+									Смотреть все навыки
+								</button>
+							</div>
+						</article>
+					</div>
+				</div>
+				<div class="other-courses">
+					<article class="course-block course-block_other">
+						<h3 class="course-block__name">3D технологии</h3>
+						<div class="course-block__for">
+							<img
+								class="image"
+								src="<%=require('./images/Union.png')%>"
+								alt=""
+							/>
+							<p class="text">Группы 8&#43; лет</p>
+						</div>
+						<div class="course-block__for">
+							<img
+								class="image"
+								src="<%=require('./images/clocks.png')%>"
+								alt=""
+							/>
+							<p class="text">блоки по 3 месяца</p>
+						</div>
+						<ul class="course-block__tegs">
+							<li class="teg">
+								<p class="teg__about">разговорный язык</p>
+							</li>
+							<li class="teg">
+								<p class="teg__about">письмо</p>
+							</li>
+							<li class="teg">
+								<p class="teg__about">изучение культуры</p>
+							</li>
+						</ul>
+						<div
+							class="course-block__description course-block__description_other"
+						>
+							<p class="description-text">
+								Мы запускаем курс для новичков. На нем участники научатся
+								читать, писать и вести диалоги на корейском. Студенты узнают
+								об истории и культуре Кореи и особенностях в общении.
+							</p>
+						</div>
+						<div class="course-block__buttons">
+							<button class="button" type="button">Записаться</button>
+						</div>
+					</article>
+					<article class="course-block course-block_other">
+						<h3 class="course-block__name">Английский язык</h3>
+						<div class="course-block__for">
+							<img
+								class="image"
+								src="<%=require('./images/Union.png')%>"
+								alt=""
+							/>
+							<p class="text">Группы 6&#43;, 10&#43; лет, взрослые</p>
+						</div>
+						<div class="course-block__for">
+							<img
+								class="image"
+								src="<%=require('./images/clocks.png')%>"
+								alt=""
+							/>
+							<p class="text">блоки по 3 месяца</p>
+						</div>
+						<ul class="course-block__tegs">
+							<li class="teg">
+								<p class="teg__about">разговорный язык</p>
+							</li>
+							<li class="teg">
+								<p class="teg__about">акценты</p>
+							</li>
+							<li class="teg">
+								<p class="teg__about">создание резюме</p>
+							</li>
+							<li class="teg">
+								<p class="teg__about">сленг</p>
+							</li>
+						</ul>
+						<div
+							class="course-block__description course-block__description_other"
+						>
+							<p class="description-text">
+								Мы не только учим грамматике, но и смотрим фильмы, привыкаем
+								к сленгу и деловой переписке, читаем статьи и общаемся онлайн
+								с носителями языка из разных стран!
+							</p>
+						</div>
+						<div class="course-block__buttons">
+							<button class="button" type="button">Записаться</button>
+						</div>
+					</article>
+					<article class="course-block course-block_other">
+						<h3 class="course-block__name">3D технологии</h3>
+						<div class="course-block__for">
+							<img
+								class="image"
+								src="<%=require('./images/Union.png')%>"
+								alt=""
+							/>
+							<p class="text">Группы 8&#43; лет</p>
+						</div>
+						<div class="course-block__for">
+							<img
+								class="image"
+								src="<%=require('./images/clocks.png')%>"
+								alt=""
+							/>
+							<p class="text">блоки по 3 месяца</p>
+						</div>
+						<ul class="course-block__tegs">
+							<li class="teg">
+								<p class="teg__about">3D моделирование</p>
+							</li>
+							<li class="teg">
+								<p class="teg__about">3D печать</p>
+							</li>
+							<li class="teg">
+								<p class="teg__about">работа в команде</p>
+							</li>
+							<li class="teg">
+								<p class="teg__about">проект</p>
+							</li>
+						</ul>
+						<div
+							class="course-block__description course-block__description_other"
+						>
+							<p class="description-text">
+								Cтуденты освоят программы моделирования, сканирования и печати
+								на 3D-принтере. К завершению курса студенты сами напечатают
+								настоящие предметы.
+							</p>
+						</div>
+						<div class="course-block__buttons">
+							<button class="button" type="button">Записаться</button>
+						</div>
+					</article>
+				</div>
+			</section>
+			<section class="price-container">
+				<div class="price-block">
+					<p class="price-block__amount">Стоимость курсов 3500 руб./мес.</p>
+				</div>
+				<div class="block__description block__description_price">
+					<div class="ul-name">
+						<p class="ul-name__text ul-name__text_price">
+							Что входит в стоимость?
+						</p>
+					</div>
+					<ul class="list list_price">
+						<li class="list-point">
+							<img
+								class="list-point__img"
+								src="<%=require('./images/tick.png')%>"
+								alt=""
+							/>
+							<p class="list-point__text">2 занятия в неделю по 2 часа</p>
+						</li>
+						<li class="list-point">
+							<img
+								class="list-point__img"
+								src="<%=require('./images/tick.png')%>"
+								alt=""
+							/>
+							<p class="list-point__text">Небольшие группы до 10 чел.</p>
+						</li>
+						<li class="list-point">
+							<img
+								class="list-point__img"
+								src="<%=require('./images/tick.png')%>"
+								alt=""
+							/>
+							<p class="list-point__text">
+								1 личная консультация в месяц для студентов курсов
+							</p>
+						</li>
+						<li class="list-point">
+							<img
+								class="list-point__img"
+								src="<%=require('./images/tick.png')%>"
+								alt=""
+							/>
+							<p class="list-point__text">Снэки, вода, чай на нашей кухне</p>
+						</li>
+						<li class="list-point">
+							<img
+								class="list-point__img"
+								src="<%=require('./images/tick.png')%>"
+								alt=""
+							/>
+							<p class="list-point__text">
+								1 консультация для родителей о курсе и достижениях студентов
+							</p>
+						</li>
+					</ul>
+				</div>
+				<div class="block__description block__description_price">
+					<div class="ul-name">
+						<p class="ul-name__text ul-name__text_price">
+							Что не входит в стоимость?
+						</p>
+					</div>
+					<ul class="list list_price">
+						<li class="list-point">
+							<img
+								class="list-point__img"
+								src="<%=require('./images/cross.png')%>"
+								alt=""
+							/>
+							<p class="list-point__text">Трансфер из вашего аула к центру</p>
+						</li>
+						<li class="list-point">
+							<img
+								class="list-point__img"
+								src="<%=require('./images/cross.png')%>"
+								alt=""
+							/>
+							<p class="list-point__text">Индивидуальные занятия</p>
+						</li>
+						<li class="list-point">
+							<img
+								class="list-point__img"
+								src="<%=require('./images/cross.png')%>"
+								alt=""
+							/>
+							<p class="list-point__text">
+								Ежегодный членский взнос в размере 1 500 ₽ (оплачивается раз в
+								год в начале курса)
+							</p>
+						</li>
+					</ul>
+				</div>
+				<button class="button button_pay" type="button">Оплатить курсы</button>
+			</section>
+			<section class="container container_about">
+				<h1 class="container__heading">О нас</h1>
+				<h2 class="container__description">
+					Мы привозим лучшие практики неформального образования для тех,
+					кто не может позволить своим детям полноценно развиваться
+				</h2>
+				<div class="section-blocks section-blocks_about">
+					<div class="block <!-- block_about -->">
+						<div class="block__div">
+							<div class="block__image">
+								<img
+									class="picture"
+									src="<%=require('./images/photo_play.png')%>"
+									alt=""
+								/>
+								<img
+									class="picture-color"
+									src="<%=require('./images/color_yellow.png')%>"
+									alt=""
+								/>
+								<p class="picture-text">Досуговый центр "Уя"</p>
+							</div>
+						</div>
+						<p class="block__text">
+							– это место для общения, учёбы, встреч и досуга аульских детей.
+							В наши летние школы мы тоже привозим самые разные практики,
+							чтобы наши студенты могли попробовать то, что в их ауле/селе
+							недоступно — это совершенно бесплатно
+						</p>
+						<div class="block__description block__description_about">
+							<div class="ul-name">
+								<img
+									class="ul-name__img"
+									src="<%=require('./images/point.png')%>"
+									alt=""
+								/>
+								<p class="ul-name__text">Аул Икон-Халк, Карачаево-Черкесия</p>
+							</div>
+							<ul class="list list_about">
+								<li class="list-point">
+									<img
+										class="list-point__img"
+										src="<%=require('./images/tick.png')%>"
+										alt=""
+									/>
+									<p class="list-point__text">Занятия весь год</p>
+								</li>
+								<li class="list-point">
+									<img
+										class="list-point__img"
+										src="<%=require('./images/tick.png')%>"
+										alt=""
+									/>
+									<p class="list-point__text">Углублённый подход к темам</p>
+								</li>
+								<li class="list-point">
+									<img
+										class="list-point__img"
+										src="<%=require('./images/tick.png')%>"
+										alt=""
+									/>
+									<p class="list-point__text">Небольшие группы</p>
+								</li>
+								<li class="list-point">
+									<img
+										class="list-point__img"
+										src="<%=require('./images/tick.png')%>"
+										alt=""
+									/>
+									<p class="list-point__text">
+										Местные преподаватели, которые всегда на связи
+									</p>
+								</li>
+								<li class="list-point">
+									<img
+										class="list-point__img"
+										src="<%=require('./images/tick.png')%>"
+										alt=""
+									/>
+									<p class="list-point__text">
+										Постоянная площадка, где все могут приходить в любое время,
+										общаться, учиться и учить, читать книги, смотреть кино
+										и слушать интересные лекции
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="block <!-- block_about -->">
+						<div class="block__div">
+							<div class="block__image">
+								<img
+									class="picture"
+									src="<%=require('./images/photo_school.png')%>"
+									alt=""
+								/>
+								<img
+									class="picture-color"
+									src="<%=require('./images/color_orange.png')%>"
+									alt=""
+								/>
+								<p class="picture-text picture-text_white">Летние школы «Балапанлар»</p>
+							</div>
+						</div>
+						<p class="block__text">
+							– это 12-дневная неформальная программа для детей в аулах и сёлах.
+							Наша команда и преподаватели приезжают к местным детям и проводят
+							с ними самые разные занятия: астрономия, математика, языки, йога,
+							театр, музыка и др.
+						</p>
+						<div class="block__description block__description_about">
+							<div class="ul-name">
+								<img
+									class="ul-name__img"
+									src="<%=require('./images/point.png')%>"
+									alt=""
+								/>
+								<p class="ul-name__text">Аул Икон-Халк, Карачаево-Черкесия</p>
+							</div>
+							<ul class="list list_about">
+								<li class="list-point">
+									<img
+										class="list-point__img"
+										src="<%=require('./images/tick.png')%>"
+										alt=""
+									/>
+									<p class="list-point__text">Занятия только в каникулы</p>
+								</li>
+								<li class="list-point">
+									<img
+										class="list-point__img"
+										src="<%=require('./images/tick.png')%>"
+										alt=""
+									/>
+									<p class="list-point__text">Много разных занятий сразу</p>
+								</li>
+								<li class="list-point">
+									<img
+										class="list-point__img"
+										src="<%=require('./images/tick.png')%>"
+										alt=""
+									/>
+									<p class="list-point__text">
+										Небольшие группы, но много участников сразу
+									</p>
+								</li>
+								<li class="list-point">
+									<img
+										class="list-point__img"
+										src="<%=require('./images/tick.png')%>"
+										alt=""
+									/>
+									<p class="list-point__text">
+										Преподаватели со всей России, вдохновляющие своим примером
+									</p>
+								</li>
+								<li class="list-point">
+									<img
+										class="list-point__img"
+										src="<%=require('./images/tick.png')%>"
+										alt=""
+									/>
+									<p class="list-point__text">
+										Компания совершенно разных талантливых людей, с которыми
+										можно воплотить самую дерзкую идею
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="pinck-scroll">
+				<h3 class="pinck-scroll__title">Наши принципы</h3>
+				<div class="pinck-scroll__container">
+					<div class="panel pinck-scroll__skills">
+						<img
+							class="pinck-scroll__skills-image"
+							src="<%=require('./images/skills.svg')%>"
+							alt=""
+						/>
+						<p class="pinck-scroll__container-title">
+							Актуальные знания и навыки
+						</p>
+					</div>
+					<div class="panel pinck-scroll__investing">
+						<img
+							class="pinck-scroll__skills-image"
+							src="<%=require('./images/education.svg')%>"
+							alt=""
+						/>
+						<p class="pinck-scroll__container-title">
+							Равный доступ к образованию
+						</p>
+					</div>
+					<div class="panel pinck-scroll__investing">
+						<img
+							class="pinck-scroll__skills-image"
+							src="<%=require('./images/union.svg')%>"
+							alt=""
+						/>
+						<p class="pinck-scroll__container-title">
+							Инвестируем в развитие местных специалистов и экпертов
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="pinck-scroll"></section>
+			<section class="pinck-scroll"></section>
+			<section class="pinck-scroll"></section>
+		</main>
+	</body>
 </html>

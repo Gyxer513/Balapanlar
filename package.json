@@ -1,29 +1,63 @@
 {
-	"private": true,
-	"devDependencies": {
-		"@htmlacademy/editorconfig-cli": "1.0.0",
-		"husky": "7.0.4",
-		"lint-staged": "12.3.7",
-		"stylelint": "14.0.0",
-		"stylelint-order": "5.0.0"
-	},
-	"scripts": {
-		"editorconfig": "editorconfig-cli",
-		"stylelint": "stylelint \"src/**/*.css\"",
-		"stylelint:fixed": "stylelint \"src/**/*.css\" --fix",
-		"test": "npm run editorconfig && npm run stylelint",
-		"prepare": "husky install",
-		"staged": "lint-staged"
-	},
-	"editorconfig-cli": [
-		"*.json",
-		"src/**/*.*"
-	],
-	"engines": {
-		"node": "^16"
-	},
-	"type": "module",
-	"lint-staged": {
-		"*": "npm run test"
-	}
+  "name": "balapanlar",
+  "version": "0.0.1",
+  "description": "Team project ",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve",
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint \"src/**/*.css\"",
+    "stylelint:fixed": "stylelint \"src/**/*.css\" --fix",
+    "test": "npm run editorconfig && npm run stylelint",
+    "prepare": "husky install",
+    "staged": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gyxer513/Balapanlar.git"
+  },
+  "keywords": [
+    "balapanlar"
+  ],
+  "author": "team № 2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gyxer513/Balapanlar/issues"
+  },
+  "homepage": "https://github.com/Gyxer513/Balapanlar#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@htmlacademy/editorconfig-cli": "1.0.0",
+    "autoprefixer": "^10.4.8",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "cssnano": "^5.1.13",
+    "html-webpack-plugin": "^5.5.0",
+    "husky": "7.0.4",
+    "lint-staged": "12.3.7",
+    "mini-css-extract-plugin": "^2.6.1",
+    "postcss-loader": "^7.0.1",
+    "stylelint": "14.0.0",
+    "stylelint-order": "5.0.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
+  },
+  "editorconfig-cli": [
+    "*.json",
+    "src/**/*.*"
+  ],
+  "engines": {
+    "node": "^16"
+  },
+  "private": true,
+  "lint-staged": {
+    "*": "npm run test"
+  },
+  "dependencies": {
+    "gsap": "^3.11.0"
+  }
 }

@@ -1,0 +1,20 @@
+.course-block__buttons {
+  display: flex;
+  flex-direction: row;
+	position: absolute;
+	bottom: 30px;
+
+}
+
+@media screen and (max-width: 880px) {
+  .course-block__buttons {
+    flex-direction: column-reverse;
+  }
+  }
+
+  @media screen and (max-width: 400px) {
+    .course-block__buttons {
+      flex-direction: column-reverse;
+      bottom: 20px;
+    }
+    }

@@ -1,0 +1,8 @@
+.list-point {
+    display: flex;
+    margin: 0 0 15px 0;
+}
+
+.list-point:last-of-type {
+    margin-bottom: 0;
+}
