@@ -1,0 +1,10 @@
+.main {
+    background-color: #EAF0FF;
+		width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .main {
+        background-color: #FFFFFF;
+    }
+}

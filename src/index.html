@@ -4,10 +4,85 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Balapanlar</title>
 	</head>
 	<body class="body">
-		<main>
+		<div class="page__container">
+		<header class="header">
+			<div class="header__logo"></div>
+			<nav>
+					<ul class="header__info">
+							<li>
+									<a href="#" target="_blank" class="header__link">Наши курсы</a>
+							</li>
+							<li>
+									<a href="#" target="_blank" class="header__link">О нас</a>
+							</li>
+							<li>
+									<a href="#" target="_blank" class="header__link">Команда</a>
+							</li>
+							<li>
+									<a href="#" target="_blank" class="header__link">Как нас найти</a>
+							</li>
+							<li>
+									<a href="#" target="_blank" class="header__link">Поддержать проект</a>
+							</li>
+					</ul>
+			</nav>
+			<button class="button button_header">Записаться на курсы</button>
+			<button class="options">
+					<div id="bar1" class="options__stick"></div>
+					<div id="bar2" class="options__stick"></div>
+			</button>
+					<!-- Выпадающее меню в мобильной версии-->
+			<div class="wrapper">
+					<div class="burger-menu">
+					 <img src="<%=require('./images/балапанлар_лого.svg')%>" alt="Балапанлар">
+							<nav>
+									<ul class="header__info header__info_visible">
+											<li>
+													<a href="#" target="_blank" class="header__link">Наши курсы</a>
+											</li>
+											<li>
+													<a href="#" target="_blank" class="header__link">О нас</a>
+											</li>
+											<li>
+													<a href="#" target="_blank" class="header__link">Команда</a>
+											</li>
+											<li>
+													<a href="#" target="_blank" class="header__link">Как нас найти</a>
+											</li>
+											<li>
+													<a href="#" target="_blank" class="header__link">Поддержать проект</a>
+											</li>
+									</ul>
+							</nav>
+							<button class="button button_header button_header_visible">Записаться на курсы</button>
+					</div>
+			</div>
+	</header>
+		<main class="main"> <!-- может мешать класс -->
+			<section class="wallpaper">
+				<div class="wallpaper__picture">
+						<h1 class="wallpaper__title">Досуг и курсы для детей в аулах и сёлах</h1>
+				<button class="button button_wallpaper">Записаться на курсы</button>
+				<div class="link-box">
+						<img class="link-box__logo" src="<%=require('./images/телеграм_лого.svg')%>" alt="Телеграмм">
+						<p class="link-box__text">Следите за последними анонсами и событиями “Уя” в нашем Telegram канале</p>
+						<button class="button button_telegram">Подписаться</button>
+				</div>
+				</div>
+		</section>
+		<section class="purpose">
+				<p class="purpose__text">Каждый ребёнок талантлив по-своему. Наша цель — дать детям возможность
+				раскрыть свои таланты, получить хорошие современные знания в ауле, и стать
+				успешным и счастливым взрослым.</p>
+		</section>
+
+
+
+
+
 			<section class="courses-container">
 				<h1 class="courses-container__heading">Наши курсы</h1>
 				<div class="programming">
@@ -492,5 +567,6 @@
 				</div>
 			</div>
 		</main>
+	</div>
 	</body>
 </html>
