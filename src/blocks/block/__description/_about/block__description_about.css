@@ -1,0 +1,11 @@
+.block__description_about {
+		margin-top: 30px;
+		margin-left: 25px;
+	}
+
+	@media screen and (max-width:400px) {
+		.block__description_about {
+				margin-top: 11px;
+				margin-left: 0;
+			}
+	}

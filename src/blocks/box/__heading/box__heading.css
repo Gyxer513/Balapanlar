@@ -1,0 +1,28 @@
+.box__heading {
+  margin: 50px auto 0 auto;
+  display: block;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  max-width: 375px;
+  letter-spacing: -0.5px;
+
+}
+
+/* @media screen and (max-width: 1220px) {
+  .box__heading {
+
+    max-width: 400px;
+    font-size: 30px;
+
+  }
+} */
+
+@media screen and (max-width: 400px) {
+  .box__heading {
+    font-size: 24px;
+    line-height: 29px;
+    max-width: 253px;
+
+  }
+}

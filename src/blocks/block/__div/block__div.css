@@ -1,0 +1,7 @@
+.block__div {
+	position: relative;
+	border-radius: 60px;
+	max-width: 595px;
+	max-height: 524px;
+	overflow: hidden;
+}
