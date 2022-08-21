@@ -3,11 +3,11 @@
     position: relative;
 }
 
-@media screen and (max-width: 1439px) {
+/* @media screen and (max-width: 1439px) {
     .wallpaper {
         max-width: 1220px;
     }
-}
+} */
 
 
 @media screen and (max-width: 1220px) {
@@ -16,8 +16,8 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     .wallpaper {
         max-width: 320px;
     }
-}
+} */

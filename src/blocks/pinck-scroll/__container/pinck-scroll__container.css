@@ -1,4 +1,5 @@
 .pinck-scroll__container {
 	display: flex;
+	flex-direction: row;
 	overflow-x: hidden;
 }

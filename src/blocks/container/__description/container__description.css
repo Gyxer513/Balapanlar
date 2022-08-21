@@ -13,8 +13,6 @@
 		margin: 40px auto 0 auto;
 		text-align: left;
 	}
-
-
 }
 
 @media screen and (max-width:800px) {
@@ -24,20 +22,13 @@
 		letter-spacing: -0.5px;
 		text-align: left;
 	}
-
-
 }
-
 
 @media screen and (max-width:400px) {
 	.container__description {
 		font-size: 24px;
 		line-height: 29px;
 		letter-spacing: -0.5px;
-		max-width: 290px;
-		text-align: left;
 	}
-
-
 }
 

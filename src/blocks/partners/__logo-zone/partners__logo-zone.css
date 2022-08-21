@@ -11,27 +11,37 @@
     border-radius: 60px;
     padding: 39px 80px 49px;
   }
-  
+
+	@media screen and (max-width: 1220px) {
+    .partners__logo-zone {
+			flex-direction: column;
+			row-gap: 60px;
+      border-radius: 30px;
+      padding: 60px 0;
+      width: calc(100% - 15px*2);
+    }
+  }
+
   @media screen and (max-width: 950px) {
     .partners__logo-zone {
       column-gap: 40px;
       padding: 39px 40px 49px;
     }
   }
-  
+
   @media screen and (max-width: 800px) {
     .partners__logo-zone {
       column-gap: 20px;
       padding: 39px 25px 19px;
     }
   }
-  
+
   @media screen and (max-width: 650px) {
     .partners__logo-zone {
       flex-direction: column;
       row-gap: 60px;
       border-radius: 30px;
       padding: 60px 0;
-      width: calc(100% - 15px*2);
+      width: 100%;
     }
   }
