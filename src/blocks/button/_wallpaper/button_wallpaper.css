@@ -8,7 +8,7 @@
     text-align: center;
     letter-spacing: -0.5px;
     padding: 0;
-    margin-left: 523px;
+    /* margin-left: 523px; */
 }
 
 .button_wallpaper:hover {
@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 1439px) {
     .button_wallpaper {
-        margin-left: 475px;
+        /* margin-left: 475px; */
         min-width: 320px;
         min-height: 70px;
         font-size: 22px;
@@ -26,7 +26,7 @@
 
 @media screen and (max-width: 1220px) {
     .button_wallpaper {
-        margin-left: 300px;
+        /* margin-left: 300px; */
         min-width: 200px;
         min-height: 50px;
         font-size: 14px;
@@ -39,6 +39,6 @@
         min-height: 52px;
         font-size: 16px;
         line-height: 20px;
-        margin-left: 48px;
+        /* margin-left: 48px; */
     }
 }

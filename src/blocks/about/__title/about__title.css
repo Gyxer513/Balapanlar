@@ -5,3 +5,23 @@
 	letter-spacing: -1px;
 	margin: 0;
 }
+
+@media screen and (max-width: 1220px) {
+	.about__title {
+		margin: 0 10px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.about__title {
+		margin: 0 20px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.about__title {
+		margin: 0 20px;
+		font-size: 36px;
+line-height: 44px;
+	}
+}

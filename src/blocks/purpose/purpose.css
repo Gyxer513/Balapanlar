@@ -20,7 +20,8 @@
 @media screen and (max-width: 1220px) {
     .purpose {
         padding: 60px 0 60px 60px;
-        max-width: 500px;
+        /* max-width: 500px; */
+        max-width: 635px;
         min-height: 76px;
         font-size: 18px;
         line-height: 22px;
@@ -33,7 +34,7 @@
         background-color: #EAF0FF;
         font-size: 24px;
         line-height: 29px;
-				max-width: 320px;
+				/* max-width: 320px; */
 				min-height: 428px;
 				box-sizing: border-box;
     }

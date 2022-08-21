@@ -9,8 +9,33 @@
 	bottom: 30px;
 left: 30px;
 color: #1E1E1E;
+text-align: initial;
 }
 
  .about-place:nth-of-type(2) .about-place__block-text {
 color: #fff;
+}
+
+@media screen and (max-width: 570px) {
+	.about-place__block-text {
+		font-size: 40px;
+	line-height: 45px;
+	max-width: 63%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.about-place__block-text {
+		font-size: 35px;
+	line-height: 40px;
+	max-width: 63%;
+	}
+}
+@media screen and (max-width: 442px) {
+	.about-place__block-text {
+		max-width: 52%;
+		font-size: 24px;
+		line-height: 29px;
+		letter-spacing: -0.5px;
+	}
 }

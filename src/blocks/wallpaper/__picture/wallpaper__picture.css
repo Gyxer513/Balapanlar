@@ -5,7 +5,9 @@
     background-image: url(../../../images/заставка.jpeg);
     border-radius: 60px;
 		background-size: cover;
+		background-position: center;
 		width: 100%;
+		text-align: center;
 }
 
 @media screen and (max-width: 1439px) {

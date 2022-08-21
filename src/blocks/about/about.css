@@ -2,11 +2,20 @@
 	padding: 120px 0 40px;
 	background:#fff;
 	border-radius: 60px;
-	margin: 120px auto 10px;
+	/* margin: 120px auto 10px; */
+	margin: 120px 10px 10px;
+
 }
 
-@media screen and (max-width: 1220px) {
+/* @media screen and (max-width: 1220px) {
 	.about {
 		max-width: 615px;
+	}
+} */
+
+@media screen and (max-width: 615px) {
+	.about {
+		margin: 120px auto 0;
+		border-radius: 0;
 	}
 }

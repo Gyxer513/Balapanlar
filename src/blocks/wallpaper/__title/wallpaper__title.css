@@ -34,7 +34,7 @@
         min-height: 132px;
         font-size: 36px;
         line-height: 44px;
-        margin: 0;
-        padding: 74px 0 30px 14px;
+        margin: 0 auto;
+        padding: 74px 0 30px 0;
     }
 }

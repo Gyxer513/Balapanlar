@@ -5,4 +5,24 @@ font-size: 36px;
 line-height: 44px;
 letter-spacing: -1px;
 max-width: 915px;
+
+}
+
+@media screen and (max-width: 1220px) {
+	.about__text {
+		margin: 40px 10px 60px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.about__text {
+		margin: 40px 20px 60px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.about__text {
+		font-size: 24px;
+line-height: 29px;
+letter-spacing: -0.5px;
+	}
 }
