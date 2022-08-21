@@ -1,83 +1,86 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Balapanlar</title>
-	</head>
-	<body class="body">
-		<div class="page__container">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Balapanlar</title>
+</head>
+
+<body class="body">
+	<div class="page__container">
 		<header class="header">
 			<div class="header__logo"></div>
 			<nav>
-					<ul class="header__info">
-							<li>
-									<a href="#" target="_blank" class="header__link">Наши курсы</a>
-							</li>
-							<li>
-									<a href="#" target="_blank" class="header__link">О нас</a>
-							</li>
-							<li>
-									<a href="#" target="_blank" class="header__link">Команда</a>
-							</li>
-							<li>
-									<a href="#" target="_blank" class="header__link">Как нас найти</a>
-							</li>
-							<li>
-									<a href="#" target="_blank" class="header__link">Поддержать проект</a>
-							</li>
-					</ul>
+				<ul class="header__info">
+					<li>
+						<a href="#" target="_blank" class="header__link">Наши курсы</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="header__link">О нас</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="header__link">Команда</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="header__link">Как нас найти</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="header__link">Поддержать проект</a>
+					</li>
+				</ul>
 			</nav>
 			<button class="button button_header">Записаться на курсы</button>
 			<button class="options">
-					<div id="bar1" class="options__stick"></div>
-					<div id="bar2" class="options__stick"></div>
+				<div id="bar1" class="options__stick"></div>
+				<div id="bar2" class="options__stick"></div>
 			</button>
-					<!-- Выпадающее меню в мобильной версии-->
+			<!-- Выпадающее меню в мобильной версии-->
 			<div class="wrapper">
-					<div class="burger-menu">
-					 <img src="<%=require('./images/балапанлар_лого.svg')%>" alt="Балапанлар">
-							<nav>
-									<ul class="header__info header__info_visible">
-											<li>
-													<a href="#" target="_blank" class="header__link">Наши курсы</a>
-											</li>
-											<li>
-													<a href="#" target="_blank" class="header__link">О нас</a>
-											</li>
-											<li>
-													<a href="#" target="_blank" class="header__link">Команда</a>
-											</li>
-											<li>
-													<a href="#" target="_blank" class="header__link">Как нас найти</a>
-											</li>
-											<li>
-													<a href="#" target="_blank" class="header__link">Поддержать проект</a>
-											</li>
-									</ul>
-							</nav>
-							<button class="button button_header button_header_visible">Записаться на курсы</button>
-					</div>
+				<div class="burger-menu">
+					<img src="<%=require('./images/балапанлар_лого.svg')%>" alt="Балапанлар">
+					<nav>
+						<ul class="header__info header__info_visible">
+							<li>
+								<a href="#" target="_blank" class="header__link">Наши курсы</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" class="header__link">О нас</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" class="header__link">Команда</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" class="header__link">Как нас найти</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" class="header__link">Поддержать проект</a>
+							</li>
+						</ul>
+					</nav>
+					<button class="button button_header button_header_visible">Записаться на курсы</button>
+				</div>
 			</div>
-	</header>
-		<main class="main"> <!-- может мешать класс -->
+		</header>
+		<main class="main">
+			<!-- может мешать класс -->
 			<section class="wallpaper">
 				<div class="wallpaper__picture">
-						<h1 class="wallpaper__title">Досуг и курсы для детей в аулах и сёлах</h1>
-				<button class="button button_wallpaper">Записаться на курсы</button>
-				<div class="link-box">
+					<h1 class="wallpaper__title">Досуг и курсы для детей в аулах и сёлах</h1>
+					<button class="button button_wallpaper">Записаться на курсы</button>
+					<div class="link-box">
 						<img class="link-box__logo" src="<%=require('./images/телеграм_лого.svg')%>" alt="Телеграмм">
 						<p class="link-box__text">Следите за последними анонсами и событиями “Уя” в нашем Telegram канале</p>
 						<button class="button button_telegram">Подписаться</button>
+					</div>
 				</div>
-				</div>
-		</section>
-		<section class="purpose">
+			</section>
+			<section class="purpose">
 				<p class="purpose__text">Каждый ребёнок талантлив по-своему. Наша цель — дать детям возможность
-				раскрыть свои таланты, получить хорошие современные знания в ауле, и стать
-				успешным и счастливым взрослым.</p>
-		</section>
+					раскрыть свои таланты, получить хорошие современные знания в ауле, и стать
+					успешным и счастливым взрослым.</p>
+			</section>
 
 
 
@@ -100,19 +103,11 @@
 							<!-- Я обернула иконки пока только этой карточки в контейнер, чтобы внутри него можно было поменять направление иконок -->
 							<div class="course-block__for_container">
 								<div class="course-block__for">
-									<img
-										class="image"
-										src="<%=require('./images/Union.png')%>"
-										alt=""
-									/>
+									<img class="image" src="<%=require('./images/Union.png')%>" alt="" />
 									<p class="text">Группы 8&#43; лет</p>
 								</div>
 								<div class="course-block__for">
-									<img
-										class="image"
-										src="<%=require('./images/clocks.png')%>"
-										alt=""
-									/>
+									<img class="image" src="<%=require('./images/clocks.png')%>" alt="" />
 									<p class="text">Группы 8 лет</p>
 								</div>
 							</div>
@@ -150,19 +145,11 @@
 						<article class="course-block">
 							<h3 class="course-block__name">Создание web-сайтов</h3>
 							<div class="course-block__for">
-								<img
-									class="image"
-									src="<%=require('./images/Union.png')%>"
-									alt=""
-								/>
+								<img class="image" src="<%=require('./images/Union.png')%>" alt="" />
 								<p class="text">Группы 8&#43; лет</p>
 							</div>
 							<div class="course-block__for">
-								<img
-									class="image"
-									src="<%=require('./images/clocks.png')%>"
-									alt=""
-								/>
+								<img class="image" src="<%=require('./images/clocks.png')%>" alt="" />
 								<p class="text">Группы 8 лет</p>
 							</div>
 							<ul class="course-block__tegs">
@@ -196,19 +183,11 @@
 					<article class="course-block course-block_other">
 						<h3 class="course-block__name">3D технологии</h3>
 						<div class="course-block__for">
-							<img
-								class="image"
-								src="<%=require('./images/Union.png')%>"
-								alt=""
-							/>
+							<img class="image" src="<%=require('./images/Union.png')%>" alt="" />
 							<p class="text">Группы 8&#43; лет</p>
 						</div>
 						<div class="course-block__for">
-							<img
-								class="image"
-								src="<%=require('./images/clocks.png')%>"
-								alt=""
-							/>
+							<img class="image" src="<%=require('./images/clocks.png')%>" alt="" />
 							<p class="text">блоки по 3 месяца</p>
 						</div>
 						<ul class="course-block__tegs">
@@ -222,9 +201,7 @@
 								<p class="teg__about">изучение культуры</p>
 							</li>
 						</ul>
-						<div
-							class="course-block__description course-block__description_other"
-						>
+						<div class="course-block__description course-block__description_other">
 							<p class="description-text">
 								Мы запускаем курс для новичков. На нем участники научатся
 								читать, писать и вести диалоги на корейском. Студенты узнают
@@ -238,19 +215,11 @@
 					<article class="course-block course-block_other">
 						<h3 class="course-block__name">Английский язык</h3>
 						<div class="course-block__for">
-							<img
-								class="image"
-								src="<%=require('./images/Union.png')%>"
-								alt=""
-							/>
+							<img class="image" src="<%=require('./images/Union.png')%>" alt="" />
 							<p class="text">Группы 6&#43;, 10&#43; лет, взрослые</p>
 						</div>
 						<div class="course-block__for">
-							<img
-								class="image"
-								src="<%=require('./images/clocks.png')%>"
-								alt=""
-							/>
+							<img class="image" src="<%=require('./images/clocks.png')%>" alt="" />
 							<p class="text">блоки по 3 месяца</p>
 						</div>
 						<ul class="course-block__tegs">
@@ -267,9 +236,7 @@
 								<p class="teg__about">сленг</p>
 							</li>
 						</ul>
-						<div
-							class="course-block__description course-block__description_other"
-						>
+						<div class="course-block__description course-block__description_other">
 							<p class="description-text">
 								Мы не только учим грамматике, но и смотрим фильмы, привыкаем
 								к сленгу и деловой переписке, читаем статьи и общаемся онлайн
@@ -283,19 +250,11 @@
 					<article class="course-block course-block_other">
 						<h3 class="course-block__name">3D технологии</h3>
 						<div class="course-block__for">
-							<img
-								class="image"
-								src="<%=require('./images/Union.png')%>"
-								alt=""
-							/>
+							<img class="image" src="<%=require('./images/Union.png')%>" alt="" />
 							<p class="text">Группы 8&#43; лет</p>
 						</div>
 						<div class="course-block__for">
-							<img
-								class="image"
-								src="<%=require('./images/clocks.png')%>"
-								alt=""
-							/>
+							<img class="image" src="<%=require('./images/clocks.png')%>" alt="" />
 							<p class="text">блоки по 3 месяца</p>
 						</div>
 						<ul class="course-block__tegs">
@@ -312,9 +271,7 @@
 								<p class="teg__about">проект</p>
 							</li>
 						</ul>
-						<div
-							class="course-block__description course-block__description_other"
-						>
+						<div class="course-block__description course-block__description_other">
 							<p class="description-text">
 								Cтуденты освоят программы моделирования, сканирования и печати
 								на 3D-принтере. К завершению курса студенты сами напечатают
@@ -330,11 +287,7 @@
 			<!-- Попап для отображения полной карточки курса -->
 			<div class="popup popup_courses">
 				<div class="popup__window">
-					<img
-						class="popup__circle-icon"
-						src="<%=require('./images/greyicon.svg')%>"
-						alt="Иконка"
-					/>
+					<img class="popup__circle-icon" src="<%=require('./images/greyicon.svg')%>" alt="Иконка" />
 				</div>
 			</div>
 
@@ -346,45 +299,25 @@
 					<p class="price-description__name">Что входит в стоимость?</p>
 					<ul class="price-description__list">
 						<li class="list-point">
-							<img
-								class="list-point__img"
-								src="<%=require('./images/tick.png')%>"
-								alt=""
-							/>
+							<img class="list-point__img" src="<%=require('./images/tick.png')%>" alt="" />
 							<p class="list-point__text">2 занятия в неделю по 2 часа</p>
 						</li>
 						<li class="list-point">
-							<img
-								class="list-point__img"
-								src="<%=require('./images/tick.png')%>"
-								alt=""
-							/>
+							<img class="list-point__img" src="<%=require('./images/tick.png')%>" alt="" />
 							<p class="list-point__text">Небольшие группы до 10 чел.</p>
 						</li>
 						<li class="list-point">
-							<img
-								class="list-point__img"
-								src="<%=require('./images/tick.png')%>"
-								alt=""
-							/>
+							<img class="list-point__img" src="<%=require('./images/tick.png')%>" alt="" />
 							<p class="list-point__text">
 								1 личная консультация в месяц для студентов курсов
 							</p>
 						</li>
 						<li class="list-point">
-							<img
-								class="list-point__img"
-								src="<%=require('./images/tick.png')%>"
-								alt=""
-							/>
+							<img class="list-point__img" src="<%=require('./images/tick.png')%>" alt="" />
 							<p class="list-point__text">Снэки, вода, чай на нашей кухне</p>
 						</li>
 						<li class="list-point">
-							<img
-								class="list-point__img"
-								src="<%=require('./images/tick.png')%>"
-								alt=""
-							/>
+							<img class="list-point__img" src="<%=require('./images/tick.png')%>" alt="" />
 							<p class="list-point__text">
 								1 консультация для родителей о курсе и достижениях студентов
 							</p>
@@ -395,27 +328,15 @@
 					<p class="price-description__name">Что не входит в стоимость?</p>
 					<ul class="price-description__list">
 						<li class="list-point">
-							<img
-								class="list-point__img"
-								src="<%=require('./images/cross.png')%>"
-								alt=""
-							/>
+							<img class="list-point__img" src="<%=require('./images/cross.png')%>" alt="" />
 							<p class="list-point__text">Трансфер из вашего аула к центру</p>
 						</li>
 						<li class="list-point">
-							<img
-								class="list-point__img"
-								src="<%=require('./images/cross.png')%>"
-								alt=""
-							/>
+							<img class="list-point__img" src="<%=require('./images/cross.png')%>" alt="" />
 							<p class="list-point__text">Индивидуальные занятия</p>
 						</li>
 						<li class="list-point">
-							<img
-								class="list-point__img"
-								src="<%=require('./images/cross.png')%>"
-								alt=""
-							/>
+							<img class="list-point__img" src="<%=require('./images/cross.png')%>" alt="" />
 							<p class="list-point__text">
 								Ежегодный членский взнос в размере 1 500 ₽ (оплачивается раз в
 								год в начале курса)
@@ -425,91 +346,169 @@
 				</div>
 				<button class="button button_pay" type="button">Оплатить курсы</button>
 			</section>
-			<section class="pinck-scroll">
+
+			<section class="about">
+				<div class="about-container">
+					<h3 class="about__title">
+						О нас
+					</h3>
+					<p class="about__text">
+						Мы привозим лучшие практики неформального образования для тех, кто не может позволить своим детям полноценно
+						развиваться
+					</p>
+
+					<div class="about-places">
+
+						<div class="about-place">
+							<div class="about-place__block-image">
+								<img class="about-place__image" src="<%=require('./images/centr-ya.png')%>" alt="Досуговый центр «Уя»">
+								<p class="about-place__block-text">Досуговый центр «Уя»</p>
+							</div>
+							<p class="about-place__text">– это место для общения, учёбы, встреч и досуга аульских детей. В наши летние
+								школы мы тоже привозим самые разные практики, чтобы наши студенты могли попробовать то, что в их
+								ауле/селе
+								недоступно — это совершенно бесплатно</p>
+							<ul class="about-place__list">
+								<li class="about-place__item">
+									<img class="about-place__item-img" src="<%=require('./images/site.png')%>"
+										alt="Аул Икон-Халк, Карачаево-Черкесия" />
+									<p class="about-place__item-text">
+										Аул Икон-Халк, Карачаево-Черкесия
+									</p>
+								</li>
+								<li class="about-place__item">
+									<img class="about-place__item-img" src="<%=require('./images/tick.png')%>" alt="Включено" />
+									<p class="about-place__item-text">Занятия весь год</p>
+								</li>
+								<li class="about-place__item">
+									<img class="about-place__item-img" src="<%=require('./images/tick.png')%>" alt="Включено" />
+									<p class="about-place__item-text">
+										Углублённый подход к темам
+									</p>
+								</li>
+								<li class="about-place__item">
+									<img class="about-place__item-img" src="<%=require('./images/tick.png')%>" alt="Включено" />
+									<p class="about-place__item-text">Небольшие группы</p>
+								</li>
+								<li class="about-place__item">
+									<img class="about-place__item-img" src="<%=require('./images/tick.png')%>" alt="Включено" />
+									<p class="about-place__item-text">
+										Местные преподаватели, которые всегда на связи
+									</p>
+								</li>
+								<li class="about-place__item">
+									<img class="about-place__item-img" src="<%=require('./images/tick.png')%>" alt="Включено" />
+									<p class="about-place__item-text">Постоянная площадка, где все могут приходить в любое время,
+										общаться,
+										учиться и учить, читать книги,
+										смотреть кино и слушать интересные лекции</p>
+								</li>
+							</ul>
+						</div>
+
+						<div class="about-place">
+							<div class="about-place__block-image">
+								<img class="about-place__image" src="<%=require('./images/school-balapanlar.png')%>"
+									alt="Летние школы «Балапанлар»">
+								<p class="about-place__block-text">Летние школы «Балапанлар»</p>
+							</div>
+							<p class="about-place__text">– это 12-дневная неформальная программа для детей в аулах и сёлах. Наша
+								команда
+								и преподаватели приезжают к местным детям и проводят с ними самые разные занятия: астрономия,
+								математика,
+								языки, йога, театр, музыка и др.</p>
+
+							<ul class="about-place__list">
+								<li class="about-place__item">
+									<img class="about-place__item-img" src="<%=require('./images/site.png')%>"
+										alt="Аул Икон-Халк, Карачаево-Черкесия" />
+									<p class="about-place__item-text">
+										Аул Икон-Халк, Карачаево-Черкесия
+									</p>
+								</li>
+								<li class="about-place__item">
+									<img class="about-place__item-img" src="<%=require('./images/tick.png')%>" alt="Включено" />
+									<p class="about-place__item-text">Занятия только в каникулы</p>
+								</li>
+								<li class="about-place__item">
+									<img class="about-place__item-img" src="<%=require('./images/tick.png')%>" alt="Включено" />
+									<p class="about-place__item-text">
+										Много разных занятий сразу
+									</p>
+								</li>
+								<li class="about-place__item">
+									<img class="about-place__item-img" src="<%=require('./images/tick.png')%>" alt="Включено" />
+									<p class="about-place__item-text">Небольшие группы, но много участников сразу</p>
+								</li>
+								<li class="about-place__item">
+									<img class="about-place__item-img" src="<%=require('./images/tick.png')%>" alt="Включено" />
+									<p class="about-place__item-text">
+										Преподаватели со всей России, вдохновляющие своим примером
+									</p>
+								</li>
+								<li class="about-place__item">
+									<img class="about-place__item-img" src="<%=require('./images/tick.png')%>" alt="Включено" />
+									<p class="about-place__item-text">Компания совершенно разных талантливых людей, с которыми можно
+										воплотить
+										самую дерзкую идею</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<section class="partners">
+						<h4 class="partners__title">Наши партнеры</h4>
+						<ul class="partners__logo-zone">
+							<li class="partners__logo">
+								<button class="partners__logo-button partners_lecturers-button" type="button">
+									<img class="partners__pic" src="<%=require('./images/image-109175.svg')%>"
+										alt="Логотип Lecturers Without Borders" />
+								</button>
+							</li>
+							<li class="partners__logo">
+								<button class="partners__logo-button partners_horizon-button" type="button">
+									<img class="partners__pic" src="<%=require('./images/horizons.svg')%>"
+										alt="Логотип Благотворительного фонда Открывая Горизонты" />
+								</button>
+							</li>
+							<li class="partners__logo">
+								<button class="partners__logo-button partners_himbio-button" type="button">
+									<img class="partners__pic" src="<%=require('./images/himbio.svg')%>" alt="Логотип ХимБио" />
+								</button>
+							</li>
+						</ul>
+					</section>
+				</div>
+			</section>
+
+			<!-- <section class="pinck-scroll">
 				<h3 class="pinck-scroll__title">Наши принципы</h3>
 				<div class="pinck-scroll__container">
 					<div class="panel pinck-scroll__skills">
-						<img
-							class="pinck-scroll__skills-image"
-							src="<%=require('./images/skills.svg')%>"
-							alt=""
-						/>
+						<img class="pinck-scroll__skills-image" src="<%=require('./images/skills.svg')%>" alt="" />
 						<p class="pinck-scroll__container-title">
 							Актуальные знания и навыки
 						</p>
 					</div>
 					<div class="panel pinck-scroll__investing">
-						<img
-							class="pinck-scroll__skills-image"
-							src="<%=require('./images/education.svg')%>"
-							alt=""
-						/>
+						<img class="pinck-scroll__skills-image" src="<%=require('./images/education.svg')%>" alt="" />
 						<p class="pinck-scroll__container-title">
 							Равный доступ к образованию
 						</p>
 					</div>
 					<div class="panel pinck-scroll__investing">
-						<img
-							class="pinck-scroll__skills-image"
-							src="<%=require('./images/union.svg')%>"
-							alt=""
-						/>
+						<img class="pinck-scroll__skills-image" src="<%=require('./images/union.svg')%>" alt="" />
 						<p class="pinck-scroll__container-title">
 							Инвестируем в развитие местных специалистов и экпертов
 						</p>
 					</div>
 				</div>
-			</section>
-			<section class="partners">
-				<h4 class="partners__title">Наши партнеры</h4>
-				<ul class="partners__logo-zone">
-					<li class="partners__logo">
-						<button
-							class="partners__logo-button partners_lecturers-button"
-							type="button"
-						>
-							<img
-								class="partners__pic"
-								src="<%=require('./images/image-109175.svg')%>"
-								alt="Логотип Lecturers Without Borders"
-							/>
-						</button>
-					</li>
-					<li class="partners__logo">
-						<button
-							class="partners__logo-button partners_horizon-button"
-							type="button"
-						>
-							<img
-								class="partners__pic"
-								src="<%=require('./images/horizons.svg')%>"
-								alt="Логотип Благотворительного фонда Открывая Горизонты"
-							/>
-						</button>
-					</li>
-					<li class="partners__logo">
-						<button
-							class="partners__logo-button partners_himbio-button"
-							type="button"
-						>
-							<img
-								class="partners__pic"
-								src="<%=require('./images/himbio.svg')%>"
-								alt="Логотип ХимБио"
-							/>
-						</button>
-					</li>
-				</ul>
-			</section>
+			</section> -->
 
 			<div class="partner popup popup_about_lecturers">
 				<div class="partner__window">
 					<div class="partner__logo">
-						<img
-							class="partner__pic partner__pic-lecturers"
-							src="<%=require('./images/image-109175.svg')%>"
-							alt="Логотип Lecturers Without Borders"
-						/>
+						<img class="partner__pic partner__pic-lecturers" src="<%=require('./images/image-109175.svg')%>"
+							alt="Логотип Lecturers Without Borders" />
 					</div>
 					<h4 class="partner__info">
 						Lecturers Without Borders - сообщество молодых учёных со всего мира,
@@ -527,11 +526,8 @@
 			<div class="partner popup popup_about_horizons">
 				<div class="partner__window">
 					<div class="partner__logo">
-						<img
-							class="partner__pic partner__pic-horizon"
-							src="<%=require('./images/horizons.svg')%>"
-							alt="Логотип Благотворительного фонда Открывая Горизонты"
-						/>
+						<img class="partner__pic partner__pic-horizon" src="<%=require('./images/horizons.svg')%>"
+							alt="Логотип Благотворительного фонда Открывая Горизонты" />
 					</div>
 					<h4 class="partner__info">
 						Фонд работает в 45 регионах и с осени 2021 мы их единственные
@@ -549,11 +545,8 @@
 			<div class="partner popup popup_about_himbio">
 				<div class="partner__window">
 					<div class="partner__logo">
-						<img
-							class="partner__pic partner__pic-himbio"
-							src="<%=require('./images/himbio.svg')%>"
-							alt="Логотип ХимБио"
-						/>
+						<img class="partner__pic partner__pic-himbio" src="<%=require('./images/himbio.svg')%>"
+							alt="Логотип ХимБио" />
 					</div>
 					<h4 class="partner__info">
 						ХимБио — онлайн-школа и выездные программы для детей и подростков со
@@ -568,5 +561,6 @@
 			</div>
 		</main>
 	</div>
-	</body>
+</body>
+
 </html>

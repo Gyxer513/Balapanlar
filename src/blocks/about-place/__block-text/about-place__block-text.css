@@ -1,0 +1,16 @@
+ .about-place__block-text {
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 56px;
+	letter-spacing: -1px;
+	margin: 0;
+	max-width: 430px;
+	position: absolute;
+	bottom: 30px;
+left: 30px;
+color: #1E1E1E;
+}
+
+ .about-place:nth-of-type(2) .about-place__block-text {
+color: #fff;
+}

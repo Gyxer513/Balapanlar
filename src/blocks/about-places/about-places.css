@@ -1,0 +1,13 @@
+.about-places {
+	display: grid;
+    row-gap: 60px;
+		column-gap: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    justify-content: center;
+}
+
+@media screen and (max-width: 1220px) {
+	.about-places {
+		grid-template-columns: repeat(auto-fit,minmax(300px,595px));
+	}
+}

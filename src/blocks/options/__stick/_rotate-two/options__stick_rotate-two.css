@@ -1,4 +1,5 @@
 .options__stick_rotate-two {
-    transform: rotate(45deg) translate(0px, -3px);
+    transform: rotate(45deg) translate(0px, -4px);
+    /* transform: rotate(45deg) translate(0px, -3px); */
     transition: linear 0.2s;
 }

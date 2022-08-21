@@ -1,4 +1,5 @@
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 800px) {
+/* @media screen and (min-width: 801px) { */
     .options {
         display: none;
     }
