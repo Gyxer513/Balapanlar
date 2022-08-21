@@ -1,4 +1,4 @@
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 800px) {
     .options {
         display: none;
     }
@@ -14,7 +14,7 @@
         cursor: pointer;
         position: absolute;
         top: 17px;
-        left: 275px;
+				right: 17px;
         z-index: 65;
         border-style: none;
         display: flex;

@@ -1,5 +1,5 @@
 .link-box__text {
-    margin: 0 255px 0 10px;
+    margin: 0 245px 0 10px;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
@@ -9,7 +9,7 @@
 @media screen and (max-width: 1439px) {
     .link-box__text {
         font-size: 14px;
-        margin: 0 200px 0 10px;
+        margin: 0 145px 0 10px;
     }
 }
 

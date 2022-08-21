@@ -1,6 +1,8 @@
 .header__logo {
     margin: 10px 91px 10px 20px;
     background-image: url(../../../images/балапанлар_лого.svg);
+		background-repeat: no-repeat;
+		background-size: cover;
     width: 101px;
     height: 100px;
 }
@@ -13,21 +15,19 @@
 
 @media screen and (max-width: 1220px) {
     .header__logo {
-        margin: 5px 48px 5px 20px;
+				margin: 5px 0 5px 20px;
         width: 71px;
         height: 70px;
-        background-size: contain;
     }
 }
 
 @media screen and (max-width: 800px) {
-    .header__logo {;
+    .header__logo {
         min-width: 101px;
         height: 22px;
         background-image: url(../../../images/лого_прописной.svg);
         margin: 10px 204px 10px 15px;
         background-repeat: no-repeat;
-        background-size: contain;
     }
 }
 

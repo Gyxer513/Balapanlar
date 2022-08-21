@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 1439px) {
     .page__container {
-        max-width: 1220px;
+				width: 100%;
     }
 }
 
@@ -22,19 +22,9 @@
 @media screen and (max-width: 1220px) {
     .page__container {
         max-width: 800px;
-    } 
+    }
     .page__container:first-child {
         gap: 7px;
     }
 }
-
-@media screen and (max-width: 800px) {
-    .page__container {
-        max-width: 320px;
-    }
-    .page__container:first-child {
-        gap: 0;
-    }
-}
-
 

@@ -15,10 +15,8 @@
   }
 }
 
-
 @media screen and (max-width: 400px) {
     .programming__courses {
-      grid-template-columns: 300px;
       padding: 10px 10px 10px 10px;
     }
   }

@@ -14,6 +14,13 @@
     top: 0;
     left: 0;
     z-index: 6;
+		width: 100%;
+}
+
+@media screen and (min-width: 798px) {
+	.burger-menu {
+display: none;
+	}
 }
 
 

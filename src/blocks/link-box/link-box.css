@@ -8,7 +8,7 @@
     background-color: #AE46FF;
     border-radius: 60px;
     color: #FFFFFF;
-    margin: 326px 120px 10px;
+    margin: 326px auto 10px;
 }
 
 @media screen and (max-width: 1439px) {

@@ -25,3 +25,9 @@
     line-height: 20px;
   }
 }
+
+@media screen and (max-width: 400px) {
+	.button_pale {
+display: none;
+	}
+	}
