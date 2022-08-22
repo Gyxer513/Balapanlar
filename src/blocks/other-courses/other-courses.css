@@ -1,6 +1,6 @@
 .other-courses{
     background-color: none;
-    margin: 10px 0 0 0;
+    margin: 10px auto 0 auto;
     padding: 0 10px 0 10px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -9,14 +9,16 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1124px) {
     .other-courses {
-        justify-content: center;
+			grid-template-columns: 386px;
+			justify-content: center;
     }
   }
 
 @media screen and (max-width: 400px) {
     .other-courses {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+			grid-template-columns: 300px;
+			max-width: 300px;
     }
   }

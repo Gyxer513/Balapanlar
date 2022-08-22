@@ -1,8 +1,8 @@
 .course-block__buttons {
   display: flex;
   flex-direction: row;
-  position: absolute;
-  bottom: 30px;
+	position: absolute;
+	bottom: 30px;
 
 }
 
