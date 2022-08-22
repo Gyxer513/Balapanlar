@@ -8,3 +8,10 @@
     box-sizing: border-box;
     text-align: center;
 }
+
+@media screen and (max-width: 650px) {
+    .pinck-scroll {
+      margin-top: -100px;
+      border-radius: 30px;
+    }
+  }

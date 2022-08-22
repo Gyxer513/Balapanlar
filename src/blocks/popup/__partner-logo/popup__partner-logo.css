@@ -1,0 +1,14 @@
+.popup__partner-logo {
+    width: 344px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media screen and (max-width: 650px) {
+      .popup__partner-logo {
+        width: 290px;
+        height: 200px;
+        border-radius: 30px;
+        border: 2px solid #EAF0FF;
+      }
+    }

@@ -13,3 +13,15 @@
       margin: 0;
     }
   }
+  
+  @media screen and (max-width: 650px) {
+    .partners__logo {
+      border: 2px solid #EAF0FF;
+      border-radius: 30px;
+      width: 290px;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }

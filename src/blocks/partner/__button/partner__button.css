@@ -1,18 +1,14 @@
-.partner__button {
-    align-self: flex-start;
-    margin-top: -15px;
+  .partner__button {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
     font-feature-settings: 'pnum' on, 'lnum' on;
-    color: #000000;
+    width: 342px;
+    height: 64px;
+    position: relative;
+    background-color: #252525;
   }
-  
-  @media screen and (max-width: 650px) {
-    .partner__button {
-      margin-left: 5px;
+    @media screen and (max-width: 650px) {
+      .partner__button {
+        width: 214px;
     }
-  }
+    }
