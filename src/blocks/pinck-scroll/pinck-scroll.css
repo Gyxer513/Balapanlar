@@ -1,6 +1,6 @@
 .pinck-scroll {
 	height: 1000px;
-	width: 1440px;
+	width: 100%;
 	background-color: #ae46ff;
     border-radius: 60px;
     display: flex;

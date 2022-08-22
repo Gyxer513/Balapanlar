@@ -1,0 +1,10 @@
+.partners__logo-button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .partners__logo-button:hover {
+    cursor: pointer;
+  }

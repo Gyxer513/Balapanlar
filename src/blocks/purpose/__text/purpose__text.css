@@ -1,0 +1,10 @@
+.purpose__text {
+		margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+	.purpose__text {
+		letter-spacing: 0.2px;
+	}
+}
+

@@ -1,4 +1,12 @@
 .course-block_other {
     max-width: 386px;
     padding: 30px 30px 30px 30px;
+
 }
+
+/* @media screen and (max-width: 400px) {
+	.course-block_other {
+		padding: 15px;
+	}
+	}
+ */

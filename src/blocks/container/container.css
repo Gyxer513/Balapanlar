@@ -1,23 +1,22 @@
 .container {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    color: black;
-		justify-items: center;
-		margin: 0 auto;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	color: black;
+	justify-items: center;
+	margin: 0 auto;
 }
 
 /* @media screen and (max-width: 1220px) {
-    .container {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-  }
-
-  @media screen and (max-width: 400px) {
-    .container {
-        padding-left: 0;
-        padding-right: 0;
-    }
-  }
- */
+	.container {
+			padding-left: 10px;
+			padding-right: 10px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.container {
+			padding-left: 0;
+			padding-right: 0;
+	}
+}
+*/

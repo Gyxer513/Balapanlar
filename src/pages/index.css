@@ -36,12 +36,40 @@
 @import url(../blocks/list-point/list-point.css);
 @import url(../blocks/list-point/__img/list-point__img.css);
 @import url(../blocks/list-point/__text/list-point__text.css);
+@import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__title/partners__title.css);
+@import url(../blocks/partners/__logo-zone/partners__logo-zone.css);
+@import url(../blocks/partners/__logo/partners__logo.css);
+@import url(../blocks/partners/__pic/partners__pic.css);
+@import url(../blocks/partners/__logo-button/partners__logo-button.css);
+@import url(../blocks/partners/partners_lecturers-button.css);
+@import url(../blocks/partners/partners_horizon-button.css);
+@import url(../blocks/partners/partners_himbio-button.css);
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/popup_opened.css);
+@import url(../blocks/partner/__window/partner__window.css);
+@import url(../blocks/partner/__logo/partner__logo.css);
+@import url(../blocks/partner/__pic/partner__pic_lecturers.css);
+@import url(../blocks/partner/__pic/partner__pic_horizon.css);
+@import url(../blocks/partner/__pic/partner__pic_himbio.css);
+@import url(../blocks/partner/__info/partner__info.css);
+@import url(../blocks/partner/__button/partner__button.css);
+@import url(../blocks/popup/__button/popup__button.css);
+@import url(../blocks/popup/__window/popup__window.css);
+@import url(../blocks/popup/popup_courses.css);
+
+
+
+
+
+
 @import url(../blocks/pinck-scroll/pinck-scroll.css);
 @import url(../blocks/pinck-scroll/__title/pinck-scroll__title.css);
 @import url(../blocks/pinck-scroll/__container/pinck-scroll__container.css);
 @import url(../blocks/pinck-scroll/__container-title/pinck-scroll__container-title.css);
 @import url(../blocks/pinck-scroll/__skills/pinck-scroll__skills.css);
 @import url(../blocks/pinck-scroll/__investing/pinck-scroll__investing.css);
+
 @import url(../blocks/text-overflow/text-overflow.css);
 @import url(../blocks/container/_courses/container_courses.css);
 @import url(../blocks/container/_about/container_about.css);
@@ -67,43 +95,55 @@
 
 
 
+@import url(../blocks/page/__container/page__container.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__info/header__info.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__logo/_scroll/header__logo_scroll.css);
+@import url(../blocks/header/__info/_visible/header__info_visible.css);
+@import url(../blocks/header/_small/header_small.css);
+
+@import url(../blocks/options/options.css);
+@import url(../blocks/options/__stick/options__stick.css);
+@import url(../blocks/options/__stick/_rotate-one/options__stick_rotate-one.css);
+@import url(../blocks/options/__stick/_rotate-two/options__stick_rotate-two.css);
+
+@import url(../blocks/main/main.css);
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_header/button_header.css);
+@import url(../blocks/button/_wallpaper/button_wallpaper.css);
+@import url(../blocks/button/_telegram/button_telegram.css);
+
+@import url(../blocks/wallpaper/wallpaper.css);
+@import url(../blocks/wallpaper/__picture/wallpaper__picture.css);
+@import url(../blocks/wallpaper/__title/wallpaper__title.css);
+
+@import url(../blocks/link-box/link-box.css);
+@import url(../blocks/link-box/__text/link-box__text.css);
+@import url(../blocks/link-box/__logo/link-box__logo.css);
+
+@import url(../blocks/purpose/purpose.css);
+@import url(../blocks/purpose/__text/purpose__text.css);
+
+@import url(../blocks/burger-menu/burger-menu.css);
+@import url(../blocks/burger-menu/_opened/burger-menu_opened.css);
 
 
+.courses_opened {
+    text-align: left;
+}
 
+.popup_courses-icons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
 
+.popup__circle-icon {
+    visibility: hidden;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* оставлено пока в общем файле, т.к. могут поменяться названия классов и необходимость в них под вопросом */

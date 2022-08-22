@@ -1,0 +1,30 @@
+.page__container {
+    max-width: 1440px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.page__container:first-child {
+    gap: 14px;
+}
+
+@media screen and (max-width: 1439px) {
+    .page__container {
+				width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1220px) {
+    .page__container {
+        max-width: 800px;
+    }
+    .page__container:first-child {
+        gap: 7px;
+    }
+}
+

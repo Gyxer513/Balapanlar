@@ -1,0 +1,33 @@
+.link-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    min-height: 72px;
+    background-color: #AE46FF;
+    border-radius: 60px;
+    color: #FFFFFF;
+    margin: 326px auto 10px;
+}
+
+@media screen and (max-width: 1439px) {
+    .link-box {
+        max-width: 1080px;
+        margin: 262px 120px 10px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .link-box {
+        max-width: 660px;
+        min-height: 32px;
+        margin: 221px 70px 5px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .link-box {
+        display: none;
+    }
+}
