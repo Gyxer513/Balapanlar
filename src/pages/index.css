@@ -36,6 +36,8 @@
 @import url(../blocks/list-point/list-point.css);
 @import url(../blocks/list-point/__img/list-point__img.css);
 @import url(../blocks/list-point/__text/list-point__text.css);
+
+/* начинаются стили партнеров */
 @import url(../blocks/partners/partners.css);
 @import url(../blocks/partners/__title/partners__title.css);
 @import url(../blocks/partners/__logo-zone/partners__logo-zone.css);
@@ -45,8 +47,6 @@
 @import url(../blocks/partners/partners_lecturers-button.css);
 @import url(../blocks/partners/partners_horizon-button.css);
 @import url(../blocks/partners/partners_himbio-button.css);
-@import url(../blocks/popup/popup.css);
-@import url(../blocks/popup/popup_opened.css);
 @import url(../blocks/partner/__window/partner__window.css);
 @import url(../blocks/partner/__logo/partner__logo.css);
 @import url(../blocks/partner/__pic/partner__pic_lecturers.css);
@@ -54,13 +54,24 @@
 @import url(../blocks/partner/__pic/partner__pic_himbio.css);
 @import url(../blocks/partner/__info/partner__info.css);
 @import url(../blocks/partner/__button/partner__button.css);
+/* заканчиваются стили партнеров */
+
+/* начинаются стили попапов */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/popup_opened.css);
 @import url(../blocks/popup/__button/popup__button.css);
 @import url(../blocks/popup/__window/popup__window.css);
 @import url(../blocks/popup/popup_courses.css);
-
-
-
-
+@import url(../blocks/popup/popup_partners.css);
+@import url(../blocks/popup/__partner-logo/popup__partner-logo.css);
+@import url(../blocks/popup/__link/popup__link.css);
+@import url(../blocks/popup/__button/_state/popup__button_state_close.css);
+@import url(../blocks/popup/__mobile-link/popup__mobile-link.css);
+@import url(../blocks/popup/_courses/popup_courses_opened.css);
+@import url(../blocks/popup/__courses-icons/popup__courses-icons.css);
+@import url(../blocks/popup/__course-buttons/popup__course-buttons.css);
+@import url(../blocks/popup/popup_course-window.css);
+/* заканчиваются стили попапов */
 
 
 @import url(../blocks/pinck-scroll/pinck-scroll.css);
@@ -112,7 +123,9 @@
 
 @import url(../blocks/main/main.css);
 
-@import url(../blocks/button/button.css);
+/* убрала повторный импорт для стилей кнопки. Сейчас там прописан черный фон, 
+и если импортировать этот стиль после кнопки с другим фоном, то он перетирает все предыдущие стили */
+/* @import url(../blocks/button/button.css); */
 @import url(../blocks/button/_header/button_header.css);
 @import url(../blocks/button/_wallpaper/button_wallpaper.css);
 @import url(../blocks/button/_telegram/button_telegram.css);
@@ -131,19 +144,3 @@
 @import url(../blocks/burger-menu/burger-menu.css);
 @import url(../blocks/burger-menu/_opened/burger-menu_opened.css);
 
-
-.courses_opened {
-    text-align: left;
-}
-
-.popup_courses-icons {
-    display: flex;
-    flex-direction: row;
-    column-gap: 30px;
-}
-
-.popup__circle-icon {
-    visibility: hidden;
-}
-
-/* оставлено пока в общем файле, т.к. могут поменяться названия классов и необходимость в них под вопросом */

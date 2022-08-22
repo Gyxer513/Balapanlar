@@ -1,6 +1,6 @@
 .container_about {
 	background-color: white;
-	border-radius: 60px;
+	border-radius: 60px 60px 0 0;
 	padding: 120px 120px 80px 120px;
 	margin: 120px auto 0 auto;
 	max-width: 1440px;
@@ -8,7 +8,8 @@
 @media screen and (max-width:1124px) {
 	.container_about {
 /* 		max-width: 320px; */
-		padding: 30px 30px 0 30px;
+/* сделала паддинг везде по 30px. В соседнем блоке свои верхние паддинги, нижний отступ для блока О нас тоже нужно оформить в этом блоке */
+		padding: 30px;
 	}
 
 }
@@ -16,7 +17,8 @@
 @media screen and (max-width:400px) {
 	.container_about {
 		max-width: 320px;
-		padding: 30px 0 0 0;
+		/* сделала нижний паддинг 30px, т.к. в макете у этой секции есть нижний отступ такого размера */
+		padding: 30px 0 30px 0;
 	}
 
 }

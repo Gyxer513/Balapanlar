@@ -1,14 +1,7 @@
 import "../pages/index.css";
-
-const lecturersPopup = document.querySelector('.popup_about_lecturers');
-const horizonsPopup = document.querySelector('.popup_about_horizons');
-const himbioPopup = document.querySelector('.popup_about_himbio');
-
-const lecturersButton = document.querySelector('.partners_lecturers-button');
-const horizonsButton = document.querySelector('.partners_horizon-button');
-const himbioButton = document.querySelector('.partners_himbio-button');
-
-const anyPopup = Array.from(document.querySelectorAll('.popup'));
+import { lecturersButton, horizonsButton, himbioButton, pythonButton,
+	lecturersPopup, horizonsPopup, himbioPopup, coursePopup, popupContainer,
+	openPopup, closePopup, createPopup, renderPopup, anyPopup } from "../components/modals.js";
 
 const header = document.querySelector('.header');
 const menue = document.querySelector('.burger-menu');
@@ -38,33 +31,14 @@ options.addEventListener('click', () => {
 
 })
 
-
-function escHandler(evt) {
-	if (evt.key === 'Escape') {
-		const openedPopup = document.querySelector('.popup_opened');
-		closePopup(openedPopup);
-	}
-}
-
-function openPopup(popup) {
-	popup.classList.add('popup_opened');
-	document.addEventListener('keydown', escHandler);
-}
-
-function closePopup(popup) {
-	popup.classList.remove('popup_opened');
-	if (popup.classList.contains('popup_courses')) {
-		clearPopup(popup)
-	}
-	document.removeEventListener('keydown', escHandler);
-}
-
+// слушатели для открытия попапов партнеров
 lecturersButton.addEventListener('click', () => openPopup(lecturersPopup));
 
 horizonsButton.addEventListener('click', () => openPopup(horizonsPopup));
 
 himbioButton.addEventListener('click', () => openPopup(himbioPopup));
 
+// слушатель для закрытия попапов
 anyPopup.forEach((popup) => {
 	popup.addEventListener('mousedown', (evt) => {
 		if (evt.target.classList.contains('popup_opened')) {
@@ -76,47 +50,14 @@ anyPopup.forEach((popup) => {
 	})
 })
 
-//   Пробую сделать вставку элемента в попап
-const pythonButton = document.querySelector("#python");
-const popupContainer = document.querySelector('.popup__window');
-const coursePopup = document.querySelector('.popup_courses');
-
-function createPopup(selector) {
-	const popupElement = document.querySelector(selector).cloneNode(true);
-	const popupNewButton = popupElement.querySelector('.button_pale');
-	const popupIcons = popupElement.querySelector('.course-block__for_container');
-	const circle = document.querySelector('.popup__circle-icon');
-	const popupIconList = Array.from(popupIcons.querySelectorAll('.image'));
-
-	popupElement.classList.add('courses_opened');
-	popupIcons.classList.add('popup_courses-icons');
-	popupElement.classList.remove('course-block');
-	popupNewButton.textContent = "Закрыть";
-
-	popupIconList.forEach((icon) => {
-		icon.src = circle.src;
-		icon.alt = circle.alt;
-	})
-
-	popupNewButton.addEventListener('click', (evt) => {
-		evt.preventDefault();
-		closePopup(coursePopup);
-	})
-	return popupElement;
-}
-function renderPopup(container, element) {
-	container.prepend(element);
-}
-
-function clearPopup(container) {
-	container.querySelector('.courses_opened').remove();
-}
-
+// слушатель для открытия попапа курса Питон
 pythonButton.addEventListener('click', (evt) => {
 	evt.preventDefault();
 	openPopup(coursePopup);
 	renderPopup(popupContainer, createPopup('.course-python'));
 })
+
+
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 

@@ -39,9 +39,9 @@
   @media screen and (max-width: 650px) {
     .partners__logo-zone {
       flex-direction: column;
-      row-gap: 60px;
-      border-radius: 30px;
-      padding: 60px 0;
-      width: 100%;
+      row-gap: 10px;
+      padding: 0 0 49px; 
+      width: calc(100% - 10px*2);
+      border: none;
     }
   }
