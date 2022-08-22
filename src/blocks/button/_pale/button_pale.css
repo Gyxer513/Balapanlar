@@ -1,13 +1,15 @@
 .button_pale {
-	background-color: white;
+	background-color: transparent;;
 	border: none;
 	padding: 0;
 	color: black;
 	margin-left: 30px;
+	transition: 0.3s linear;
 }
 
 .button_pale:hover {
 	transform: scale(1.02);
+	background-color: transparent;
 }
 
 @media screen and (max-width: 880px) {
