@@ -1,0 +1,11 @@
+.list-point__text_course {
+	padding-left: 10px;
+}
+
+@media screen and (max-width: 400px) {
+	.list-point__text_course {
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 20px;
+	}
+}

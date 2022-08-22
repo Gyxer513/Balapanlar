@@ -1,14 +1,23 @@
 .course-block__for {
-    display: flex;
-    flex-direction: row;
-    margin: 0 0 10px 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	margin: 0 0 10px 0;
 }
 
 @media screen and (max-width: 400px) {
-    .course-block__for {
-        display: flex;
-        flex-direction: row;
-        margin: 0 0 10px 0;
-    }
-  }
-  
+	.course-block__for {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		margin: 0 0 10px 0;
+	}
+}

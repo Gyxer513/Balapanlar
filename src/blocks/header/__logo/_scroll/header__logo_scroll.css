@@ -1,38 +1,41 @@
 .header__logo_scroll {
-    margin: 22px 0 22px 20px;
-    width: 192px;
-    height: 0px;
-    overflow: hidden;
-    background-image: url(../../../../images/лого_прописной.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+	margin: 22px 0 22px 20px;
+	width: 192px;
+	height: 0px;
+	overflow: hidden;
+	background-image: url(../../../../images/лого_прописной.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 @media screen and (max-width: 1440px) {
-    .header__logo_scroll {
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 36px;
-        transition: linear 0.1s;
-    }
+	.header__logo_scroll {
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 36px;
+		-webkit-transition: linear 0.1s;
+		-o-transition: linear 0.1s;
+		transition: linear 0.1s;
+	}
 }
 
 @media screen and (max-width: 1220px) {
-    .header__logo_scroll {
-        background-repeat: no-repeat;
-        background-position: center;
-				background-size: contain;
-        width: 104px;
-        height: 36px;
-        transition: linear 0.1s;
-    }
+	.header__logo_scroll {
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+		width: 104px;
+		height: 36px;
+		-webkit-transition: linear 0.1s;
+		-o-transition: linear 0.1s;
+		transition: linear 0.1s;
+	}
 }
 
 @media screen and (max-width: 800px) {
-    .header__logo_scroll {
-        width: 101px;
-        height: 22px;
-        margin: 10px 0 10px 15px;
-
-    }
+	.header__logo_scroll {
+		width: 101px;
+		height: 22px;
+		margin: 10px 0 10px 15px;
+	}
 }

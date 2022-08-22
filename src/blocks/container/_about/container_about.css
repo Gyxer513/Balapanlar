@@ -5,20 +5,18 @@
 	margin: 120px auto 0 auto;
 	max-width: 1440px;
 }
-@media screen and (max-width:1124px) {
+@media screen and (max-width: 1124px) {
 	.container_about {
 /* 		max-width: 320px; */
 /* сделала паддинг везде по 30px. В соседнем блоке свои верхние паддинги, нижний отступ для блока О нас тоже нужно оформить в этом блоке */
 		padding: 30px;
 	}
-
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
 	.container_about {
 		max-width: 320px;
 		/* сделала нижний паддинг 30px, т.к. в макете у этой секции есть нижний отступ такого размера */
 		padding: 30px 0 30px 0;
 	}
-
 }

@@ -1,27 +1,22 @@
 .course-block__description {
-  margin: 25px 0 113px 0;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
+	margin: 25px 0 113px 0;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
 	max-height: 100%;
-
 }
 
-
 @media screen and (max-width: 880px) {
-  .course-block__description {
-    margin: 25px 0 162px 0;
-
-  }
+	.course-block__description {
+		margin: 25px 0 162px 0;
+	}
 }
 
 @media screen and (max-width: 400px) {
-  .course-block__description {
-    margin-top: 20px;
-    margin-bottom: 124px;
-/*     max-width: 269px; */
-    font-size: 16px;
-    line-height: 20px;
-  }
-  }
-
+	.course-block__description {
+		margin-top: 20px;
+		margin-bottom: 124px;
+		font-size: 16px;
+		line-height: 20px;
+	}
+}

@@ -2,19 +2,16 @@
 	margin-left: 20px;
 }
 
-
 @media screen and (max-width: 1220px) {
-    .link-box__logo {
-        width: 15px;
-        height: 13px;
-    }
+	.link-box__logo {
+		width: 15px;
+		height: 13px;
+	}
 }
 
 @media screen and (max-width: 800px) {
-    .link-box__logo {
-        width: 11px;
-        height: 9px;
-    }
+	.link-box__logo {
+		width: 11px;
+		height: 9px;
+	}
 }
-
-
