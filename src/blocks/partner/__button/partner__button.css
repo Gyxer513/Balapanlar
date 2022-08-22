@@ -1,18 +1,20 @@
 .partner__button {
-    align-self: flex-start;
-    margin-top: -15px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    font-feature-settings: 'pnum' on, 'lnum' on;
-    color: #000000;
-  }
-  
-  @media screen and (max-width: 650px) {
-    .partner__button {
-      margin-left: 5px;
-    }
-  }
+	-ms-flex-item-align: start;
+	align-self: flex-start;
+	margin-top: -15px;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	-webkit-font-feature-settings: "pnum" on, "lnum" on;
+	font-feature-settings: "pnum" on, "lnum" on;
+	color: #000000;
+}
+
+@media screen and (max-width: 650px) {
+	.partner__button {
+		margin-left: 5px;
+	}
+}

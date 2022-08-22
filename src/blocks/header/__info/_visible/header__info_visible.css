@@ -1,3 +1,5 @@
 .header__info_visible {
-    display: flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 }

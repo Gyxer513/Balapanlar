@@ -1,20 +1,30 @@
 .course-block__buttons {
-  display: flex;
-  flex-direction: row;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
 	position: absolute;
 	bottom: 30px;
-
 }
 
-@media screen and (max-width: 880px) {
-  .course-block__buttons {
-    flex-direction: column-reverse;
-  }
-  }
+@media screen and (max-width: 600px) {
+	.course-block__buttons {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		-ms-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+	}
+}
 
-  @media screen and (max-width: 400px) {
-    .course-block__buttons {
-      flex-direction: column-reverse;
-      bottom: 20px;
-    }
-    }
+@media screen and (max-width: 400px) {
+	.course-block__buttons {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		-ms-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+		bottom: 20px;
+	}
+}

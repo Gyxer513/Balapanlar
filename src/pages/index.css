@@ -36,6 +36,7 @@
 @import url(../blocks/list-point/list-point.css);
 @import url(../blocks/list-point/__img/list-point__img.css);
 @import url(../blocks/list-point/__text/list-point__text.css);
+@import url(../blocks/list-point/__text/_course/list-point__text_course.css);
 @import url(../blocks/partners/partners.css);
 @import url(../blocks/partners/__title/partners__title.css);
 @import url(../blocks/partners/__logo-zone/partners__logo-zone.css);
@@ -78,6 +79,7 @@
 @import url(../blocks/section-blocks/_about/section-blocks_about.css);
 @import url(../blocks/block/block.css);
 @import url(../blocks/block/__div/block__div.css);
+@import url(../blocks/block/_about/block_about.css);
 @import url(../blocks/picture/picture.css);
 @import url(../blocks/picture-color/picture-color.css);
 @import url(../blocks/picture-text/picture-text.css);
@@ -112,7 +114,7 @@
 
 @import url(../blocks/main/main.css);
 
-@import url(../blocks/button/button.css);
+
 @import url(../blocks/button/_header/button_header.css);
 @import url(../blocks/button/_wallpaper/button_wallpaper.css);
 @import url(../blocks/button/_telegram/button_telegram.css);

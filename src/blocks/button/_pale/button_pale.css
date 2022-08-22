@@ -1,26 +1,25 @@
+.button_pale {
+	background-color: white;
+	border: none;
+	padding: 0;
+	color: black;
+	margin-left: 30px;
+}
 
+.button_pale:hover {
+	transform: scale(1.02);
+}
+
+@media screen and (max-width: 880px) {
 	.button_pale {
-		background-color: white;
-		border: none;
-		padding: 0;
-		color: black;
-		margin-left: 30px;
+		font-size: 16px;
+		line-height: 20px;
 	}
+}
 
-	.button_pale:hover {
-		transform: scale(1.02);
+@media screen and (max-width: 600px) {
+	.button_pale {
+		margin-left: 0;
+		margin-bottom: 20px;
 	}
-
-	@media screen and (max-width: 880px) {
-		.button_pale {
-			margin-left: 0;
-			margin-bottom: 20px;
-		}
-	}
-
-	@media screen and (max-width: 880px) {
-		.button_pale {
-			font-size: 16px;
-			line-height: 20px;
-		}
-	}
+}

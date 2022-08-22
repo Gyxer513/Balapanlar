@@ -3,9 +3,8 @@
 	margin: 0;
 }
 
-
 @media screen and (max-width: 400px) {
-.price-block {
-	max-width: 269px;
+	.price-block {
+		max-width: 269px;
 	}
 }

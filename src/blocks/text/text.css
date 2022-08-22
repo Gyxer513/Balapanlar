@@ -1,15 +1,19 @@
 .text {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  margin: 0 0 0 10px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin: 0 0 0 10px;
 }
 
 @media screen and (max-width: 400px) {
-  .text {
-    font-size: 16px;
-    line-height: 20px;
-  }
+	.text {
+		font-size: 16px;
+		line-height: 20px;
+	}
 }

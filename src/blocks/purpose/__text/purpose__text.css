@@ -1,5 +1,5 @@
 .purpose__text {
-		margin: 0;
+	margin: 0;
 }
 
 @media screen and (max-width: 800px) {
@@ -8,3 +8,9 @@
 	}
 }
 
+@media screen and (max-width: 400px) {
+	.purpose__text {
+		letter-spacing: 0.2px;
+		margin-left: 15px;
+	}
+}

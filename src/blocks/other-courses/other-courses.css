@@ -1,24 +1,30 @@
-.other-courses{
-    background-color: none;
-    margin: 10px auto 0 auto;
-    padding: 0 10px 0 10px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 10px;
-    margin: 10px auto 0 auto;
-    justify-content: center;
+.other-courses {
+	background-color: none;
+	margin: 10px auto 0 auto;
+	padding: 0 10px 0 10px;
+	display: -ms-grid;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 10px;
+	margin: 10px auto 0 auto;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 }
 
-@media screen and (max-width: 1124px) {
-    .other-courses {
-			grid-template-columns: 386px;
-			justify-content: center;
-    }
-  }
+@media screen and (max-width: 1220px) {
+	.other-courses {
+		grid-template-columns: repeat(auto-fit, minmax(300px, 100%));
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+}
 
 @media screen and (max-width: 400px) {
-    .other-courses {
-			grid-template-columns: 300px;
-			max-width: 300px;
-    }
-  }
+	.other-courses {
+		-ms-grid-columns: 300px;
+		grid-template-columns: 300px;
+		max-width: 300px;
+	}
+}

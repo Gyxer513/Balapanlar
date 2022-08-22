@@ -2,9 +2,15 @@
 	height: 1000px;
 	width: 100%;
 	background-color: #ae46ff;
-    border-radius: 60px;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    text-align: center;
+	border-radius: 60px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
 }

@@ -7,7 +7,7 @@
 	margin: 18px 0 0 0;
 }
 
-@media screen and (max-width:1220px) {
+@media screen and (max-width: 1220px) {
 	.block__description_price {
 		max-width: 595px;
 		margin-left: 0;
@@ -20,15 +20,13 @@
 		margin-bottom: 84px;
 		margin-right: 65px;
 	}
-
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
 	.block__description_price {
 		margin-top: 20px;
 	}
 	.block__description_price:last-of-type {
 		margin-top: 20px;
 	}
-
 }

@@ -1,21 +1,21 @@
 .link-box__text {
-    margin: 0 245px 0 10px;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: -0.5px;
+	margin: 0 245px 0 10px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: -0.5px;
 }
 
 @media screen and (max-width: 1439px) {
-    .link-box__text {
-        font-size: 14px;
-        margin: 0 145px 0 10px;
-    }
+	.link-box__text {
+		font-size: 14px;
+		margin: 0 145px 0 10px;
+	}
 }
 
 @media screen and (max-width: 1220px) {
-    .link-box__text {
-        font-size: 9px;
-        line-height: 10px;
-    }
+	.link-box__text {
+		font-size: 9px;
+		line-height: 10px;
+	}
 }

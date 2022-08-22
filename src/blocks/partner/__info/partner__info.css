@@ -1,15 +1,12 @@
 .partner__info {
     padding: 0;
     margin: 0;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    font-feature-settings: 'pnum' on, 'lnum' on;
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
     color: #000000;
   }
-  
+
   @media screen and (max-width: 650px) {
     .partner__info {
       margin-top: -10px;

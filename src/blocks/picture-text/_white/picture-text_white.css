@@ -3,3 +3,9 @@
 	max-width: 429px;
 	text-align: left;
 }
+
+@media screen and (max-width: 400px) {
+	.picture-text_white {
+		max-width: 209px;
+	}
+}
