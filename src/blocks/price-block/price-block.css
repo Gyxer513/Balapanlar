@@ -1,11 +1,10 @@
 .price-block {
-    max-width: 342px;
-		margin: 0;
+	max-width: 342px;
+	margin: 0;
 }
-
 
 @media screen and (max-width: 400px) {
 	.price-block {
-    max-width: 269px;
-}
+		max-width: 269px;
+	}
 }

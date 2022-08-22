@@ -1,0 +1,31 @@
+@media screen and (min-width: 800px) {
+	.options {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.options {
+		display: inline-block;
+		background-color: #ffff;
+		width: 28px;
+		height: 8px;
+		padding: 0;
+		cursor: pointer;
+		position: absolute;
+		top: 17px;
+		right: 17px;
+		z-index: 65;
+		border-style: none;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+}

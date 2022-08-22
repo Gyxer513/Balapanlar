@@ -1,0 +1,40 @@
+.button_wallpaper {
+	background-color: #ff7628;
+	min-width: 395px;
+	min-height: 104px;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 34px;
+	text-align: center;
+	letter-spacing: -0.5px;
+	padding: 0;
+}
+
+.button_wallpaper:hover {
+	background-color: #ff8540;
+}
+
+@media screen and (max-width: 1439px) {
+	.button_wallpaper {
+		min-width: 320px;
+		min-height: 70px;
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 1220px) {
+	.button_wallpaper {
+		min-width: 200px;
+		min-height: 50px;
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.button_wallpaper {
+		min-width: 224px;
+		min-height: 52px;
+		font-size: 16px;
+		line-height: 20px;
+	}
+}

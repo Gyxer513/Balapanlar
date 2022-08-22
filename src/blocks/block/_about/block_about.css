@@ -1,0 +1,8 @@
+@media screen and (max-width: 1224px) {
+	.block_about {
+		margin-bottom: 60px;
+	}
+	.block_about:last-of-type {
+		margin-bottom: 0;
+	}
+}

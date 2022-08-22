@@ -1,0 +1,6 @@
+.burger-menu_opened {
+	height: 422px;
+	-webkit-transition: linear 0.3s;
+	-o-transition: linear 0.3s;
+	transition: linear 0.3s;
+}

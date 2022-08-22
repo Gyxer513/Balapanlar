@@ -1,8 +1,13 @@
 .list-point {
-    display: flex;
-    margin: 0 0 15px 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 0 0 15px 0;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 .list-point:last-of-type {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }

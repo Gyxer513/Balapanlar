@@ -1,26 +1,25 @@
 .button {
-  border-radius: 50px;
-  padding: 20px 20px 20px 20px;
-  background-color: rgba(37, 37, 37, 1);
-  border: none;
-  color: white;
-  cursor: pointer;
-  transition: 0.4s linear;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
+	border-radius: 50px;
+	padding: 20px 20px 20px 20px;
+	background-color: rgba(37, 37, 37, 1);
+	border: none;
+	color: #ffff;
+	cursor: pointer;
+	transition: 0.4s linear;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
 }
 
-  .button:hover {
-    background-color: rgb(90, 87, 87);
-  }
+.button:hover {
+	background-color: rgb(90, 87, 87);
+}
 
-
-  @media screen and (max-width: 400px) {
-    .button {
-      border-radius: 50px;
-      padding: 20px 28px 20px 28px;
-      font-size: 20px;
-      line-height: 24px;
-    }
-    }
+@media screen and (max-width: 400px) {
+	.button {
+		border-radius: 50px;
+		padding: 20px 28px 20px 28px;
+		font-size: 20px;
+		line-height: 24px;
+	}
+}

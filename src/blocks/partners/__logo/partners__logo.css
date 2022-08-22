@@ -1,0 +1,33 @@
+.partners__logo:last-child {
+	margin: 0 4px 0 18px;
+}
+
+@media screen and (max-width: 950px) {
+	.partners__logo:last-child {
+		margin: 0 0 0 8px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.partners__logo:last-child {
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.partners__logo {
+		border: 2px solid #eaf0ff;
+		border-radius: 30px;
+		width: 290px;
+		height: 200px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+}
