@@ -103,7 +103,7 @@
 						советы нашим преподавателям на местах.
 					</p>
 					<div class="section-blocks section-blocks_courses">
-						<article class="course-block">
+						<article class="course-block course-python">
 							<h3 class="course-block__name">Python Start</h3>
 							<!-- Я обернула иконки пока только этой карточки в контейнер, чтобы внутри него можно было поменять направление иконок -->
 							<div class="course-block__for_container">
@@ -292,12 +292,6 @@
 					</article>
 				</div>
 			</section>
-			<!-- Попап для отображения полной карточки курса -->
-			<div class="popup popup_courses">
-				<div class="popup__window">
-					<img class="popup__circle-icon" src="<%=require('./images/greyicon.svg')%>" alt="Иконка" />
-				</div>
-			</div>
 
 			<section class="price-container">
 				<div class="price-block">
@@ -543,59 +537,82 @@
 				</ul>
 			</section> -->
 
-			<div class="partner popup popup_about_lecturers">
-				<div class="partner__window">
-					<div class="partner__logo">
+			<article class="partner popup popup_about_lecturers">
+				<div class="partner__window popup_partners">
+					<div class="popup__partner-logo">
 						<img class="partner__pic partner__pic-lecturers" src="<%=require('./images/image-109175.svg')%>"
 							alt="Логотип Lecturers Without Borders" />
 					</div>
-					<h4 class="partner__info">
+					<div class="partner__info">
+						<p class="partner__text">
 						Lecturers Without Borders - сообщество молодых учёных со всего
 						мира, которые проводят лекции и мастер-классы для школ. Среди
 						лекторов много учёных из России. Для нас математики из Сорбонны
 						проводили занятия по квази-кристаллам, а в будущем мы планируем
 						привозить лекторов в наш центр.
-					</h4>
-					<button class="partner__button popup__button" type="button">
-						Закрыть
+						</p>
+					</div>
+					<button class="button popup__button partner__button" type="button">
+						<a class="popup__link" href="#">Перейти на сайт партнера
+							<a class ="popup__mobile-link" href="#">Сайт партнера</a>
+						</a>
 					</button>
+    				<button class="popup__button popup__button_state_close"></button>
 				</div>
-			</div>
+			</article>
 
-			<div class="partner popup popup_about_horizons">
-				<div class="partner__window">
-					<div class="partner__logo">
+			<article class="partner popup popup_about_horizons">
+				<div class="partner__window popup_partners">
+					<div class="popup__partner-logo">
 						<img class="partner__pic partner__pic-horizon" src="<%=require('./images/horizons.svg')%>"
 							alt="Логотип Благотворительного фонда Открывая Горизонты" />
 					</div>
-					<h4 class="partner__info">
-						Фонд работает в 45 регионах и с осени 2021 мы их единственные
-						партнёры в Карачаево-Черкесии. Совместно проводим программу
-						профориентации «Поколение Выбор». В 2021–2022 в ней приняли
-						участие 35 подростков из 2 школ аула Икон-Халк и посёлка
-						Эркен-Шахар. В сезоне 2022–2023 планируются ещё две школы.
-					</h4>
-					<button class="partner__button popup__button" type="button">
-						Закрыть
+					<div class="partner__info">
+						<p class="partner__text">
+							Фонд работает в 45 регионах и с осени 2021 мы их единственные
+							партнёры в Карачаево-Черкесии.
+						</p>
+						<p class="partner__text">
+							Совместно проводим программу
+							профориентации «Поколение Выбор». В 2021–2022 в ней приняли
+							участие 35 подростков из 2 школ аула Икон-Халк и посёлка
+							Эркен-Шахар. В сезоне 2022–2023 планируются ещё две школы.
+						</p>
+					</div>
+					<button class="button popup__button partner__button" type="button">
+						<a class="popup__link" href="#">Перейти на сайт партнера
+							<a class ="popup__mobile-link" href="#">Сайт партнера</a>
+						</a>
 					</button>
+    				<button class="popup__button popup__button_state_close"></button>
 				</div>
-			</div>
+			</article>
 
-			<div class="partner popup popup_about_himbio">
-				<div class="partner__window">
-					<div class="partner__logo">
+			<article class="partner popup popup_about_himbio">
+				<div class="partner__window popup_partners">
+					<div class="popup__partner-logo">
 						<img class="partner__pic partner__pic-himbio" src="<%=require('./images/himbio.svg')%>"
 							alt="Логотип ХимБио" />
 					</div>
-					<h4 class="partner__info">
-						ХимБио — онлайн-школа и выездные программы для детей и подростков
-						со всего мира! Занимаются здесь химией, биологией и физикой, много
-						практики и опытов. Летом детей и подростков ждут экспедиции, а во
-						время учебного года — курсы по самым разным направлениям.
-					</h4>
-					<button class="partner__button popup__button" type="button">
-						Закрыть
+					<div class="partner__info">
+						<p class="partner__text">
+							ХимБио — онлайн-школа и выездные программы для детей и подростков
+							со всего мира! Занимаются здесь химией, биологией и физикой, много
+							практики и опытов. Летом детей и подростков ждут экспедиции, а во
+							время учебного года — курсы по самым разным направлениям.
+						</p>
+					</div>
+					<button class="button popup__button partner__button" type="button">
+						<a class="popup__link" href="#">Перейти на сайт партнера
+							<a class ="popup__mobile-link" href="#">Сайт партнера</a>
+						</a>
 					</button>
+    				<button class="popup__button popup__button_state_close"></button>
+				</div>
+			</article>
+			<!-- Попап для отображения полной карточки курса -->
+			<div class="popup popup_courses">
+				<div class="popup__window popup_course-window">
 				</div>
 			</div>
 		</main>

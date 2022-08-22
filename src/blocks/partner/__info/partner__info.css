@@ -5,6 +5,7 @@
     flex-direction: column;
     row-gap: 22px;
     color: #000000;
+
   }
 
   @media screen and (max-width: 650px) {
