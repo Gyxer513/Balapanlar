@@ -54,6 +54,7 @@
 @import url(../blocks/partner/__pic/partner__pic_himbio.css);
 @import url(../blocks/partner/__info/partner__info.css);
 @import url(../blocks/partner/__button/partner__button.css);
+@import url(../blocks/partner/__text/partner__text.css);
 /* заканчиваются стили партнеров */
 
 /* начинаются стили попапов */
@@ -143,4 +144,3 @@
 
 @import url(../blocks/burger-menu/burger-menu.css);
 @import url(../blocks/burger-menu/_opened/burger-menu_opened.css);
-
