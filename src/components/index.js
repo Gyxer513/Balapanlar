@@ -24,6 +24,7 @@ const headerLogo = document.querySelector(".header__logo");
 const options = document.querySelector(".options");
 const stickOne = document.querySelector("#bar1");
 const stickTwo = document.querySelector("#bar2");
+const wallpaper = document.querySelector('.wallpaper')
 
 // изменение хэдэра при скролле
 window.onscroll = () => {
@@ -32,9 +33,11 @@ window.onscroll = () => {
 	if (Y > 27) {
 		header.classList.add("header_small");
 		headerLogo.classList.add("header__logo_scroll");
+		wallpaper.classList.remove("wallpaper_padding");
 	} else if (Y < 27) {
 		headerLogo.classList.remove("header__logo_scroll");
 		header.classList.remove("header_small");
+		wallpaper.classList.add("wallpaper_padding");
 	}
 };
 
@@ -70,7 +73,7 @@ pythonButton.addEventListener("click", (evt) => {
 	openPopup(coursePopup);
 	renderPopup(popupContainer, createPopup(".course-python"));
 });
-console.log(document.body.clientWidth)
+
  if (document.body.clientWidth > 1299) { 
 	gsap.registerPlugin(ScrollTrigger);
 	const sections = gsap.utils.toArray(".panel");

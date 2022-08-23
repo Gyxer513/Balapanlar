@@ -124,6 +124,7 @@
 @import url(../blocks/header/__info/_visible/header__info_visible.css);
 @import url(../blocks/header/_small/header_small.css);
 
+
 @import url(../blocks/options/options.css);
 @import url(../blocks/options/__stick/options__stick.css);
 @import url(../blocks/options/__stick/_rotate-one/options__stick_rotate-one.css);
@@ -139,6 +140,7 @@
 @import url(../blocks/button/_header/button_header.css);
 @import url(../blocks/button/_wallpaper/button_wallpaper.css);
 @import url(../blocks/button/_telegram/button_telegram.css);
+@import url(../blocks/wallpaper/wallpaper_no-padding.css);
 
 @import url(../blocks/wallpaper/wallpaper.css);
 @import url(../blocks/wallpaper/__picture/wallpaper__picture.css);
