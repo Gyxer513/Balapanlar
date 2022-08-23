@@ -1,7 +1,7 @@
 .popup__button_state_close {
     position: absolute;
-    width: 22px;
-    height: 22px;
+    width: 30px;
+    height: 30px;
     right: 35px;
     top: 35px;
     background-color: transparent;
@@ -10,6 +10,13 @@
     background-size: contain;
     transform: matrix(-1, 0, 0, 1, 0, 0);
   }
+
+	.popup__button_state_close:hover {
+		opacity: 0.6;
+		-webkit-transition: linear 0.3s;
+		-o-transition: linear 0.3s;
+		transition: linear 0.3s;
+	}
   @media screen and (max-width: 650px){
     .popup__button_state_close{
       top: -35px;

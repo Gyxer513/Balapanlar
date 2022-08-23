@@ -1,7 +1,7 @@
 .header__logo_scroll {
 	margin: 22px 0 22px 20px;
 	width: 192px;
-	height: 0px;
+	height: 36px;
 	overflow: hidden;
 	background-image: url(../../../../images/лого_прописной.svg);
 	background-repeat: no-repeat;
@@ -12,7 +12,6 @@
 	.header__logo_scroll {
 		background-repeat: no-repeat;
 		background-position: center;
-		height: 36px;
 		-webkit-transition: linear 0.1s;
 		-o-transition: linear 0.1s;
 		transition: linear 0.1s;
@@ -25,7 +24,6 @@
 		background-position: center;
 		background-size: contain;
 		width: 104px;
-		height: 36px;
 		-webkit-transition: linear 0.1s;
 		-o-transition: linear 0.1s;
 		transition: linear 0.1s;

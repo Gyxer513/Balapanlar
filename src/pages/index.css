@@ -155,3 +155,11 @@
 
 @import url(../blocks/burger-menu/burger-menu.css);
 @import url(../blocks/burger-menu/_opened/burger-menu_opened.css);
+
+
+.list_courses {
+	max-height: 44px;
+	max-width: 502px;
+	overflow: hidden;
+}
+
