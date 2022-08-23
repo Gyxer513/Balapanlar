@@ -1,5 +1,7 @@
 .list-point__text_course {
 	padding-left: 10px;
+	max-width: 502px;
+
 }
 
 @media screen and (max-width: 400px) {
