@@ -1,0 +1,22 @@
+.scroll__education-image {
+	width: 420px;
+	height: 420px;
+}
+@media screen and (max-width: 1439px) {
+	.scroll__education-image {
+		width: 400px;
+		height: 400px;
+	}
+}
+@media screen and (max-width: 1220px) {
+	.scroll__education-image {
+		width: 350px;
+		height: 350px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.scroll__education-image {
+		width: 230px;
+		height: 230px;
+	}
+}

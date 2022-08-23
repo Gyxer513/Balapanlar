@@ -1,0 +1,20 @@
+.scroll__skills {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	text-align: center;
+	margin-left: 292px;
+}
+@media screen and (max-width: 1439px) {
+	.scroll__skills {
+		margin-left: 265px;
+		display: flex;
+        flex-direction: column;
+	}
+}
+@media screen and (max-width: 1299px) {
+	.scroll__skills {
+		margin: 30px auto 0 auto;
+	}
+}

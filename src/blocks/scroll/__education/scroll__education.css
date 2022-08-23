@@ -1,0 +1,19 @@
+.scroll__education {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-left: 392px;
+}
+
+@media screen and (max-width: 1439px) {
+	.scroll__education {
+		margin-left: 340px;
+	}
+}
+
+@media screen and (max-width: 1299px) {
+	.scroll__education {
+		margin: 0 auto 0 auto;
+	}
+}

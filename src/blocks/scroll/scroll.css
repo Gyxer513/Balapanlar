@@ -1,0 +1,44 @@
+.scroll {
+	height: 1000px;
+	width: 100%;
+	background-color: #ae46ff;
+	border-radius: 60px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+	overflow-x: hidden;
+	padding: 0;
+}
+
+@media screen and (max-width: 1299px) {
+    .scroll {
+		height: 2000px;
+    }
+}
+@media screen and (max-width: 1220px) {
+    .scroll {
+		height: 1500px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .scroll {
+		height: 1600px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .scroll {
+		height: 1270px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .scroll {
+		height: 1387px;
+    }
+}
