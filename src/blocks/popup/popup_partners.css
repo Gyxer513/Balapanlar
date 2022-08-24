@@ -6,6 +6,16 @@
     box-sizing: border-box;
     row-gap: 40px;
   }
+
+  @media screen and (max-width: 950px) {
+    .popup_partners {
+      padding: 30px;
+      margin-top: 45px;
+      row-gap: 30px;
+      max-width: calc(100% - 2*75px);
+    }
+  }
+
   @media screen and (max-width: 650px) {
     .popup_partners {
       padding: 10px;

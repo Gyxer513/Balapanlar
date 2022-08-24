@@ -36,7 +36,8 @@ export function closePopup(popup) {
 
 export function createPopup(selector) {
 	const popupElement = document.querySelector(selector).cloneNode(true);
-	const popupNewButton = popupElement.querySelector('.button_pale');
+	const popupPaleButton = popupElement.querySelector('.button_pale');
+	const popupCloseButton = coursePopup.querySelector('.popup__button_state_close');
 	const popupIcons = popupElement.querySelector('.course-block__for_container');
 	const popupButtonContainer = popupElement.querySelector('.course-block__buttons');
 	const ulList = popupElement.querySelector('.list_courses');
@@ -51,7 +52,7 @@ export function createPopup(selector) {
 	popupElement.classList.remove('course-block');
 	popupButtonContainer.classList.remove('course-block__buttons');
 	popupButtonContainer.classList.add('popup__course-buttons');
-/* 	popupNewButton.textContent = "Смотреть все навыки"; */
+	popupPaleButton.remove();
 
 	liText.forEach((item) => {
 		item.classList.remove('text-overflow');
@@ -59,7 +60,7 @@ export function createPopup(selector) {
 
 
 
-	popupNewButton.addEventListener('click', (evt) => {
+	popupCloseButton.addEventListener('click', (evt) => {
 		evt.preventDefault();
 		closePopup(coursePopup);
 	})
