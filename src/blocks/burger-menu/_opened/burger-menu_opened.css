@@ -1,6 +1,14 @@
-.burger-menu_opened {
-	height: 422px;
-	-webkit-transition: linear 0.3s;
-	-o-transition: linear 0.3s;
-	transition: linear 0.3s;
+@media screen and (max-width: 800px) {
+	.burger-menu_opened {
+		height: 817px;
+		-webkit-transition: linear 0.3s;
+		-o-transition: linear 0.3s;
+		transition: linear 0.3s;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.burger-menu_opened {
+		height: 422px;
+	}
 }

@@ -37,6 +37,26 @@
 
 @media screen and (max-width: 800px) {
 	.link-box {
-		display: none;
+		max-width: 594px;
+		min-height: 90px;
+		margin: 447px 75px 10px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.link-box {
+		max-width: 100%;
+		margin: 323px 0 0;
+		border-radius: 30px;
+		min-height: 224px;
+		flex-direction: column;
+		gap: 15px;
+
+	}
+}
+
+@media screen and (max-width: 478px) {
+	.link-box {
+		margin: 228px 0 0;
 	}
 }

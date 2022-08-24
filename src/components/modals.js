@@ -11,11 +11,13 @@ export const popupContainer = document.querySelector('.popup__window');
 export const coursePopup = document.querySelector('.popup_courses');
 
 export const anyPopup = Array.from(document.querySelectorAll('.popup'));
+const header = document.querySelector(".header");
 
 export function escHandler(evt) {
 	if (evt.key === 'Escape') {
 		const openedPopup = document.querySelector('.popup_opened');
 		closePopup(openedPopup);
+		header.style.display = 'flex';
 	}
 }
 

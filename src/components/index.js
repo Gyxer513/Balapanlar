@@ -60,9 +60,11 @@ anyPopup.forEach((popup) => {
 	popup.addEventListener("mousedown", (evt) => {
 		if (evt.target.classList.contains("popup_opened")) {
 			closePopup(popup);
+			header.style.display = 'flex';
 		}
 		if (evt.target.classList.contains("popup__button_state_close")) {
 			closePopup(popup);
+			header.style.display = 'flex';
 		}
 	});
 });
@@ -71,10 +73,11 @@ anyPopup.forEach((popup) => {
 pythonButton.addEventListener("click", (evt) => {
 	evt.preventDefault();
 	openPopup(coursePopup);
+	header.style.display = 'none';
 	renderPopup(popupContainer, createPopup(".course-python"));
 });
 
- if (document.body.clientWidth > 1299) { 
+ if (document.body.clientWidth > 1299) {
 	gsap.registerPlugin(ScrollTrigger);
 	const sections = gsap.utils.toArray(".panel");
 

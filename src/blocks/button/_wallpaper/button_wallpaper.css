@@ -32,6 +32,15 @@
 
 @media screen and (max-width: 800px) {
 	.button_wallpaper {
+		min-width: 395px;
+		min-height: 104px;
+		font-size: 28px;
+		line-height: 34px;
+	}
+}
+
+@media screen and (max-width: 478px) {
+	.button_wallpaper {
 		min-width: 224px;
 		min-height: 52px;
 		font-size: 16px;
