@@ -1,4 +1,17 @@
 .popup__course-buttons {
-    left: 30px;
-    bottom: 30px;
+/*     left: 30px;
+    bottom: 30px; */
+		display: flex;
+    margin-top: -83px;
+}
+
+@media screen and (max-width:640px) {
+	.popup__course-buttons {
+		/*     left: 30px;
+				bottom: 30px; */
+				display: flex;
+				flex-direction: column-reverse;
+				margin-top: -83px;
+				align-items: flex-start;
+		}
 }
