@@ -39,12 +39,25 @@ export function createPopup(selector) {
 	const popupNewButton = popupElement.querySelector('.button_pale');
 	const popupIcons = popupElement.querySelector('.course-block__for_container');
 	const popupButtonContainer = popupElement.querySelector('.course-block__buttons');
+	const ulList = popupElement.querySelector('.list_courses');
+	const liText = popupElement.querySelectorAll('.list-point__text');
+
+
 
 	popupElement.classList.add('popup_courses_opened');
 	popupIcons.classList.add('popup__courses-icons');
+	ulList.classList.add('list_courses_popup');
+
 	popupElement.classList.remove('course-block');
+	popupButtonContainer.classList.remove('course-block__buttons');
 	popupButtonContainer.classList.add('popup__course-buttons');
-	popupNewButton.textContent = "Закрыть";
+/* 	popupNewButton.textContent = "Смотреть все навыки"; */
+
+	liText.forEach((item) => {
+		item.classList.remove('text-overflow');
+	})
+
+
 
 	popupNewButton.addEventListener('click', (evt) => {
 		evt.preventDefault();

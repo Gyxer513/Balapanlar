@@ -5,6 +5,7 @@
 	color: black;
 	margin-left: 30px;
 	transition: 0.3s linear;
+	max-width: 231px;
 }
 
 .button_pale:hover {
