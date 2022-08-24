@@ -18,7 +18,7 @@
 		transition: linear 0.3s;
 	}
 
-  @media screen and (max-width: 650px){
+  @media screen and (max-width: 950px){
     .popup__button_state_close{
       top: -35px;
       right: 0px;

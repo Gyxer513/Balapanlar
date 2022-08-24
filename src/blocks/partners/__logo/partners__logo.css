@@ -2,19 +2,13 @@
 	margin: 0 4px 0 18px;
 }
 
-@media screen and (max-width: 950px) {
-	.partners__logo:last-child {
-		margin: 0 0 0 8px;
-	}
-}
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
 	.partners__logo:last-child {
 		margin: 0;
 	}
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1200px) {
 	.partners__logo {
 		border: 2px solid #eaf0ff;
 		border-radius: 30px;
