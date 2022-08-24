@@ -5,7 +5,13 @@
 
 @media screen and (max-width: 1200px) {
     .popup_course-window{
-        max-width: 100%;
-				overflow-y: scroll;
+        max-width: calc(100% - 80px*2);
+		overflow-y: scroll;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .popup_course-window{
+        max-width: calc(100% - 10px*2);
     }
 }
