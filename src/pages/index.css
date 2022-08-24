@@ -99,6 +99,7 @@
 
 @import url(../blocks/burger-menu/burger-menu.css);
 @import url(../blocks/burger-menu/_opened/burger-menu_opened.css);
+@import url(../blocks/popup/__exit/popup__exit.css);
 
 .courses_opened {
     text-align: left;

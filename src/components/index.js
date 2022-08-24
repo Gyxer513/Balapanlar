@@ -4,6 +4,8 @@ const lecturersPopup = document.querySelector('.popup_about_lecturers');
 const horizonsPopup = document.querySelector('.popup_about_horizons');
 const himbioPopup = document.querySelector('.popup_about_himbio');
 
+
+
 const lecturersButton = document.querySelector('.partners_lecturers-button');
 const horizonsButton = document.querySelector('.partners_horizon-button');
 const himbioButton = document.querySelector('.partners_himbio-button');
@@ -16,6 +18,8 @@ const headerLogo = document.querySelector('.header__logo');
 const options = document.querySelector('.options');
 const stickOne = document.querySelector('#bar1');
 const stickTwo = document.querySelector('#bar2');
+
+const popupExitButton = document.querySelector('.popup__exit');
 
 // изменение хэдэра при скролле
 window.onscroll = () => {
@@ -64,6 +68,9 @@ lecturersButton.addEventListener ('click', () => openPopup(lecturersPopup));
 horizonsButton.addEventListener ('click', () => openPopup(horizonsPopup));
 
 himbioButton.addEventListener ('click', () => openPopup(himbioPopup));
+
+popupExitButton.addEventListener ('click', () => closePopup(coursePopup));
+
 
 anyPopup.forEach((popup) => {
     popup.addEventListener('mousedown', (evt) => {

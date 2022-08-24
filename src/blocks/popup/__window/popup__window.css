@@ -12,4 +12,5 @@
     flex-direction: column;
     row-gap: 30px;
     align-items: center;
+		position: relative;
   }

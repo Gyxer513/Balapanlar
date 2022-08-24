@@ -1,0 +1,14 @@
+.popup__exit {
+	border-style: none;
+	background-image: url(../../../images/кнопка_закрытия_меню.svg);
+	width: 20px;
+	height: 20px;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	padding: 0;
+	background-size: contain;
+	position: absolute;
+	top: 35px;
+	right: 35px;
+	cursor: pointer;
+}
