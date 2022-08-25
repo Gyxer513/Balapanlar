@@ -112,6 +112,7 @@
 @import url(../blocks/list/_about/list_about.css);
 @import url(../blocks/list/_price/list_price.css);
 @import url(../blocks/burger-menu/__logo/burger-menu__logo.css);
+@import url(../blocks/header/__link/_style/header__link_style.css);
 
 
 @import url(../blocks/page/__container/page__container.css);
