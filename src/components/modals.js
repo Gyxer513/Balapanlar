@@ -13,6 +13,28 @@ export const coursePopup = document.querySelector('.popup_courses');
 export const anyPopup = Array.from(document.querySelectorAll('.popup'));
 const header = document.querySelector(".header");
 
+// Плавный скролл для якорных ссылок
+const linkCourses = document.querySelector('#link_courses');
+const courses = document.querySelector('#courses');
+const linkAbout = document.querySelector('#link_about');
+const aboutUs = document.querySelector('#about_us');
+
+
+function scrollSmooth(id) {
+	id.scrollIntoView({behavior: "smooth"});
+}
+
+linkCourses.addEventListener('click', () => {
+	scrollSmooth(courses);
+});
+
+linkAbout.addEventListener('click', () => {
+	scrollSmooth(aboutUs);
+});
+
+
+
+
 export function escHandler(evt) {
 	if (evt.key === 'Escape') {
 		const openedPopup = document.querySelector('.popup_opened');

@@ -1,6 +1,6 @@
 .header__info {
 	max-width: 701px;
-	margin: auto 119px auto 157px;
+	z-index: 100;	margin: auto 110px auto 15px;
 	padding: 0;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -21,6 +21,7 @@
 	line-height: 22px;
 	gap: 30px;
 }
+
 
 @media screen and (max-width: 1439px) {
 	.header__info {

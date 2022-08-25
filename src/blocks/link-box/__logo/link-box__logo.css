@@ -13,6 +13,7 @@
 	.link-box__logo {
 		width: 22px;
 		height: 18px;
+		padding-bottom: 40px;
 	}
 }
 
@@ -20,6 +21,7 @@
 	.link-box__logo {
 		margin-left: 0;
 		margin-top: 34px;
+		padding-bottom: 0;
 	}
 }
 

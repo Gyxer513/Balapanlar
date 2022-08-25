@@ -1,7 +1,10 @@
 .link-box {
 	display: -webkit-box;
 	display: -ms-flexbox;
-	display: flex;
+	display: grid;
+	grid-template-columns: 50px 1fr 168px;
+	gap: 10px;
+	justify-items: flex-start;
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
 	-ms-flex-direction: row;
@@ -11,7 +14,6 @@
 	align-items: center;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
-	justify-content: center;
 	max-width: 1200px;
 	min-height: 72px;
 	background-color: #ae46ff;
@@ -23,13 +25,23 @@
 @media screen and (max-width: 1439px) {
 	.link-box {
 		max-width: 1080px;
-		margin: 262px 120px 10px;
+		margin: 262px 168px 10px;
+		justify-content: flex-start;
+	}
+}
+
+@media screen and (max-width: 1319px) {
+	.link-box {
+		max-width: 980px;
+		margin: 262px 165px 10px;
+		justify-content: flex-start;
 	}
 }
 
 @media screen and (max-width: 1220px) {
 	.link-box {
-		max-width: 660px;
+		max-width: 600px;
+		grid-template-columns: 50px 1fr 107px;
 		min-height: 32px;
 		margin: 221px 70px 5px;
 	}
@@ -37,6 +49,7 @@
 
 @media screen and (max-width: 800px) {
 	.link-box {
+		grid-template-columns: 30px 1fr 175px;
 		max-width: 594px;
 		min-height: 90px;
 		margin: 447px 75px 10px;
@@ -45,6 +58,10 @@
 
 @media screen and (max-width: 600px) {
 	.link-box {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		max-width: 100%;
 		margin: 323px 0 0;
 		border-radius: 30px;
@@ -58,5 +75,6 @@
 @media screen and (max-width: 478px) {
 	.link-box {
 		margin: 228px 0 0;
+		max-height: 224px;
 	}
 }
