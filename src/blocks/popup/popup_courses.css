@@ -1,5 +1,11 @@
 .popup_courses {
     width: 100%;
     display: flex;
-		/* z-index: 12; */
+    overflow-y: scroll;
   }
+
+ @media screen and (max-width: 950px) {
+    .popup_courses {
+        justify-content: flex-start
+    }
+}

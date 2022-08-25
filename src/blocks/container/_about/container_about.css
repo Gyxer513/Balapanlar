@@ -13,10 +13,16 @@
 	}
 }
 
+@media screen and (max-width: 650px) {
+	.container_about {
+		border-radius: 30px;
+	}
+}
+
 @media screen and (max-width: 400px) {
 	.container_about {
-		max-width: 320px;
-		/* сделала нижний паддинг 30px, т.к. в макете у этой секции есть нижний отступ такого размера */
+		/* max-width: 320px; */
+		/* удалила ограничение ширины, его нет в макете */
 		padding: 30px 0 30px 0;
 	}
 }

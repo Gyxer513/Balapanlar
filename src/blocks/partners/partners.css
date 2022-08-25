@@ -17,3 +17,9 @@
       padding: 30px 0 49px;
     }
   }
+
+  @media screen and (max-width: 650px) {
+    .partners {
+      padding-bottom: 249px;
+    }
+  }

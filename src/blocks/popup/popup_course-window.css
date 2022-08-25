@@ -1,12 +1,16 @@
 .popup_course-window {
     width: 1200px;
-
 }
 
 @media screen and (max-width: 1210px) {
     .popup_course-window{
         max-width: calc(100% - 80px*2);
-		overflow-y: scroll;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .popup_course-window{
+        margin-top: 45px;
     }
 }
 

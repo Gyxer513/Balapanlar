@@ -20,8 +20,8 @@
 
   @media screen and (max-width: 950px){
     .popup__button_state_close{
-      top: 30px;
-      right: 30px;
-      background-image: url(../../../../images/tallcross.svg);
+      top: -35px;
+      right: 0px;
+      background-image: url(../../../../images/whiteCross.svg);
     }
   }
