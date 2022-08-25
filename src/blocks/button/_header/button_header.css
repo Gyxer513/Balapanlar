@@ -7,6 +7,7 @@
 	line-height: 20px;
 	margin-right: 20px;
 	padding: 0;
+	z-index: 23;
 	cursor: pointer;
 }
 
@@ -27,15 +28,30 @@
 @media screen and (max-width: 800px) {
 	.button_header {
 		display: none;
-		min-width: 224px;
-		min-height: 52px;
-		font-size: 16px;
+		min-width: 395px;
+		min-height: 104px;
+		font-size: 28px;
+		line-height: 34px;
 		margin: 0;
 	}
 	.button_header:hover {
 		background-color: #333333;
 	}
 }
+
+@media screen and (max-width: 600px) {
+	.button_header {
+		display: none;
+		min-width: 224px;
+		min-height: 52px;
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 20px;
+		margin: 0;
+	}
+}
+
+
 
 .button_header_visible {
 	display: block;

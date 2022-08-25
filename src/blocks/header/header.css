@@ -1,6 +1,6 @@
 .header {
 	width: 100%;
-	height: 120px;
+	max-height: 120px;
 	padding-bottom: 60px;
 	background-color: #ffffff;
 	display: -webkit-box;
@@ -36,6 +36,13 @@
 @media screen and (max-width: 800px) {
 	.header {
 		min-width: 320px;
+		min-height: 80px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.header {
+		max-width: 320px;
 		min-height: 42px;
 	}
 }
