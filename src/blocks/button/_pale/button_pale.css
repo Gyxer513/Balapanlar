@@ -5,10 +5,14 @@
 	color: black;
 	margin-left: 30px;
 	transition: 0.3s linear;
+	max-width: 231px;
 }
 
 .button_pale:hover {
-	transform: scale(1.02);
+	opacity: 0.6;
+  -webkit-transition: linear 0.3s;
+  -o-transition: linear 0.3s;
+  transition: linear 0.3s;
 	background-color: transparent;
 }
 

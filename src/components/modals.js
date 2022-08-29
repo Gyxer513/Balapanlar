@@ -11,11 +11,35 @@ export const popupContainer = document.querySelector('.popup__window');
 export const coursePopup = document.querySelector('.popup_courses');
 
 export const anyPopup = Array.from(document.querySelectorAll('.popup'));
+const header = document.querySelector(".header");
+
+// Плавный скролл для якорных ссылок
+const linkCourses = document.querySelector('#link_courses');
+const courses = document.querySelector('#courses');
+const linkAbout = document.querySelector('#link_about');
+const aboutUs = document.querySelector('#about_us');
+
+
+function scrollSmooth(id) {
+	id.scrollIntoView({behavior: "smooth"});
+}
+
+linkCourses.addEventListener('click', () => {
+	scrollSmooth(courses);
+});
+
+linkAbout.addEventListener('click', () => {
+	scrollSmooth(aboutUs);
+});
+
+
+
 
 export function escHandler(evt) {
 	if (evt.key === 'Escape') {
 		const openedPopup = document.querySelector('.popup_opened');
 		closePopup(openedPopup);
+		header.style.display = 'flex';
 	}
 }
 
@@ -36,17 +60,31 @@ export function closePopup(popup) {
 
 export function createPopup(selector) {
 	const popupElement = document.querySelector(selector).cloneNode(true);
-	const popupNewButton = popupElement.querySelector('.button_pale');
+	const popupPaleButton = popupElement.querySelector('.button_pale');
+	const popupCloseButton = coursePopup.querySelector('.popup__button_state_close');
 	const popupIcons = popupElement.querySelector('.course-block__for_container');
 	const popupButtonContainer = popupElement.querySelector('.course-block__buttons');
+	const ulList = popupElement.querySelector('.list_courses');
+	const liText = popupElement.querySelectorAll('.list-point__text');
+
+
 
 	popupElement.classList.add('popup_courses_opened');
 	popupIcons.classList.add('popup__courses-icons');
-	popupElement.classList.remove('course-block');
-	popupButtonContainer.classList.add('popup__course-buttons');
-	popupNewButton.textContent = "Закрыть";
+	ulList.classList.add('list_courses_popup');
 
-	popupNewButton.addEventListener('click', (evt) => {
+	popupElement.classList.remove('course-block');
+	popupButtonContainer.classList.remove('course-block__buttons');
+	popupButtonContainer.classList.add('popup__course-buttons');
+	popupPaleButton.remove();
+
+	liText.forEach((item) => {
+		item.classList.remove('text-overflow');
+	})
+
+
+
+	popupCloseButton.addEventListener('click', (evt) => {
 		evt.preventDefault();
 		closePopup(coursePopup);
 	})

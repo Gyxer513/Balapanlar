@@ -1,9 +1,21 @@
 .popup_course-window {
-    max-width: 1200px;
+    width: 1200px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1210px) {
     .popup_course-window{
-        max-width: 100%;
+        max-width: calc(100% - 80px*2);
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .popup_course-window{
+        margin-top: 45px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .popup_course-window{
+        max-width: calc(100% - 10px*2);
     }
 }

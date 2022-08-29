@@ -1,4 +1,4 @@
-.pinck-scroll {
+.scroll {
 	height: 1000px;
 	width: 100%;
 	background-color: #ae46ff;
@@ -13,11 +13,22 @@
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	text-align: center;
+	overflow-x: hidden;
+	padding: 0;
 }
 
-@media screen and (max-width: 650px) {
-    .pinck-scroll {
-      margin-top: -100px;
-      border-radius: 30px;
+@media screen and (max-width: 1439px) {
+    .scroll {
+		height: auto;
     }
-  }
+}
+@media screen and (max-width: 1220px) {
+    .scroll {
+		padding: 160px 96px 160px 96px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .scroll {
+		padding: 30px 16px 30px 16px;
+    }
+}

@@ -25,12 +25,19 @@
     }
 }
 
+
+
 @media screen and (max-width: 800px) {
     .wallpaper__picture {
-        /* background-image: url(../../../images/заставка_320.jpeg); */
         background-repeat: no-repeat;
-        /* width: 320px; */
-        height: 562px;
+        height: 1053px;
 				border-radius: 30px;
     }
 }
+
+@media screen and (max-width: 478px) {
+	.wallpaper__picture {
+		max-height: 746px;
+	}
+}
+

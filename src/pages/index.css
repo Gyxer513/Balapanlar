@@ -37,7 +37,9 @@
 @import url(../blocks/list-point/__img/list-point__img.css);
 @import url(../blocks/list-point/__text/list-point__text.css);
 @import url(../blocks/list-point/__text/_course/list-point__text_course.css);
-
+@import url(../blocks/scroll/__skills-image/scroll__skills-image.css);
+@import url(../blocks/scroll/__education-image/scroll__education-image.css);
+@import url(../blocks/scroll/__investing-image/scroll__investing-image.css);
 
 /* начинаются стили партнеров */
 
@@ -78,12 +80,14 @@
 /* заканчиваются стили попапов */
 
 
-@import url(../blocks/pinck-scroll/pinck-scroll.css);
-@import url(../blocks/pinck-scroll/__title/pinck-scroll__title.css);
-@import url(../blocks/pinck-scroll/__container/pinck-scroll__container.css);
-@import url(../blocks/pinck-scroll/__container-title/pinck-scroll__container-title.css);
-@import url(../blocks/pinck-scroll/__skills/pinck-scroll__skills.css);
-@import url(../blocks/pinck-scroll/__investing/pinck-scroll__investing.css);
+@import url(../blocks/scroll/scroll.css);
+@import url(../blocks/scroll/__title/scroll__title.css);
+@import url(../blocks/scroll/__container/scroll__container.css);
+@import url(../blocks/scroll/__container-title/scroll__container-title.css);
+@import url(../blocks/scroll/__skills/scroll__skills.css);
+@import url(../blocks/scroll/__investing/scroll__investing.css);
+@import url(../blocks/scroll/__education/scroll__education.css);
+@import url(../blocks/test.css);
 
 @import url(../blocks/text-overflow/text-overflow.css);
 @import url(../blocks/container/_courses/container_courses.css);
@@ -108,7 +112,8 @@
 @import url(../blocks/list/list.css);
 @import url(../blocks/list/_about/list_about.css);
 @import url(../blocks/list/_price/list_price.css);
-
+@import url(../blocks/burger-menu/__logo/burger-menu__logo.css);
+@import url(../blocks/header/__link/_style/header__link_style.css);
 
 
 @import url(../blocks/page/__container/page__container.css);
@@ -120,6 +125,7 @@
 @import url(../blocks/header/__logo/_scroll/header__logo_scroll.css);
 @import url(../blocks/header/__info/_visible/header__info_visible.css);
 @import url(../blocks/header/_small/header_small.css);
+
 
 @import url(../blocks/options/options.css);
 @import url(../blocks/options/__stick/options__stick.css);
@@ -136,6 +142,7 @@
 @import url(../blocks/button/_header/button_header.css);
 @import url(../blocks/button/_wallpaper/button_wallpaper.css);
 @import url(../blocks/button/_telegram/button_telegram.css);
+@import url(../blocks/wallpaper/wallpaper_no-padding.css);
 
 @import url(../blocks/wallpaper/wallpaper.css);
 @import url(../blocks/wallpaper/__picture/wallpaper__picture.css);
@@ -150,3 +157,9 @@
 
 @import url(../blocks/burger-menu/burger-menu.css);
 @import url(../blocks/burger-menu/_opened/burger-menu_opened.css);
+
+@import url(../blocks/list/_courses/list_courses.css);
+@import url(../blocks/list/_courses/_popup/list_courses_popup.css);
+
+
+

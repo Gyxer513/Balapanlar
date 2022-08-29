@@ -1,0 +1,10 @@
+.scroll__container {
+	display: flex;
+	flex-direction: row;
+}
+
+@media screen and (max-width: 1439px) {
+    .scroll__container {
+		display: block;
+    }
+}

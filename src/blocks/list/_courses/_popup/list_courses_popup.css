@@ -1,0 +1,13 @@
+.list_courses_popup {
+	max-height: 280px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(271px, 536px));
+	column-gap: 23px;
+	overflow: unset;
+}
+
+@media screen and (max-width: 1220px) {
+	.list_courses_popup {
+		max-height: 100%;
+	}
+}

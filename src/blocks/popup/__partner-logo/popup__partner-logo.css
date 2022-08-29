@@ -9,6 +9,6 @@
         width: 290px;
         height: 200px;
         border-radius: 30px;
-        border: 2px solid #EAF0FF;
+        border: 2px solid transparent;
       }
     }

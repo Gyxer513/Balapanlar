@@ -1,5 +1,4 @@
 .link-box__text {
-	margin: 0 245px 0 10px;
 	font-weight: 600;
 	font-size: 18px;
 	line-height: 22px;
@@ -8,8 +7,14 @@
 
 @media screen and (max-width: 1439px) {
 	.link-box__text {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 1319px) {
+	.link-box__text {
 		font-size: 14px;
-		margin: 0 145px 0 10px;
+		line-height: 10px;
 	}
 }
 
@@ -19,3 +24,20 @@
 		line-height: 10px;
 	}
 }
+
+@media screen and (max-width: 800px) {
+	.link-box__text {
+		font-size: 16px;
+		line-height: 20px;
+		text-align: start;
+		margin: 0 21px 0 15px;
+		max-width: 344px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.link-box__text {
+		text-align: center;
+	}
+}
+

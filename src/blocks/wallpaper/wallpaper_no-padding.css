@@ -1,0 +1,21 @@
+.wallpaper_padding {
+    padding-top: 120px;
+}
+
+@media screen and (max-width: 1220px) {
+		.wallpaper_padding{
+			padding-top: 80px;
+		}
+}
+
+ @media screen and (max-width: 800px) {
+		.wallpaper_padding {
+			padding-top: 80px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+		.wallpaper_padding {
+			padding-top: 42px;
+		}
+}

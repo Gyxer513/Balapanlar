@@ -1,6 +1,7 @@
 .test {
 	/* font-family: 'Montserrat'; */
-	font-weight: 500;
-	font-size: 64px;
-	color: aliceblue;
+	width: 100%;
+	height: 500px;
+	border-radius: 60px;
+	border: 2px solid rgb(97, 176, 232);
 }

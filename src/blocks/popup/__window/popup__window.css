@@ -14,3 +14,9 @@
     align-items: center;
     position: relative;
   }
+
+	@media screen and (max-width: 600px) {
+		.popup__window {
+			border-radius: 30px;
+		}
+	}
