@@ -15,6 +15,7 @@
 	text-align: center;
 	overflow-x: hidden;
 	padding: 0;
+	position: relative;
 }
 
 @media screen and (max-width: 1439px) {

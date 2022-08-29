@@ -94,7 +94,7 @@ const trigger = ScrollTrigger.getById("scrollObject");
 if (document.body.clientWidth < 1439) {
 	trigger.disable();
 } else {
-	trigger.enable
+	trigger.enable({ reset: true })
 };
 
 window.addEventListener("resize", (event) => {
