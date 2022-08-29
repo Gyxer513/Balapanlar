@@ -10,7 +10,11 @@
     box-sizing: border-box;
     border-radius: 0 0 60px 60px;
   }
-
+  @media screen and (max-width: 1220px) {
+    .partners {
+    border-radius: 0;
+    }
+  }
   @media screen and (max-width: 800px) {
     .partners {
       row-gap: 30px;
