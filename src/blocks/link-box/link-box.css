@@ -30,20 +30,20 @@
 	}
 }
 
-@media screen and (max-width: 1319px) {
+/* @media screen and (max-width: 1319px) {
 	.link-box {
 		max-width: 980px;
 		margin: 262px 165px 10px;
 		justify-content: flex-start;
 	}
-}
+} */
 
 @media screen and (max-width: 1220px) {
 	.link-box {
 		max-width: 600px;
 		grid-template-columns: 50px 1fr 107px;
 		min-height: 32px;
-		margin: 221px 70px 5px;
+		margin: 221px auto 5px auto;
 	}
 }
 

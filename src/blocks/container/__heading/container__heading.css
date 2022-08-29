@@ -6,11 +6,11 @@
 	margin: 0;
 }
 
-@media screen and (max-width: 1220px) {
+/* @media screen and (max-width: 1220px) {
 	.container__heading {
 		text-align: center;
 	}
-}
+} */
 
 @media screen and (max-width: 600px) {
 	.container__heading {

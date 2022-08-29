@@ -1,3 +1,14 @@
 .container_courses {
 		max-width: 1220px;
+		padding: 0 110px 0 110px;
 	}
+@media screen and (max-width: 1220px) {
+	.container_courses {
+		padding: 0 45px 0 45px;
+	}
+}
+@media screen and (max-width: 450px) {
+	.container_courses {
+		padding: 0;
+	}
+}
