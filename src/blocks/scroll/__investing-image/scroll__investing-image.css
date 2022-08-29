@@ -1,20 +1,15 @@
 .scroll__investing-image {
-	width: 420px;
+	width: 610px;
 	height: 420px;
 }
-@media screen and (max-width: 1439px) {
-	.scroll__investing-image {
-		width: 400px;
-		height: 400px;
-	}
-}
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1440px) {
 	.scroll__investing-image {
 		width: 350px;
 		height: 350px;
+		margin-top: 60px;
 	}
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px) {
 	.scroll__investing-image {
 		width: 230px;
 		height: 230px;

@@ -1,20 +1,10 @@
 .scroll__investing {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	min-width: 1440px;
 	text-align: center;
-	min-width: 847px;
-	margin: 0 auto 0 330px;
 }
 @media screen and (max-width: 1439px) {
 	.scroll__investing {
-		margin-left: 310px;
 		min-width: auto;
 	}
 }
-@media screen and (max-width: 1299px) {
-	.scroll__investing  {
-		margin: 60px auto 0 auto;
-		width: auto;
-	}
-}
+

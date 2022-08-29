@@ -10,13 +10,16 @@
 }
 @media screen and (max-width: 1220px) {
 	.scroll__skills-image {
-		max-width: 330px;
-		height: 208px;
+		max-width: 420px;
+		height: 420px;
+		border-radius: 500px;
+		padding-top: 30px;
 	}
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px) {
 	.scroll__skills-image {
 		max-width: 230px;
 		height: 158px;
+
 	}
 }

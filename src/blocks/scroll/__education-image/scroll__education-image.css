@@ -6,6 +6,7 @@
 	.scroll__education-image {
 		width: 400px;
 		height: 400px;
+		margin-top: 60px;
 	}
 }
 @media screen and (max-width: 1220px) {
@@ -14,7 +15,7 @@
 		height: 350px;
 	}
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px) {
 	.scroll__education-image {
 		width: 230px;
 		height: 230px;

@@ -87,6 +87,7 @@
 @import url(../blocks/scroll/__skills/scroll__skills.css);
 @import url(../blocks/scroll/__investing/scroll__investing.css);
 @import url(../blocks/scroll/__education/scroll__education.css);
+@import url(../blocks/test.css);
 
 @import url(../blocks/text-overflow/text-overflow.css);
 @import url(../blocks/container/_courses/container_courses.css);

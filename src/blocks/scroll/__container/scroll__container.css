@@ -3,7 +3,7 @@
 	flex-direction: row;
 }
 
-@media screen and (max-width: 1299px) {
+@media screen and (max-width: 1439px) {
     .scroll__container {
 		display: block;
     }
