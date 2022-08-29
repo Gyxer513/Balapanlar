@@ -1,9 +1,0 @@
-.popup__link{
-    color: #FFFFFF;
-    text-decoration: none;
-  }
-  @media screen and (max-width: 950px){
-    .popup__link{
-      display: none;
-    }
-  }

@@ -1,8 +1,0 @@
-.options__stick_rotate-two {
-	-webkit-transform: rotate(45deg) translate(0px, -4px);
-	-ms-transform: rotate(45deg) translate(0px, -4px);
-	transform: rotate(45deg) translate(0px, -4px);
-	-webkit-transition: linear 0.2s;
-	-o-transition: linear 0.2s;
-	transition: linear 0.2s;
-}

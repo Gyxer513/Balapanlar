@@ -1,9 +1,0 @@
-.image {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-line-pack: center;
-	align-content: center;
-	width: 22px;
-	height: 22px;
-}

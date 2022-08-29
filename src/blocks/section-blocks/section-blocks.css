@@ -1,9 +1,0 @@
-.section-blocks {
-	display: -ms-grid;
-	display: grid;
-	gap: 10px;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-}
