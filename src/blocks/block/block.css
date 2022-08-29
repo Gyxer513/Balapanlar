@@ -5,9 +5,14 @@
 	display: flex;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: space-between;
+}
+@media screen and (max-width: 1120px) {
+	.block:last-of-type {
+		margin-top: 60px;
+	}
 }

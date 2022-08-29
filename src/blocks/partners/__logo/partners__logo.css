@@ -1,6 +1,6 @@
-.partners__logo:last-child {
+/* .partners__logo:last-child {
 	margin: 0 4px 0 18px;
-}
+} */
 
 @media screen and (max-width: 1200px) {
 	.partners__logo:last-child {

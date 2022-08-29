@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 1220px) {
 	.page__container {
-		max-width: auto;
+		max-width: 1220px;
 	}
 	.page__container:first-child {
 		gap: 7px;

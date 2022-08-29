@@ -1,8 +1,16 @@
-.wrapper {
-    width: 100%;
-    height: 100%;
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
+
+	.wrapper {
+		width: 100%;
+		height: 100%;
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		position: absolute;
+	}
+
+@media screen and (max-width: 800px) {
+	.wrapper {
+		position: relative;
+	}
 }

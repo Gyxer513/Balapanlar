@@ -61,11 +61,11 @@ export function closePopup(popup) {
 export function createPopup(selector) {
 	const popupElement = document.querySelector(selector).cloneNode(true);
 	const popupPaleButton = popupElement.querySelector('.button_pale');
-	const popupCloseButton = coursePopup.querySelector('.popup__button_state_close');
 	const popupIcons = popupElement.querySelector('.course-block__for_container');
 	const popupButtonContainer = popupElement.querySelector('.course-block__buttons');
 	const ulList = popupElement.querySelector('.list_courses');
 	const liText = popupElement.querySelectorAll('.list-point__text');
+	const closeButtons = Array.from(popupElement.querySelectorAll('.popup__button'))
 
 
 
@@ -76,7 +76,8 @@ export function createPopup(selector) {
 	popupElement.classList.remove('course-block');
 	popupButtonContainer.classList.remove('course-block__buttons');
 	popupButtonContainer.classList.add('popup__course-buttons');
-	popupPaleButton.remove();
+	popupPaleButton.textContent = "Закрыть";
+	popupPaleButton.classList.add('popup__button');
 
 	liText.forEach((item) => {
 		item.classList.remove('text-overflow');
@@ -84,9 +85,11 @@ export function createPopup(selector) {
 
 
 
-	popupCloseButton.addEventListener('click', (evt) => {
-		evt.preventDefault();
-		closePopup(coursePopup);
+	closeButtons.forEach((button) => {
+		button.addEventListener('click', (evt) => {
+			evt.preventDefault();
+			closePopup(coursePopup);
+		})
 	})
 	return popupElement;
 }
