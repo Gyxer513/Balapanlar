@@ -25,7 +25,8 @@ const stickTwo = document.querySelector("#bar2");
 const wrapper = document.querySelector('.wrapper')
 
 const buttonHeader = document.querySelector('.button_header');
-const buttonTelegramm = document.querySelector('.button_telegram')
+const buttonTelegramm = document.querySelector('.button_telegram');
+const buttonWallpaper = document.querySelector('.button_wallpaper')
 
 
 // изменение хэдэра при скролле
@@ -121,5 +122,9 @@ buttonHeader.addEventListener('click',  () => {
 );
 buttonTelegramm.addEventListener('click',  () => {
 	window.open('https://t.me/balapanlar', '_blank');
+}
+);
+buttonWallpaper.addEventListener('click',  () => {
+	window.open('https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform', '_blank');
 }
 );

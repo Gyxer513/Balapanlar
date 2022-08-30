@@ -4,7 +4,7 @@
 	padding: 0 10px 0 10px;
 	display: -ms-grid;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
 	gap: 10px;
 	margin: 10px auto 0 auto;
 	-webkit-box-pack: center;
