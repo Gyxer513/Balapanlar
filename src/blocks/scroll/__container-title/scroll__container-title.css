@@ -13,7 +13,7 @@
 	.scroll__container-title {
 		font-size: 42px;
 		line-height: 50px;
-        margin: 20px 0;
+        margin: 20px auto 0 auto;
         min-width: auto;
         text-align: center;
 	}

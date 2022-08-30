@@ -9,5 +9,6 @@
 @media screen and (max-width: 400px) {
 	.block__div {
 		border-radius: 30px;
+		margin: 0 auto 0 auto;
 	}
 }

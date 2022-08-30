@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 400px) {
 	.section-blocks_about {
-		max-width: 289px;
+		/* max-width: 289px; */
 		margin-top: 40px;
 		-webkit-box-pack: center;
 		-ms-flex-pack: center;
