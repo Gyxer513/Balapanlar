@@ -9,7 +9,6 @@
 	flex-direction: column;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
-	justify-content: space-between;
 }
 @media screen and (max-width: 1120px) {
 	.block:last-of-type {

@@ -16,10 +16,10 @@
 	align-items: center;
 	-webkit-column-gap: 90px;
 	-moz-column-gap: 90px;
-	column-gap: 90px;
+	column-gap: 108px;
 	border: 2px solid #eaf0ff;
 	border-radius: 60px;
-	padding: 39px 80px 49px;
+	padding: 39px 84px 49px;
 	max-width: 885px;
 }
 
