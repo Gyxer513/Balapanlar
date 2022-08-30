@@ -22,6 +22,7 @@ const headerLogo = document.querySelector(".header__logo");
 const options = document.querySelector(".options");
 const stickOne = document.querySelector("#bar1");
 const stickTwo = document.querySelector("#bar2");
+const wrapper = document.querySelector('.wrapper')
 
 // изменение хэдэра при скролле
 window.onscroll = () => {
@@ -39,6 +40,7 @@ window.onscroll = () => {
 // разворачивание бургерного меню на мобильном разрешении
 options.addEventListener("click", () => {
 	menue.classList.toggle("burger-menu_opened");
+	wrapper.toggleAttribute("hidden");
 	stickOne.classList.toggle("options__stick_rotate-one");
 	stickTwo.classList.toggle("options__stick_rotate-two");
 });

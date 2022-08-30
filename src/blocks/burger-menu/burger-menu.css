@@ -1,5 +1,6 @@
 .burger-menu {
-	min-width: 320px;
+	
+	width: 100%;
 	height: 0;
 	border-bottom-left-radius: 30px;
 	border-bottom-right-radius: 30px;

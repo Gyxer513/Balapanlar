@@ -56,7 +56,7 @@
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 630px) {
 	.link-box {
 		display: flex;
 		flex-direction: column;
@@ -76,5 +76,10 @@
 	.link-box {
 		margin: 228px 0 0;
 		max-height: 224px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.link-box {
+		max-height: none;
 	}
 }
