@@ -1,6 +1,6 @@
 .block__description_about {
-		margin-top: 30px;
 		margin-left: 25px;
+		max-width: 500px;
 	}
 
 	@media screen and (max-width:400px) {

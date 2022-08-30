@@ -1,9 +1,11 @@
-/* @media screen and (max-width: 1224px) {
+.block_about {
+	row-gap: 40px;
+
+}
+
+
+ @media screen and (max-width: 800px) {
 	.block_about {
-		margin-bottom: 60px;
-	}
-	.block_about:last-of-type {
-		margin-bottom: 0;
+		row-gap: 30px;
 	}
 }
- */
