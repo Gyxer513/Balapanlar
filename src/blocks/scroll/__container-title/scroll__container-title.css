@@ -3,10 +3,12 @@
 	font-size: 60px;
 	line-height: 68px;
 	color: white;
-	margin: 40px 0 0 0;
-	min-width: 847px;
+	margin: 40px auto 0 auto;
+	max-width: 847px;
 }
-
+.scroll__container-title:nth-of-type(1) {
+	max-width: 537px;
+}
 @media screen and (max-width: 1439px) {
 	.scroll__container-title {
 		font-size: 42px;
