@@ -25,3 +25,8 @@
 		align-items: center;
 	}
 }
+@media screen and (max-width: 400px) {
+	.partners__logo {
+		max-width: 100%;
+	}
+}

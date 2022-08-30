@@ -1,5 +1,5 @@
 .header_small {
-	width: 100%;
+	max-width: 100%;
 	max-height: 80px;
 	position: sticky;
 	z-index: 5;

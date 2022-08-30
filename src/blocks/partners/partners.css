@@ -25,5 +25,6 @@
   @media screen and (max-width: 650px) {
     .partners {
       padding-bottom: 249px;
+      max-width: 100%;
     }
   }

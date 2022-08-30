@@ -48,3 +48,9 @@
 		box-sizing: border-box;
 	}
 }
+@media screen and (max-width: 370px) {
+	.purpose {
+		padding: 40px 15px 40px 15px;
+		margin: 0;
+	}
+}
