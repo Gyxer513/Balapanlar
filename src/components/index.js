@@ -24,6 +24,10 @@ const stickOne = document.querySelector("#bar1");
 const stickTwo = document.querySelector("#bar2");
 const wrapper = document.querySelector('.wrapper')
 
+const buttonHeader = document.querySelector('.button_header');
+const buttonTelegramm = document.querySelector('.button_telegram')
+
+
 // изменение хэдэра при скролле
 window.onscroll = () => {
 	const Y = window.scrollY;
@@ -107,3 +111,15 @@ window.addEventListener("resize", (event) => {
 		trigger.enable({ reset: true });
 	}
 });
+
+
+/* Переход на другие страницы по кнопкам */
+
+buttonHeader.addEventListener('click',  () => {
+	window.open('https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform', '_blank');
+}
+);
+buttonTelegramm.addEventListener('click',  () => {
+	window.open('https://t.me/balapanlar', '_blank');
+}
+);

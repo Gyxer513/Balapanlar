@@ -4,4 +4,5 @@
 	height: 500px;
 	border-radius: 60px;
 	border: 2px solid rgb(97, 176, 232);
+	box-sizing: border-box;
 }

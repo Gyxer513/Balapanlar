@@ -2,7 +2,7 @@
 	font-family: Montserrat, Arial, sans-serif;
 	margin: 0 auto;
 	max-width: 1440px;
-	min-width: 320px;
+	min-width: auto;
 	background-color: #eaf0ff;
 	-ms-scroll-chaining: none;
 	overscroll-behavior: none;
