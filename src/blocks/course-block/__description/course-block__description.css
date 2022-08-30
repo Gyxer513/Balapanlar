@@ -1,9 +1,10 @@
 .course-block__description {
-	margin: 25px 0 113px 0;
+	margin: 25px 0 93px;
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 22px;
 	max-height: 100%;
+	padding-right: 30px
 }
 
 @media screen and (max-width: 880px) {
