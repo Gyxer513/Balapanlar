@@ -3,3 +3,9 @@
     flex-direction: row;
     column-gap: 30px;
 }
+
+@media screen and (max-width: 600px) {
+	.popup__courses-icons {
+		flex-direction: column;
+	}
+}

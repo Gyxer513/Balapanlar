@@ -1,6 +1,6 @@
 .popup_courses {
-    width: 100%;
-    display: flex;
+/*     width: 100%;
+    display: flex; */
     overflow-y: scroll;
   }
 

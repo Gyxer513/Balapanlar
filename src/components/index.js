@@ -14,19 +14,28 @@ import {
 	createPopup,
 	renderPopup,
 	anyPopup,
+	stickOne,
+	stickTwo,
+	menue
 } from "../components/modals.js";
 
 const header = document.querySelector(".header");
-const menue = document.querySelector(".burger-menu");
+/* const menue = document.querySelector(".burger-menu"); */
 const headerLogo = document.querySelector(".header__logo");
 const options = document.querySelector(".options");
-const stickOne = document.querySelector("#bar1");
-const stickTwo = document.querySelector("#bar2");
+/* const stickOne = document.querySelector("#bar1");
+const stickTwo = document.querySelector("#bar2"); */
 const wrapper = document.querySelector('.wrapper')
 
 const buttonHeader = document.querySelector('.button_header');
+const buttonHeaderSmall = document.querySelector('.button_header_visible');
+
 const buttonTelegramm = document.querySelector('.button_telegram');
 const buttonWallpaper = document.querySelector('.button_wallpaper')
+
+const btnToHorizonSite = document.querySelector('#horizon-button');
+const btnToHimbioSite = document.querySelector('#himbio-button');
+
 
 
 // изменение хэдэра при скролле
@@ -105,7 +114,7 @@ if (document.body.clientWidth < 1439) {
 };
 
 window.addEventListener("resize", (event) => {
-	
+
 	if (document.body.clientWidth < 1439) {
 		trigger.disable();
 	} else {
@@ -115,8 +124,12 @@ window.addEventListener("resize", (event) => {
 
 
 /* Переход на другие страницы по кнопкам */
+buttonHeaderSmall.addEventListener('click', () => {
+	window.open('https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform', '_blank');
+}
+);
 
-buttonHeader.addEventListener('click',  () => {
+buttonHeader.addEventListener('click', () => {
 	window.open('https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform', '_blank');
 }
 );
@@ -126,5 +139,13 @@ buttonTelegramm.addEventListener('click',  () => {
 );
 buttonWallpaper.addEventListener('click',  () => {
 	window.open('https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform', '_blank');
+}
+);
+btnToHimbioSite.addEventListener('click', () => {
+	window.open('https://himbio4you.ru/', '_blank');
+}
+);
+btnToHorizonSite.addEventListener('click', () => {
+	window.open('https://открывая-горизонты.рф', '_blank');
 }
 );

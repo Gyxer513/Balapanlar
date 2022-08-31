@@ -13,10 +13,14 @@ export const coursePopup = document.querySelector('.popup_courses');
 export const anyPopup = Array.from(document.querySelectorAll('.popup'));
 const header = document.querySelector(".header");
 
+export const stickOne = document.querySelector("#bar1");
+export const stickTwo = document.querySelector("#bar2");
+export const menue = document.querySelector(".burger-menu");
+
 // Плавный скролл для якорных ссылок
-const linkCourses = document.querySelector('#link_courses');
+const linkCourses = document.querySelectorAll('#link_courses');
 const courses = document.querySelector('#courses');
-const linkAbout = document.querySelector('#link_about');
+const linkAbout = document.querySelectorAll('#link_about');
 const aboutUs = document.querySelector('#about_us');
 
 
@@ -24,13 +28,32 @@ function scrollSmooth(id) {
 	id.scrollIntoView({behavior: "smooth"});
 }
 
-linkCourses.addEventListener('click', () => {
-	scrollSmooth(courses);
-});
+linkCourses.forEach((item) => {
+	item.addEventListener('click', () => {
+		scrollSmooth(courses);
+		menue.classList.remove('burger-menu_opened');
+		stickOne.classList.remove("options__stick_rotate-one");
+		stickTwo.classList.remove("options__stick_rotate-two");
+	});
+})
 
-linkAbout.addEventListener('click', () => {
+/* linkCourses.addEventListener('click', () => {
+	scrollSmooth(courses);
+}); */
+
+linkAbout.forEach((item) => {
+	item.addEventListener('click', () => {
+		scrollSmooth(aboutUs);
+		menue.classList.remove('burger-menu_opened');
+		stickOne.classList.remove("options__stick_rotate-one");
+		stickTwo.classList.remove("options__stick_rotate-two");
+	});
+})
+
+
+/* linkAbout.addEventListener('click', () => {
 	scrollSmooth(aboutUs);
-});
+}); */
 
 
 
