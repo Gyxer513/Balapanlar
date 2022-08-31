@@ -30,13 +30,10 @@
 						</li>
 					</ul>
 				</nav>
-				<button
-					class="button button_header">
-					Записаться на курсы
-				</button>
+				<button class="button button_header">Записаться на курсы</button>
 				<button class="options">
-					<div id="bar1" class="options__stick"></div>
-					<div id="bar2" class="options__stick"></div>
+					<span id="bar1" class="options__stick"></span>
+					<span id="bar2" class="options__stick"></span>
 				</button>
 				<!-- Выпадающее меню в мобильной версии-->
 				<div class="wrapper" hidden>
@@ -49,10 +46,10 @@
 						<nav>
 							<ul class="header__info header__info_visible">
 								<li class="header__link">
-									<a class="header__link_style">Наши курсы</a>
+									<a id="link_courses" class="header__link_style">Наши курсы</a>
 								</li>
 								<li class="header__link">
-									<a href="#" class="header__link_style">О нас</a>
+									<a id="link_about" class="header__link_style">О нас</a>
 								</li>
 								<li class="header__link">
 									<a href="#" class="header__link_style">Команда</a>
@@ -66,7 +63,7 @@
 							</ul>
 						</nav>
 						<button class="button button_header button_header_visible">
-							<a >Записаться на курсы</a>
+							Записаться на курсы
 						</button>
 					</div>
 				</div>
@@ -101,9 +98,9 @@
 				</section>
 
 				<section id="courses" class="container container_courses">
-					<h1 class="container__heading">Наши курсы</h1>
+					<h2 class="container__heading">Наши курсы</h2>
 					<div class="box">
-						<h2 class="box__heading">Программирование</h2>
+						<h3 class="box__heading">Программирование</h3>
 						<p class="box__description">
 							Наши курсы программирования созданы в международной школе
 							«Алгоритмика». Их программы уже успешно работают в 55 странах
@@ -113,7 +110,7 @@
 						</p>
 						<div class="section-blocks section-blocks_courses">
 							<article class="course-block course-python">
-								<h3 class="course-block__name">Python Start</h3>
+								<h4 class="course-block__name">Python Start</h4>
 								<!-- Я обернула иконки пока только этой карточки в контейнер, чтобы внутри него можно было поменять направление иконок -->
 								<div class="course-block__for_container">
 									<div class="course-block__for">
@@ -290,7 +287,7 @@
 								</div>
 							</article>
 							<article class="course-block">
-								<h3 class="course-block__name">Создание web-сайтов</h3>
+								<h4 class="course-block__name">Создание web-сайтов</h4>
 								<div class="course-block__for">
 									<img
 										class="image"
@@ -375,7 +372,7 @@
 							</div>
 						</article>
 						<article class="course-block course-block_other">
-							<h3 class="course-block__name">Английский язык</h3>
+							<h4 class="course-block__name">Английский язык</h4>
 							<div class="course-block__for">
 								<img
 									class="image"
@@ -420,7 +417,7 @@
 							</div>
 						</article>
 						<article class="course-block course-block_other">
-							<h3 class="course-block__name">3D технологии</h3>
+							<h4 class="course-block__name">3D технологии</h4>
 							<div class="course-block__for">
 								<img
 									class="image"
@@ -569,11 +566,11 @@
 				</section>
 
 				<section id="about_us" class="container container_about">
-					<h1 class="container__heading">О нас</h1>
-					<h2 class="container__description">
+					<h2 class="container__heading">О нас</h2>
+					<h3 class="container__description">
 						Мы привозим лучшие практики неформального образования для тех, кто
 						не может позволить своим детям полноценно развиваться
-					</h2>
+					</h3>
 					<div class="section-blocks section-blocks_about">
 						<div class="block block_about">
 							<div class="block__div">
@@ -829,12 +826,13 @@
 							</p>
 						</div>
 						<button class="button popup__button partner__button" type="button">
-							<a class="popup__link" href="#" target="_blank"
+							Сайт партнера
+							<!-- 							<a class="popup__link" href="#" target="_blank"
 								>Перейти на сайт партнера
 								<a class="popup__mobile-link" href="#" target="_blank"
 									>Сайт партнера</a
 								>
-							</a>
+							</a> -->
 						</button>
 						<button class="popup__button popup__button_state_close"></button>
 					</div>
@@ -861,8 +859,13 @@
 								ещё две школы.
 							</p>
 						</div>
-						<button class="button popup__button partner__button" type="button">
-							<a
+						<button
+							id="horizon-button"
+							class="button popup__button partner__button"
+							type="button"
+						>
+							Сайт партнера
+							<!-- 							<a
 								class="popup__link"
 								href="https://открывая-горизонты.рф/"
 								target="_blank"
@@ -873,7 +876,7 @@
 									target="_blank"
 									>Сайт партнера</a
 								>
-							</a>
+							</a> -->
 						</button>
 						<button class="popup__button popup__button_state_close"></button>
 					</div>
@@ -897,8 +900,13 @@
 								направлениям.
 							</p>
 						</div>
-						<button class="button popup__button partner__button" type="button">
-							<a
+						<button
+							id="himbio-button"
+							class="button popup__button partner__button"
+							type="button"
+						>
+							Сайт партнера
+							<!-- 							<a
 								class="popup__link"
 								href="https://himbio4you.ru/"
 								target="_blank"
@@ -909,7 +917,7 @@
 									target="_blank"
 									>Сайт партнера</a
 								>
-							</a>
+							</a> -->
 						</button>
 						<button class="popup__button popup__button_state_close"></button>
 					</div>
