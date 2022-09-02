@@ -1,9 +1,9 @@
 
-@media screen and (max-width: 880px) {
+/* @media screen and (max-width: 880px) {
   .course-block__description_other {
     margin: 25px 0 113px 0;
   }
-}
+} */
 
 @media screen and (max-width: 400px) {
   .course-block__description_other {

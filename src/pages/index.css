@@ -106,7 +106,6 @@
 @import url(../blocks/picture-text/_white/picture-text_white.css);
 @import url(../blocks/block/__text/block__text.css);
 @import url(../blocks/block/__description-about/block__description-about.css);
-@import url(../blocks/block/__description-price/block__description-price.css);
 @import url(../blocks/ul-name/ul-name.css);
 @import url(../blocks/ul-name/__img/ul-name__img.css);
 @import url(../blocks/ul-name/__text/ul-name__text.css);
@@ -116,6 +115,7 @@
 @import url(../blocks/list/_price/list_price.css);
 @import url(../blocks/burger-menu/__logo/burger-menu__logo.css);
 @import url(../blocks/header/__link-style/header__link_style.css);
+@import url(../blocks/block/__description-price/block__description-price.css);
 
 
 
@@ -162,6 +162,4 @@
 
 @import url(../blocks/list/_courses/list_courses.css);
 @import url(../blocks/list/_courses/_popup/list_courses_popup.css);
-
-
 

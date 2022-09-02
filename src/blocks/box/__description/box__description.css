@@ -19,6 +19,12 @@
 	}
 }
 
+@media screen and (max-width: 800px) {
+	.box__description {
+		padding: 0 30px;
+	}
+}
+
 @media screen and (max-width: 400px) {
 	.box__description {
 		max-width: 300px;

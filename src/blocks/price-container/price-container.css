@@ -26,7 +26,10 @@
 
 @media screen and (max-width: 880px) {
 	.price-container {
-		margin: 10px auto 0 auto;
+		margin-top: 10px;
+		padding: 30px;
+		max-width: 594px;
+		box-sizing: border-box;
 	}
 }
 

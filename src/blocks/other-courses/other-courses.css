@@ -21,6 +21,12 @@
 	}
 }
 
+@media screen and (max-width: 800px) {
+	.other-courses {
+		padding: 0 30px;
+	}
+}
+
 @media screen and (max-width: 400px) {
 	.other-courses {
 		-ms-grid-columns: 300px;
