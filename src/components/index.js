@@ -129,10 +129,10 @@ buttonHeaderSmall.addEventListener('click', () => {
 }
 );
 
-buttonHeader.addEventListener('click', () => {
+/* buttonHeader.addEventListener('click', () => {
 	window.open('https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform', '_blank');
 }
-);
+); */
 buttonTelegramm.addEventListener('click',  () => {
 	window.open('https://t.me/balapanlar', '_blank');
 }

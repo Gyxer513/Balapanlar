@@ -16,11 +16,13 @@
 	overflow-x: hidden;
 	padding: 0;
 	position: relative;
+	box-sizing: border-box;
 }
 
 @media screen and (max-width: 1439px) {
     .scroll {
 		height: auto;
+		overflow-x: visible;
     }
 }
 @media screen and (max-width: 1220px) {

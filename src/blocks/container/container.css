@@ -4,7 +4,7 @@
 	flex: 1;
 	color: black;
 	justify-items: center;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 }
 
 /* @media screen and (max-width: 1220px) {

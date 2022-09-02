@@ -49,9 +49,9 @@
 @import url(../blocks/partners/__logo/partners__logo.css);
 @import url(../blocks/partners/__pic/partners__pic.css);
 @import url(../blocks/partners/__logo-button/partners__logo-button.css);
-@import url(../blocks/partners/partners_lecturers-button.css);
-@import url(../blocks/partners/partners_horizon-button.css);
-@import url(../blocks/partners/partners_himbio-button.css);
+@import url(../blocks/partners/__logo-button/__logo-button_lectures/partners__logo-button_lectures.css);
+@import url(../blocks/partners/__logo-button/__logo-button_horizon/partners__logo-button_horizon.css);
+@import url(../blocks/partners/__logo-button/__logo-button_himbio/partners__logo-button_himbio.css);
 @import url(../blocks/partner/__window/partner__window.css);
 @import url(../blocks/partner/__logo/partner__logo.css);
 @import url(../blocks/partner/__pic/partner__pic_lecturers.css);
@@ -67,19 +67,19 @@
 @import url(../blocks/popup/popup_opened.css);
 @import url(../blocks/popup/__button/popup__button.css);
 @import url(../blocks/popup/__window/popup__window.css);
-@import url(../blocks/popup/popup_courses.css);
+@import url(../blocks/popup/__courses/popup__courses.css);
 @import url(../blocks/popup/popup_partners.css);
 @import url(../blocks/popup/__partner-logo/popup__partner-logo.css);
 @import url(../blocks/popup/__link/popup__link.css);
 @import url(../blocks/popup/__button/_state/popup__button_state_close.css);
 @import url(../blocks/popup/__mobile-link/popup__mobile-link.css);
-@import url(../blocks/popup/_courses/popup_courses_opened.css);
+@import url(../blocks/popup/__courses/popup__courses.css);
 @import url(../blocks/popup/__courses-icons/popup__courses-icons.css);
 @import url(../blocks/popup/__course-buttons/popup__course-buttons.css);
 @import url(../blocks/popup/popup_course-window.css);
 /* заканчиваются стили попапов */
 
-@import url(../blocks/scroll/__hidden-block/scroll__hidden-block.css);
+@import url(../blocks/hidden-block/hidden-block.css);
 @import url(../blocks/scroll/scroll.css);
 @import url(../blocks/scroll/__title/scroll__title.css);
 @import url(../blocks/scroll/__container/scroll__container.css);
@@ -100,14 +100,13 @@
 @import url(../blocks/section-blocks/_about/section-blocks_about.css);
 @import url(../blocks/block/block.css);
 @import url(../blocks/block/__div/block__div.css);
-@import url(../blocks/block/_about/block_about.css);
 @import url(../blocks/picture/picture.css);
 @import url(../blocks/picture-color/picture-color.css);
 @import url(../blocks/picture-text/picture-text.css);
 @import url(../blocks/picture-text/_white/picture-text_white.css);
 @import url(../blocks/block/__text/block__text.css);
-@import url(../blocks/block/__description/_price/block__description_price.css);
-@import url(../blocks/block/__description/_about/block__description_about.css);
+@import url(../blocks/block/__description-about/block__description-about.css);
+@import url(../blocks/block/__description-price/block__description-price.css);
 @import url(../blocks/ul-name/ul-name.css);
 @import url(../blocks/ul-name/__img/ul-name__img.css);
 @import url(../blocks/ul-name/__text/ul-name__text.css);
@@ -116,10 +115,10 @@
 @import url(../blocks/list/_about/list_about.css);
 @import url(../blocks/list/_price/list_price.css);
 @import url(../blocks/burger-menu/__logo/burger-menu__logo.css);
-@import url(../blocks/header/__link/_style/header__link_style.css);
+@import url(../blocks/header/__link-style/header__link_style.css);
 
 
-@import url(../blocks/page/__container/page__container.css);
+
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__info/header__info.css);

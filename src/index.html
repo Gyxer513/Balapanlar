@@ -8,25 +8,25 @@
 	</head>
 
 	<body class="body">
-		<div class="page__container">
+		<div class="page">
 			<header class="header">
 				<div class="header__logo"></div>
 				<nav>
 					<ul class="header__info">
 						<li class="header__link">
-							<a id="link_courses" class="header__link_style">Наши курсы</a>
+							<a id="link_courses" class="header__link-style">Наши курсы</a>
 						</li>
 						<li class="header__link">
-							<a id="link_about" class="header__link_style">О нас</a>
+							<a id="link_about" class="header__link-style">О нас</a>
 						</li>
 						<li class="header__link">
-							<a class="header__link_style">Команда</a>
+							<a class="header__link-style">Команда</a>
 						</li>
 						<li class="header__link">
-							<a class="header__link_style">Как нас найти</a>
+							<a class="header__link-style">Как нас найти</a>
 						</li>
 						<li class="header__link">
-							<a class="header__link_style">Поддержать проект</a>
+							<a class="header__link-style">Поддержать проект</a>
 						</li>
 					</ul>
 				</nav>
@@ -46,19 +46,19 @@
 						<nav>
 							<ul class="header__info header__info_visible">
 								<li class="header__link">
-									<a id="link_courses" class="header__link_style">Наши курсы</a>
+									<a id="link_courses" class="header__link-style">Наши курсы</a>
 								</li>
 								<li class="header__link">
-									<a id="link_about" class="header__link_style">О нас</a>
+									<a id="link_about" class="header__link-style">О нас</a>
 								</li>
 								<li class="header__link">
-									<a href="#" class="header__link_style">Команда</a>
+									<a href="#" class="header__link-style">Команда</a>
 								</li>
 								<li class="header__link">
-									<a href="#" class="header__link_style">Как нас найти</a>
+									<a href="#" class="header__link-style">Как нас найти</a>
 								</li>
 								<li class="header__link">
-									<a href="#" class="header__link_style">Поддержать проект</a>
+									<a href="#" class="header__link-style">Поддержать проект</a>
 								</li>
 							</ul>
 						</nav>
@@ -112,7 +112,7 @@
 							<article class="course-block course-python">
 								<h4 class="course-block__name">Python Start</h4>
 								<!-- Я обернула иконки пока только этой карточки в контейнер, чтобы внутри него можно было поменять направление иконок -->
-								<div class="course-block__for_container">
+							
 									<div class="course-block__for">
 										<img
 											class="image"
@@ -129,7 +129,7 @@
 										/>
 										<p class="text">Группы 8 лет</p>
 									</div>
-								</div>
+	
 								<ul class="course-block__tegs">
 									<li class="teg">
 										<p class="teg__about">язык Python</p>
@@ -466,7 +466,7 @@
 						<div class="price-block">
 							<p class="price-block__amount">Стоимость курсов 3500 руб./мес.</p>
 						</div>
-						<div class="block__description block__description_price">
+						<div class="block__description block__description-price">
 							<div class="ul-name">
 								<p class="ul-name__text ul-name__text_price">
 									Что входит в стоимость?
@@ -521,7 +521,7 @@
 								</li>
 							</ul>
 						</div>
-						<div class="block__description block__description_price">
+						<div class="block__description block__description-price">
 							<div class="ul-name">
 								<p class="ul-name__text ul-name__text_price">
 									Что не входит в стоимость?
@@ -572,7 +572,7 @@
 						не может позволить своим детям полноценно развиваться
 					</h3>
 					<div class="section-blocks section-blocks_about">
-						<div class="block block_about">
+						<div class="block">
 							<div class="block__div">
 								<div class="block__image">
 									<img
@@ -590,7 +590,7 @@
 								чтобы наши студенты могли попробовать то, что в их ауле/селе
 								недоступно — это совершенно бесплатно
 							</p>
-							<div class="block__description block__description_about">
+							<div class="block block__description block__description-about">
 								<div class="ul-name">
 									<img
 										class="ul-name__img"
@@ -649,7 +649,7 @@
 								</ul>
 							</div>
 						</div>
-						<div class="block block_about">
+						<div class="block">
 							<div class="block__div">
 								<div class="block__image">
 									<img
@@ -669,7 +669,7 @@
 								проводят с ними самые разные занятия: астрономия, математика,
 								языки, йога, театр, музыка и др.
 							</p>
-							<div class="block__description block__description_about">
+							<div class="block__description block__description-about">
 								<div class="ul-name">
 									<img
 										class="ul-name__img"
@@ -736,7 +736,7 @@
 					<ul class="partners__logo-zone">
 						<li class="partners__logo">
 							<button
-								class="partners__logo-button partners_lecturers-button"
+								class="partners__logo-button partners__logo-button_lecturers"
 								type="button"
 							>
 								<img
@@ -748,7 +748,7 @@
 						</li>
 						<li class="partners__logo">
 							<button
-								class="partners__logo-button partners_horizon-button"
+								class="partners__logo-button partners__logo-button_horizon"
 								type="button"
 							>
 								<img
@@ -760,7 +760,7 @@
 						</li>
 						<li class="partners__logo">
 							<button
-								class="partners__logo-button partners_himbio-button"
+								class="partners__logo-button partners__logo-button_himbio"
 								type="button"
 							>
 								<img
@@ -772,7 +772,7 @@
 						</li>
 					</ul>
 				</section>
-				<section class="scroll__hidden-block"></section>
+				<section class="hidden-block"></section>
 				<section class="scroll">
 					<h3 class="scroll__title">Наши принципы</h3>
 					<div class="scroll__container">
@@ -923,7 +923,7 @@
 					</div>
 				</article>
 				<!-- Попап для отображения полной карточки курса -->
-				<div class="popup popup_courses">
+				<div class="popup popup__courses">
 					<!-- <button class="popup__button popup__button_state_close"></button> -->
 
 					<div class="popup__window popup_course-window">

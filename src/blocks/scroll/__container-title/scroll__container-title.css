@@ -3,24 +3,30 @@
 	font-size: 60px;
 	line-height: 68px;
 	color: white;
-	margin: 40px auto 0 auto;
-	max-width: 847px;
+	width: 584px;
+	text-align: center;
+	margin: 30px auto 0 auto;
 }
-.scroll__container-title:nth-of-type(1) {
-	max-width: 537px;
+.scroll__container-title:nth-last-child(1) {
+	width: 847px;
 }
 @media screen and (max-width: 1439px) {
 	.scroll__container-title {
 		font-size: 42px;
 		line-height: 50px;
-        margin: 20px auto 0 auto;
-        min-width: auto;
-        text-align: center;
+		margin: 20px auto 0 auto;
+		text-align: center;
+		min-width: none;
 	}
 }
 @media screen and (max-width: 1220px) {
 	.scroll__container-title {
 		font-size: 36px;
 		line-height: 44px;
+		margin: 20px auto 0 auto;
+		width: auto;
+	}
+	.scroll__container-title:nth-last-child(1) {
+		width: auto;
 	}
 }

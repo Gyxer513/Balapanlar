@@ -2,9 +2,9 @@ export const lecturersPopup = document.querySelector('.popup_about_lecturers');
 export const horizonsPopup = document.querySelector('.popup_about_horizons');
 export const himbioPopup = document.querySelector('.popup_about_himbio');
 
-export const lecturersButton = document.querySelector('.partners_lecturers-button');
-export const horizonsButton = document.querySelector('.partners_horizon-button');
-export const himbioButton = document.querySelector('.partners_himbio-button');
+export const lecturersButton = document.querySelector('.partners__logo-button_lecturers');
+export const horizonsButton = document.querySelector('.partners__logo-button_horizon');
+export const himbioButton = document.querySelector('.partners__logo-button_himbio');
 
 export const pythonButton = document.querySelector("#python");
 export const popupContainer = document.querySelector('.popup__window');
