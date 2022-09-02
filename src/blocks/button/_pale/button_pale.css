@@ -27,5 +27,7 @@
 	.button_pale {
 		margin-left: 0;
 		margin-bottom: 20px;
+		font-size: 16px;
+		line-height: 20px;
 	}
 }

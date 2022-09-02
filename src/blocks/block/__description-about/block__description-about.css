@@ -3,9 +3,14 @@
 		max-width: 500px;
 	}
 
+	@media screen and (max-width:800px) {
+		.block__description-about {
+				margin: 0;
+			}
+	}
+
 	@media screen and (max-width:400px) {
 		.block__description-about {
 				margin-top: 11px;
-				margin-left: 0;
 			}
 	}

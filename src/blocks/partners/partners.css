@@ -17,7 +17,7 @@
   }
   @media screen and (max-width: 800px) {
     .partners {
-      row-gap: 30px;
+      row-gap: 40px;
       padding: 30px 0 49px;
     }
   }

@@ -23,6 +23,11 @@
     font-size: 24px;
     line-height: 29px;
     max-width: 253px;
+  }
+}
 
+@media screen and (max-width: 400px) {
+  .box__heading {
+   margin-top: 50px;
   }
 }
