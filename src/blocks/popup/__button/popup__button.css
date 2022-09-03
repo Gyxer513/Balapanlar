@@ -3,13 +3,13 @@
     padding: 0;
     border: none;
   }
+
   .popup__button:hover {
     cursor: pointer;
   }
 
-	@media screen and (max-width:400px) {
+	/* @media screen and (max-width:400px) {
 		.popup__button {
 			text-align: left;
 		}
-
-	}
+	} */

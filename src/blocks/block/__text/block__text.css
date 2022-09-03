@@ -1,10 +1,23 @@
 .block__text {
-	margin: 0 0 0 25px;
+	margin: 0;
 	text-align: left;
 	font-weight: 600;
 	font-size: 24px;
 	line-height: 29px;
 	letter-spacing: -0.5px;
+	margin-left: 30px;
+}
+
+@media screen and (max-width: 1124px) {
+	.block__text {
+   margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.block__text {
+   max-width: 525px;
+	}
 }
 
 @media screen and (max-width: 400px) {

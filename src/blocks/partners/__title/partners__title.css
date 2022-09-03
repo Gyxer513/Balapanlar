@@ -1,8 +1,8 @@
 .partners__title {
 	margin: 0;
 	padding: 0;
-/* 	font-family: "Montserrat";
-	font-style: normal; */
+	font-family: "Montserrat";
+	font-style: normal;
 	font-weight: 600;
 	font-size: 36px;
 	line-height: 44px;
@@ -11,6 +11,14 @@
 	-webkit-font-feature-settings: "pnum" on, "lnum" on;
 	font-feature-settings: "pnum" on, "lnum" on;
 	color: #000000;
+}
+
+@media screen and (max-width: 800px) {
+	.partners__title {
+		font-size: 30px;
+		line-height: 37px;
+		letter-spacing: -0.5px;
+	}
 }
 
 @media screen and (max-width: 400px) {

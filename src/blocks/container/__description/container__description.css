@@ -9,7 +9,8 @@
 
 @media screen and (max-width: 1124px) {
 	.container__description {
-		max-width: 560px;
+		max-width: 595px;
+		/* margin: 40px auto 0 auto; */
 		margin: 40px auto 0 auto;
 		text-align: left;
 	}
@@ -17,10 +18,11 @@
 
 @media screen and (max-width: 800px) {
 	.container__description {
-		font-size: 24px;
-		line-height: 29px;
+		font-size: 30px;
+		line-height: 37px;
 		letter-spacing: -0.5px;
-		text-align: left;
+		/* text-align: left; */
+		max-width: 595px;
 	}
 }
 
@@ -31,5 +33,6 @@
 		letter-spacing: -0.5px;
 		max-width: 290px;
 		text-align: left;
+		margin: 21px auto 0 auto;
 	}
 }

@@ -30,14 +30,6 @@
 	}
 }
 
-/* @media screen and (max-width: 1319px) {
-	.link-box {
-		max-width: 980px;
-		margin: 262px 165px 10px;
-		justify-content: flex-start;
-	}
-} */
-
 @media screen and (max-width: 1220px) {
 	.link-box {
 		max-width: 600px;
