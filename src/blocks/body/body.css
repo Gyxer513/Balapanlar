@@ -16,11 +16,11 @@
     flex-direction: column;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
     position: relative;
+    /* align-items: center; */
 }
 
 .body:first-child {

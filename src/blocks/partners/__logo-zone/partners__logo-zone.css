@@ -19,13 +19,13 @@
 	column-gap: 108px;
 	border: 2px solid #eaf0ff;
 	border-radius: 60px;
-	padding: 39px 84px 49px;
+	padding: 40px 82px 50px;
 	max-width: 885px;
 }
 
 @media screen and (max-width: 1220px) {
 	.partners__logo-zone {
-		padding: 39px 0 30px;
+		padding: 47px 0 30px;
 		flex-direction:row;
 		flex-wrap: wrap;
 		-webkit-gap: 10px;

@@ -2,6 +2,7 @@
 	min-width: 1440px;
 	text-align: center;
 }
+
 @media screen and (max-width: 1439px) {
 	.scroll__skills {
 		min-width: auto;

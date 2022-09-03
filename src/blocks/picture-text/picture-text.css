@@ -12,9 +12,9 @@
 
 @media screen and (max-width: 880px) {
 	.picture-text {
-		font-size: 38px;
-		line-height: 48px;
-		bottom: -20px;
+		font-size: 40px;
+		line-height: 49px;
+		bottom: -8px;
 		left: 30px;
 	}
 }
@@ -25,7 +25,7 @@
 		line-height: 29px;
 		letter-spacing: -0.5px;
 		max-width: 146px;
-		bottom: -16px;
+		bottom: -8px;
 		left: 16px;
 	}
 }

@@ -4,13 +4,16 @@
 
 @media screen and (max-width: 800px) {
 	.purpose__text {
-		letter-spacing: 0.2px;
-
+		font-size: 30px;
+		line-height: 37px;
+		letter-spacing: -0.5px;
 	}
 }
 
 @media screen and (max-width: 400px) {
 	.purpose__text {
-		letter-spacing: 0.2px;
+		font-size: 24px;
+line-height: 29px;
+letter-spacing: -0.5px;
 	}
 }

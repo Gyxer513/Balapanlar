@@ -1,7 +1,4 @@
 .button_pay {
-/* 	position: absolute; */
-	bottom: 32px;
-	left: 30px;
 	max-width: 230px;
 }
 
@@ -15,5 +12,9 @@
 	.button_pay {
 		left: 30px;
 		bottom: 15px;
+		position: static;
+    margin-top: 30px;
+		max-width: 230px;
+>>>>>>> 6f48ae22dae48b2ef6e9b62faf46f588c307d4be
 	}
 } */

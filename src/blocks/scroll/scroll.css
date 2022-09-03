@@ -25,13 +25,27 @@
 		overflow-x: visible;
     }
 }
+
 @media screen and (max-width: 1220px) {
     .scroll {
 		padding: 160px 96px 160px 96px;
     }
 }
+
+@media screen and (max-width: 800px) {
+	.scroll {
+		border-radius: 50px;
+	}
+}
+
 @media screen and (max-width: 550px) {
     .scroll {
 		padding: 30px 16px 30px 16px;
     }
+}
+
+@media screen and (max-width: 390px) {
+	.scroll {
+	border-radius: 30px;
+	}
 }

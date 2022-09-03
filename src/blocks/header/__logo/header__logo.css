@@ -23,9 +23,30 @@
 
 @media screen and (max-width: 800px) {
 	.header__logo {
-		min-width: 101px;
-		height: 22px;
+		height: 35px;
+		width: 165px;
 		background-image: url(../../../images/лого_прописной.svg);
-		margin: 10px 204px 10px 15px;
+		margin: 10px 158px 12px 74px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.header__logo {
+		height: 35px;
+		margin: 10px 130px 12px 30px;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.header__logo {
+		margin: 10px 130px 12px 20px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.header__logo {
+		height: 20px;
+		margin: 10px 204px 12px 16px;
+		width: 100px;
 	}
 }

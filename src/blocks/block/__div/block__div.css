@@ -6,6 +6,12 @@
 	overflow: hidden;
 }
 
+@media screen and (max-width: 800px) {
+	.block__div {
+		border-radius: 40px;
+	}
+}
+
 @media screen and (max-width: 400px) {
 	.block__div {
 		border-radius: 30px;

@@ -1,6 +1,7 @@
 .block__description-price {
 	max-width: 381px;
 	margin: 18px 0 0 0;
+	width: calc(100%-40px);
 }
 .block__description-price:last-of-type {
 	max-width: 290px;

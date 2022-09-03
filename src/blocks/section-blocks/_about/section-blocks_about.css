@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 1124px) {
 	.section-blocks_about {
-		margin-top: 60px;
+		margin-top: 80px;
 		grid-template-columns: repeat(auto-fit, minmax(289px, 595px));
 		-webkit-box-pack: center;
 		-ms-flex-pack: center;
@@ -16,8 +16,7 @@
 
 @media screen and (max-width: 400px) {
 	.section-blocks_about {
-		/* max-width: 289px; */
-		margin-top: 40px;
+		margin-top: 30px;
 		-webkit-box-pack: center;
 		-ms-flex-pack: center;
 		justify-content: center;

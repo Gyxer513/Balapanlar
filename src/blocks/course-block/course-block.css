@@ -23,6 +23,12 @@
 	}
 }
 
+@media screen and (max-width: 800px) {
+	.course-block {
+	border-radius: 50px;
+	}
+}
+
 @media screen and (max-width: 400px) {
 	.course-block {
 		padding: 15px 15px 15px 15px;
