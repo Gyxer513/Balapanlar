@@ -18,9 +18,9 @@ export const stickTwo = document.querySelector("#bar2");
 export const menue = document.querySelector(".burger-menu");
 
 // Плавный скролл для якорных ссылок
-const linkCourses = document.querySelectorAll('#link_courses');
+const linkCourses = document.querySelectorAll('.link_courses');
 const courses = document.querySelector('#courses');
-const linkAbout = document.querySelectorAll('#link_about');
+const linkAbout = document.querySelectorAll('.link_about');
 const aboutUs = document.querySelector('#about_us');
 
 
