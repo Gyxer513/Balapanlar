@@ -1,11 +1,18 @@
-.block__description_about {
-		margin-left: 25px;
-		max-width: 500px;
+.block__description-about {
+	/* padding-left: 30px; */
+		margin-left: 30px;
+		/* max-width: 500px; */
+	}
+
+	@media screen and (max-width:1124px) {
+		.block__description-about {
+				margin-left: 0;
+			}
 	}
 
 	@media screen and (max-width:400px) {
-		.block__description_about {
+		.block__description-about {
 				margin-top: 11px;
-				margin-left: 0;
+				/* margin-left: 0; */
 			}
 	}

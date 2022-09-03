@@ -11,8 +11,11 @@
 }
 @media screen and (max-width: 1220px) {
 	.scroll__education-image {
-		width: 350px;
-		height: 350px;
+		/* width: 350px;
+		height: 350px; */
+		width: 417px;
+		height: 417px;
+		margin-top: 160px;
 	}
 }
 @media screen and (max-width: 550px) {

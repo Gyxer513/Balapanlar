@@ -4,12 +4,12 @@
 	font-size: 18px;
 	line-height: 22px;
 	max-height: 100%;
-	padding-right: 30px
+	/* padding-right: 30px */
 }
 
 @media screen and (max-width: 880px) {
 	.course-block__description {
-		margin: 25px 0 124px 0;
+		margin: 23px 0 90px 0;
 	}
 }
 

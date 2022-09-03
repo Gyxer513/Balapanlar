@@ -23,13 +23,13 @@
 		max-width: 635px;
 		font-size: 18px;
 		line-height: 22px;
-		
+
 	}
 }
 
 @media screen and (max-width: 800px) {
 	.purpose {
-		padding: 80px 75px 80px 0;
+		padding: 80px 40px 80px 0;
 		background-color: #eaf0ff;
 		font-size: 24px;
 		line-height: 29px;

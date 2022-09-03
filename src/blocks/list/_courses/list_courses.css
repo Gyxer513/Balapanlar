@@ -1,4 +1,5 @@
 .list_courses {
 	max-height: 42px;
 	overflow: hidden;
+	-webkit-line-clamp: 3;
 }

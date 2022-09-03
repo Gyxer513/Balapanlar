@@ -1,3 +1,10 @@
 .list_price {
 	margin-top: 15px;
+	max-width: 347px;
+}
+
+@media screen and (max-width: 1440px) {
+	.list_price {
+		max-width: 100%;
+	}
 }

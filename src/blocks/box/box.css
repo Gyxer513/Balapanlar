@@ -17,6 +17,12 @@
 	}
 }
 
+@media screen and (max-width: 800px) {
+	.box {
+		border-radius: 60px;
+	}
+}
+
 @media screen and (max-width: 400px) {
 	.box {
 		margin-top: 30px;

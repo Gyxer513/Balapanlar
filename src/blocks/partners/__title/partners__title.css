@@ -13,6 +13,14 @@
 	color: #000000;
 }
 
+@media screen and (max-width: 800px) {
+	.partners__title {
+		font-size: 30px;
+		line-height: 37px;
+		letter-spacing: -0.5px;
+	}
+}
+
 @media screen and (max-width: 400px) {
 	.partners__title {
 		text-align: left;

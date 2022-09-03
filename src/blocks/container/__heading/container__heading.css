@@ -6,11 +6,23 @@
 	margin: 0;
 }
 
-/* @media screen and (max-width: 1220px) {
+@media screen and (max-width: 1124px) {
 	.container__heading {
-		text-align: center;
+margin: 0 auto;
+text-align: left;
+max-width: 595px;
 	}
-} */
+}
+
+@media screen and (max-width: 800px) {
+	.container__heading {
+	font-size: 48px;
+  line-height: 59px;
+	/* padding-left: 45px; */
+	/* margin: 0 auto; */
+text-align: left;
+	}
+}
 
 @media screen and (max-width: 600px) {
 	.container__heading {

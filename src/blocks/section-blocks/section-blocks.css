@@ -7,3 +7,9 @@
 	-ms-flex-pack: center;
 	justify-content: center;
 }
+
+@media screen and (max-width: 800px) {
+	.section-blocks {
+		gap: 17px;
+	}
+}

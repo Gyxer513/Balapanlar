@@ -4,8 +4,10 @@
 
 @media screen and (max-width: 800px) {
 	.purpose__text {
-		letter-spacing: 0.2px;
-
+		/* letter-spacing: 0.2px; */
+		font-size: 30px;
+		line-height: 37px;
+		letter-spacing: -0.5px;
 	}
 }
 

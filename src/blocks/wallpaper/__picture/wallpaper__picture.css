@@ -31,7 +31,8 @@
     .wallpaper__picture {
         background-repeat: no-repeat;
         height: 1053px;
-				border-radius: 30px;
+				/* border-radius: 30px; */
+				border-radius: 50px;
     }
 }
 
