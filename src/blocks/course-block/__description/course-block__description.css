@@ -8,13 +8,7 @@
 
 @media screen and (max-width: 880px) {
 	.course-block__description {
-		margin: 23px 0 90px 0;
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.course-block__description {
-		margin: 15px 0 120px 0;
+		margin: 25px 0 100px 0;
 	}
 }
 

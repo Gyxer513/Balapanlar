@@ -26,5 +26,6 @@
 		-ms-flex-direction: column-reverse;
 		flex-direction: column-reverse;
 		bottom: 20px;
+		align-items: flex-start;
 	}
 }

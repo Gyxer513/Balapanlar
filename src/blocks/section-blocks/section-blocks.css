@@ -14,8 +14,9 @@
 	}
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
 	.section-blocks {
 		gap: 10px;
 	}
 }
+

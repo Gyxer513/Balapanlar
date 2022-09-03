@@ -3,7 +3,13 @@
 	margin: 0;
 }
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 800px) {
+	.price-block {
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 400px) {
 	.price-block {
 		max-width: 100%;
 	}

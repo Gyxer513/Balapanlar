@@ -14,6 +14,13 @@
 	}
 }
 
+@media screen and (max-width: 800px) {
+	.section-blocks_about {
+		margin-top: 80px;
+	}
+}
+
+
 @media screen and (max-width: 400px) {
 	.section-blocks_about {
 		margin-top: 30px;

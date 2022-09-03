@@ -1,10 +1,16 @@
 .block__description-about {
-	margin-left: 30px;
+	margin-left: 25px;
 	max-width: 500px;
 }
 @media screen and (max-width: 1124px) {
 	.block__description-about {
 		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.block__description-about {
+		margin: 0;
 	}
 }
 

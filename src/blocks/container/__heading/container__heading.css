@@ -6,6 +6,7 @@
 	margin: 0;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 1124px) {
 	.container__heading {
 margin: 0 auto;
@@ -23,6 +24,16 @@ max-width: 595px;
 text-align: left;
 	}
 }
+=======
+@media screen and (max-width: 800px) {
+	.container__heading {
+		margin-left: 50px;
+		font-style: normal;
+		font-size: 48px;
+		line-height: 59px;
+	}
+}
+>>>>>>> sizingfixes
 
 @media screen and (max-width: 600px) {
 	.container__heading {

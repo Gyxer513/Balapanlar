@@ -20,6 +20,13 @@
 	}
 }
 
+@media screen and (max-width: 800px) {
+	.block__text {
+		margin: 0;
+	}
+}
+
+
 @media screen and (max-width: 400px) {
 	.block__text {
 		font-weight: 600;
