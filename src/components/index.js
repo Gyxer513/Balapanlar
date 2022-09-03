@@ -36,7 +36,7 @@ const buttonWallpaper = document.querySelector('.button_wallpaper')
 const btnToHorizonSite = document.querySelector('#horizon-button');
 const btnToHimbioSite = document.querySelector('#himbio-button');
 
-console.log(coursePopup);
+
 
 // изменение хэдэра при скролле
 window.onscroll = () => {
@@ -124,10 +124,10 @@ window.addEventListener("resize", (event) => {
 
 
 /* Переход на другие страницы по кнопкам */
-buttonHeaderSmall.addEventListener('click', () => {
+/* buttonHeaderSmall.addEventListener('click', () => {
 	window.open('https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform', '_blank');
 }
-);
+); */
 
 // buttonHeader.addEventListener('click', () => {
 // 	window.open('https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform', '_blank');
