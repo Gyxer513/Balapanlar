@@ -36,7 +36,7 @@ const buttonWallpaper = document.querySelector('.button_wallpaper')
 const btnToHorizonSite = document.querySelector('#horizon-button');
 const btnToHimbioSite = document.querySelector('#himbio-button');
 
-
+console.log(coursePopup);
 
 // изменение хэдэра при скролле
 window.onscroll = () => {

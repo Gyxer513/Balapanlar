@@ -1,5 +1,5 @@
 .button_pay {
-	position: absolute;
+/* 	position: absolute; */
 	bottom: 32px;
 	left: 30px;
 	max-width: 230px;
@@ -7,15 +7,13 @@
 
 @media screen and (max-width: 1220px) {
 	.button_pay {
-		position: absolute;
-		bottom: 30px;
-		left: 30px;
+		margin-top: 30px;
 	}
 }
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
 	.button_pay {
-		left: 15px;
+		left: 30px;
 		bottom: 15px;
 	}
-}
+} */

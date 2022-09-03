@@ -8,7 +8,7 @@ export const himbioButton = document.querySelector('.partners__logo-button_himbi
 
 export const pythonButton = document.querySelector("#python");
 export const popupContainer = document.querySelector('.popup__window');
-export const coursePopup = document.querySelector('.popup_courses');
+export const coursePopup = document.querySelector('.popup__courses');
 
 export const anyPopup = Array.from(document.querySelectorAll('.popup'));
 const header = document.querySelector(".header");
@@ -84,7 +84,7 @@ export function closePopup(popup) {
 export function createPopup(selector) {
 	const popupElement = document.querySelector(selector).cloneNode(true);
 	const popupPaleButton = popupElement.querySelector('.button_pale');
-	const popupIcons = popupElement.querySelector('.course-block__for_container');
+	const popupIcons = popupElement.querySelector('.course-block__for');
 	const popupButtonContainer = popupElement.querySelector('.course-block__buttons');
 	const ulList = popupElement.querySelector('.list_courses');
 	const liText = popupElement.querySelectorAll('.list-point__text');
