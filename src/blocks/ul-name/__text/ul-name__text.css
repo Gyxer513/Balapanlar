@@ -2,3 +2,9 @@
 	/* margin: 0 0 21px 13px; */
 	margin: 0 0 11px 13px;
 }
+
+@media screen and (max-width: 390px) {
+	.ul-name__text {
+		margin: 0 0 4px 13px;
+	}
+}

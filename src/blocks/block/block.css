@@ -10,15 +10,29 @@
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	row-gap: 40px;
+}
 
-}
-@media screen and (max-width: 800px) {
-	.block_about {
-		row-gap: 30px;
-	}
-}
 @media screen and (max-width: 1120px) {
 	.block:last-of-type {
 		margin-top: 64px;
 	}
 }
+
+@media screen and (max-width: 800px) {
+	.block_about {
+		row-gap: 30px;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.block {
+		row-gap: 30px;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.block:last-of-type {
+		margin-top: 50px;
+	}
+}
+

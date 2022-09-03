@@ -13,9 +13,15 @@
 	}
 }
 
+@media screen and (max-width: 600px) {
+	.course-block__description {
+		margin: 15px 0 120px 0;
+	}
+}
+
 @media screen and (max-width: 400px) {
 	.course-block__description {
-		margin-top: 20px;
+		/* margin-top: 20px; */
 		margin-bottom: 124px;
 		font-size: 16px;
 		line-height: 20px;

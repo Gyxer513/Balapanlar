@@ -14,7 +14,13 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 390px) {
+	.wallpaper_padding {
+		padding-top: 47px;
+	}
+} */
+
+@media screen and (max-width: 350px) {
 		.wallpaper_padding {
 			padding-top: 42px;
 		}

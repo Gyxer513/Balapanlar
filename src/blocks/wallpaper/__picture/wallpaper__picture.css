@@ -17,15 +17,12 @@
     }
 }
 
-
 @media screen and (max-width: 1220px) {
     .wallpaper__picture {
         /* width: 800px; */
         height: 468px;
     }
 }
-
-
 
 @media screen and (max-width: 800px) {
     .wallpaper__picture {
@@ -34,6 +31,12 @@
 				/* border-radius: 30px; */
 				border-radius: 50px;
     }
+}
+
+@media screen and (max-width: 390px) {
+	.wallpaper__picture {
+			border-radius: 40px;
+	}
 }
 
 @media screen and (max-width: 478px) {

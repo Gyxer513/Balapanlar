@@ -8,3 +8,9 @@
 		padding-top: 28px;
 	}
 }
+
+@media screen and (max-width: 390px) {
+	.ul-name__text_price {
+		padding-top: 20px;
+	}
+}

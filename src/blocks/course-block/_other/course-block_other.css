@@ -11,6 +11,13 @@
 	}
 }
 
+@media screen and (max-width: 390px) {
+	.course-block_other {
+		max-width: 100%;
+		padding: 15px;
+	}
+}
+
 /* .course-block_other:nth-of-type(2) {
 	width: 408px;
 	height: 563px;

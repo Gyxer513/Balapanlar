@@ -43,3 +43,9 @@
 		padding: 30px 16px 30px 16px;
     }
 }
+
+@media screen and (max-width: 390px) {
+	.scroll {
+	border-radius: 30px;
+	}
+}

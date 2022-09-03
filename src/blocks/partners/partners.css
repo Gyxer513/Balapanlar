@@ -17,6 +17,7 @@
   @media screen and (max-width: 1220px) {
     .partners {
     border-radius: 0;
+		margin-bottom: 0;
     }
   }
 
@@ -30,7 +31,7 @@
 
   @media screen and (max-width: 650px) {
     .partners {
-      padding-bottom: 249px;
+      /* padding-bottom: 249px; */
       max-width: 100%;
     }
   }

@@ -24,3 +24,9 @@
 		height: 230px;
 	}
 }
+
+@media screen and (max-width: 390px) {
+	.scroll__education-image {
+		margin-top: 60px;
+	}
+}

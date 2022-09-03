@@ -8,3 +8,9 @@
 		max-width: 100%;
 	}
 }
+
+@media screen and (max-width: 390px) {
+	.list_price {
+		margin-top: 20px;
+	}
+}

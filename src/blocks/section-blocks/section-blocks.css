@@ -13,3 +13,9 @@
 		gap: 17px;
 	}
 }
+
+@media screen and (max-width: 390px) {
+	.section-blocks {
+		gap: 10px;
+	}
+}

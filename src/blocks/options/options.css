@@ -30,3 +30,15 @@
 		justify-content: space-between;
 	}
 }
+
+@media screen and (max-width: 420px) {
+	.options {
+right: 33px;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.options {
+right: 16px;
+	}
+}

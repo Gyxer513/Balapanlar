@@ -23,6 +23,7 @@
 @import url(../blocks/description-text/description-text.css);
 @import url(../blocks/course-block/__buttons/course-block__buttons.css);
 @import url(../blocks/button/button.css);
+@import url(../blocks/button/_skills/button_skills.css);
 @import url(../blocks/button/_pale/button_pale.css);
 @import url(../blocks/button/_pay/button_pay.css);
 @import url(../blocks/other-courses/other-courses.css);

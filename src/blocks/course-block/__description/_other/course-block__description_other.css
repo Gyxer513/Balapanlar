@@ -8,5 +8,6 @@
 @media screen and (max-width: 400px) {
   .course-block__description_other {
     margin: 20px 0 84px 0;
+		/* padding: 15px; */
   }
 }

@@ -24,5 +24,13 @@
 @media screen and (max-width: 600px) {
 	.scroll__title {
 		margin: 30px auto 0px auto;
+		font-size: 24px;
+line-height: 29px;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.scroll__title {
+		margin: 0 auto 30px auto;
 	}
 }
