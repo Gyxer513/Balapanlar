@@ -1,6 +1,5 @@
 .button {
 	border-radius: 50px;
-	/* padding: 20px 20px 20px 20px; */
 	padding: 20px 28px;
 	background-color: rgba(37, 37, 37, 1);
 	border: none;
@@ -23,6 +22,5 @@
 		padding: 20px 28px 20px 28px;
 		font-size: 20px;
 		line-height: 24px;
-		/* width: 178px; */
 	}
 }

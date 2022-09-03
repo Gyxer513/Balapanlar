@@ -32,6 +32,7 @@
 	.page {
 		max-width: 1220px;
 	}
+
 	.page:first-child {
 		gap: 7px;
 	}

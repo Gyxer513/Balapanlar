@@ -14,8 +14,6 @@
 
 @media screen and (max-width: 1439px) {
 	.scroll__container-title {
-		/* font-size: 42px;
-		line-height: 50px; */
 		margin: 20px auto 0 auto;
 		text-align: center;
 		min-width: none;
@@ -24,8 +22,6 @@
 
 @media screen and (max-width: 1220px) {
 	.scroll__container-title {
-		/* font-size: 36px;
-		line-height: 44px; */
 		margin: 38px auto 0 auto;
 		width: auto;
 	}

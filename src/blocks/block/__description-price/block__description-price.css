@@ -1,8 +1,8 @@
 .block__description_price {
-	/* max-width: 381px; */
 	margin: 18px 0 0 0;
 	width: calc(100%-40px)
 }
+
 .block__description_price:last-of-type {
 	max-width: 290px;
 	margin: 18px 0 0 0;
@@ -15,6 +15,7 @@
 		margin-right: 0;
 		margin-top: 36px;
 	}
+
 	.block__description_price:last-of-type {
 		margin-top: 36px;
 		max-width: 595px;
@@ -27,6 +28,7 @@
 	.block__description_price {
 		margin-top: 20px;
 	}
+
 	.block__description_price:last-of-type {
 		margin-top: 20px;
 	}

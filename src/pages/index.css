@@ -41,7 +41,6 @@
 @import url(../blocks/wrapper/wrapper.css);
 @import url(../blocks/wrapper/_opened/wrapper_opened.css);
 
-
 /* начинаются стили партнеров */
 
 @import url(../blocks/partners/partners.css);
@@ -118,9 +117,6 @@
 @import url(../blocks/burger-menu/__logo/burger-menu__logo.css);
 @import url(../blocks/header/__link-style/header__link_style.css);
 
-
-
-
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__info/header__info.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -129,14 +125,12 @@
 @import url(../blocks/header/__info/_visible/header__info_visible.css);
 @import url(../blocks/header/_small/header_small.css);
 
-
 @import url(../blocks/options/options.css);
 @import url(../blocks/options/__stick/options__stick.css);
 @import url(../blocks/options/__stick/_rotate-one/options__stick_rotate-one.css);
 @import url(../blocks/options/__stick/_rotate-two/options__stick_rotate-two.css);
 
 @import url(../blocks/main/main.css);
-
 
 /* убрала повторный импорт для стилей кнопки. Сейчас там прописан черный фон,
 и если импортировать этот стиль после кнопки с другим фоном, то он перетирает все предыдущие стили */

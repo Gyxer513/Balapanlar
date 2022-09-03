@@ -91,19 +91,19 @@ import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 gsap.registerPlugin(ScrollTrigger);
 const sections = gsap.utils.toArray(".panel");
 
-	gsap.to(sections, {
-		xPercent: -100 * (sections.length - 1),
-		ease: "none",
-		scrollTrigger: {
-			trigger: ".scroll",
-			id: "scrollObject",
-			pin: true,
-			scrub: 2,
-			snap: 1 / (sections.length - 1),
-			// base vertical scrolling on how wide the container is so it feels more natural.
-			end: "+=1500",
-		},
-	});
+gsap.to(sections, {
+	xPercent: -100 * (sections.length - 1),
+	ease: "none",
+	scrollTrigger: {
+		trigger: ".scroll",
+		id: "scrollObject",
+		pin: true,
+		scrub: 2,
+		snap: 1 / (sections.length - 1),
+		// base vertical scrolling on how wide the container is so it feels more natural.
+		end: "+=1500",
+	},
+});
 
 const trigger = ScrollTrigger.getById("scrollObject");
 
@@ -129,15 +129,16 @@ buttonHeaderSmall.addEventListener('click', () => {
 }
 );
 
-/* buttonHeader.addEventListener('click', () => {
-	window.open('https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform', '_blank');
-}
-); */
-buttonTelegramm.addEventListener('click',  () => {
+// buttonHeader.addEventListener('click', () => {
+// 	window.open('https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform', '_blank');
+// }
+// );
+
+buttonTelegramm.addEventListener('click', () => {
 	window.open('https://t.me/balapanlar', '_blank');
 }
 );
-buttonWallpaper.addEventListener('click',  () => {
+buttonWallpaper.addEventListener('click', () => {
 	window.open('https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform', '_blank');
 }
 );

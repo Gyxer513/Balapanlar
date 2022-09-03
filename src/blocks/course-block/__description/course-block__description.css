@@ -4,7 +4,6 @@
 	font-size: 18px;
 	line-height: 22px;
 	max-height: 100%;
-	/* padding-right: 30px */
 }
 
 @media screen and (max-width: 880px) {
@@ -21,7 +20,6 @@
 
 @media screen and (max-width: 400px) {
 	.course-block__description {
-		/* margin-top: 20px; */
 		margin-bottom: 124px;
 		font-size: 16px;
 		line-height: 20px;

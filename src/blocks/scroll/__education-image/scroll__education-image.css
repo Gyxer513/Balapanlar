@@ -2,6 +2,7 @@
 	width: 420px;
 	height: 420px;
 }
+
 @media screen and (max-width: 1439px) {
 	.scroll__education-image {
 		width: 400px;
@@ -9,15 +10,15 @@
 		margin-top: 60px;
 	}
 }
+
 @media screen and (max-width: 1220px) {
 	.scroll__education-image {
-		/* width: 350px;
-		height: 350px; */
 		width: 417px;
 		height: 417px;
 		margin-top: 160px;
 	}
 }
+
 @media screen and (max-width: 550px) {
 	.scroll__education-image {
 		width: 230px;

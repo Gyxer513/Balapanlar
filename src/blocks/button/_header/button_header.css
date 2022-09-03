@@ -16,6 +16,10 @@
 	background-color: #333333;
 }
 
+.button_header_visible {
+	display: block;
+}
+
 @media screen and (max-width: 1220px) {
 	.button_header {
 		min-width: 155px;
@@ -35,6 +39,7 @@
 		line-height: 34px;
 		margin: 0;
 	}
+
 	.button_header:hover {
 		background-color: #333333;
 	}
@@ -54,6 +59,4 @@
 
 
 
-.button_header_visible {
-	display: block;
-}
+

@@ -1,4 +1,3 @@
-
 @media screen and (max-width: 880px) {
   .course-block__description_other {
     margin: 25px 0 93px 0;
@@ -8,6 +7,5 @@
 @media screen and (max-width: 400px) {
   .course-block__description_other {
     margin: 20px 0 84px 0;
-		/* padding: 15px; */
   }
 }

@@ -25,7 +25,7 @@ const aboutUs = document.querySelector('#about_us');
 
 
 function scrollSmooth(id) {
-	id.scrollIntoView({behavior: "smooth"});
+	id.scrollIntoView({ behavior: "smooth" });
 }
 
 linkCourses.forEach((item) => {
@@ -50,13 +50,9 @@ linkAbout.forEach((item) => {
 	});
 })
 
-
 /* linkAbout.addEventListener('click', () => {
 	scrollSmooth(aboutUs);
 }); */
-
-
-
 
 export function escHandler(evt) {
 	if (evt.key === 'Escape') {
@@ -90,8 +86,6 @@ export function createPopup(selector) {
 	const liText = popupElement.querySelectorAll('.list-point__text');
 	const closeButtons = Array.from(popupElement.querySelectorAll('.popup__button'))
 
-
-
 	popupElement.classList.add('popup_courses_opened');
 	popupIcons.classList.add('popup__courses-icons');
 	ulList.classList.add('list_courses_popup');
@@ -105,8 +99,6 @@ export function createPopup(selector) {
 	liText.forEach((item) => {
 		item.classList.remove('text-overflow');
 	})
-
-
 
 	closeButtons.forEach((button) => {
 		button.addEventListener('click', (evt) => {

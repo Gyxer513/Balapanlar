@@ -4,8 +4,6 @@
 	position: sticky;
 	z-index: 5;
 	padding: 0;
-	/* overflow: hidden;
-	padding-bottom: 60px; */
 }
 
 @media screen and (max-width: 1220px) {

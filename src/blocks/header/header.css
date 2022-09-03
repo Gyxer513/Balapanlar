@@ -20,8 +20,6 @@
 	top: 0;
 }
 
-
-
 @media screen and (max-width: 1220px) {
 	.header {
 		min-height: 60px;
@@ -32,7 +30,6 @@
 
 @media screen and (max-width: 800px) {
 	.header {
-		/* min-width: 320px; */
 		min-height: 80px;
 	}
 }

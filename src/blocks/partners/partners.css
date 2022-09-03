@@ -1,7 +1,4 @@
 .partners {
-    /* margin: 0; */
-/* margin-bottom: 10px; */
-    /* padding: 80px 0 160px 0; */
     padding: 100px 0 160px 0;
     width: 100%;
     display: flex;
@@ -31,7 +28,6 @@
 
   @media screen and (max-width: 650px) {
     .partners {
-      /* padding-bottom: 249px; */
       max-width: 100%;
     }
   }
